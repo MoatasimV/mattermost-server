@@ -3,7 +3,7 @@
 
 // *****************************************************************************
 // Brand
-// https://api.takwen.co/do/#tag/brand
+// https://api.mattermost.com/#tag/brand
 // *****************************************************************************
 
 Cypress.Commands.add('apiDeleteBrandImage', () => {

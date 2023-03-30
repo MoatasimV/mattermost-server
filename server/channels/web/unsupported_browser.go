@@ -12,7 +12,7 @@ import (
 	"github.com/mattermost/mattermost-server/v6/server/platform/shared/templates"
 )
 
-// MattermostApp describes downloads for the TAKWEN DOApp
+// MattermostApp describes downloads for the Mattermost App
 type MattermostApp struct {
 	LogoSrc                string
 	Title                  string
@@ -67,7 +67,7 @@ func renderUnsupportedBrowser(ctx *request.Context, r *http.Request) templates.D
 		data.Props["NoLongerSupportString"] = ctx.T("web.error.unsupported_browser.no_longer_support")
 	}
 
-	// TAKWEN DOapp version
+	// Mattermost app version
 	if isWindows {
 		data.Props["App"] = renderMattermostAppWindows(ctx)
 	} else if isMacOSX {
@@ -98,9 +98,9 @@ func renderMattermostAppMac(ctx *request.Context) MattermostApp {
 		ctx.T("web.error.unsupported_browser.download_the_app"),
 		ctx.T("web.error.unsupported_browser.min_os_version.mac"),
 		ctx.T("web.error.unsupported_browser.download"),
-		"https://takwen.co/do/download/#mattermostApps",
+		"https://mattermost.com/download/#mattermostApps",
 		ctx.T("web.error.unsupported_browser.install_guide.mac"),
-		"https://docs.takwen.co/do/install/desktop.html#mac-os-x-10-9",
+		"https://docs.mattermost.com/install/desktop.html#mac-os-x-10-9",
 	}
 }
 
@@ -110,9 +110,9 @@ func renderMattermostAppWindows(ctx *request.Context) MattermostApp {
 		ctx.T("web.error.unsupported_browser.download_the_app"),
 		ctx.T("web.error.unsupported_browser.min_os_version.windows"),
 		ctx.T("web.error.unsupported_browser.download"),
-		"https://takwen.co/do/download/#mattermostApps",
+		"https://mattermost.com/download/#mattermostApps",
 		ctx.T("web.error.unsupported_browser.install_guide.windows"),
-		"https://docs.takwen.co/do/install/desktop.html#windows-10-windows-8-1-windows-7",
+		"https://docs.mattermost.com/install/desktop.html#windows-10-windows-8-1-windows-7",
 	}
 }
 

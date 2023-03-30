@@ -379,17 +379,17 @@ var wtce19b9352a59d6a5d26f292d83e84377 = &WorkTemplate{
 	Description: Description{
 		Channel: &TranslatableString{
 			ID:             "worktemplate.devops.incident_resolution.description.channel",
-			DefaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything TAKWEN DOoffers to ensure the fires are put out and stakeholders informed along the way.",
+			DefaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything Mattermost offers to ensure the fires are put out and stakeholders informed along the way.",
 			Illustration:   "",
 		},
 		Board: &TranslatableString{
 			ID:             "worktemplate.devops.incident_resolution.description.board",
-			DefaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything TAKWEN DOoffers to ensure the fires are put out and stakeholders informed along the way.",
+			DefaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything Mattermost offers to ensure the fires are put out and stakeholders informed along the way.",
 			Illustration:   "",
 		},
 		Playbook: &TranslatableString{
 			ID:             "worktemplate.devops.incident_resolution.description.playbook",
-			DefaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything TAKWEN DOoffers to ensure the fires are put out and stakeholders informed along the way.",
+			DefaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything Mattermost offers to ensure the fires are put out and stakeholders informed along the way.",
 			Illustration:   "",
 		},
 	},

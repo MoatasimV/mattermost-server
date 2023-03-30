@@ -649,7 +649,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Ez a felhasználónév már használatban van egy másik TAKWEN DOfelhasználó által."
+    "translation": "Ez a felhasználónév már használatban van egy másik Mattermost felhasználó által."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -777,11 +777,11 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Méret korlát túllépve. Próbálja meg ellenőrizni a [maximális oldalméretet](https://docs.takwen.co/do/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)."
+    "translation": "Méret korlát túllépve. Próbálja meg ellenőrizni a [maximális oldalméretet](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)."
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Nem sikerült a felhasználók keresése az AD/LDAP-ban. Ellenőrizze, hogy a TAKWEN DOszerver képes-e csatlakozni az AD/LDAP szerverhez, és próbálja újra."
+    "translation": "Nem sikerült a felhasználók keresése az AD/LDAP-ban. Ellenőrizze, hogy a Mattermost szerver képes-e csatlakozni az AD/LDAP szerverhez, és próbálja újra."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -821,7 +821,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Az Ön AD/LDAP fiókjának nincs jogosultsága, hogy használja ezt a TAKWEN DOszervert. Kérje meg a rendszergazdát, hogy ellenőrizze az AD/LDAP felhasználói szűrőt."
+    "translation": "Az Ön AD/LDAP fiókjának nincs jogosultsága, hogy használja ezt a Mattermost szervert. Kérje meg a rendszergazdát, hogy ellenőrizze az AD/LDAP felhasználói szűrőt."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -2929,11 +2929,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "A TAKWEN DOmár nem támogatja a böngésző ezen verzióját"
+    "translation": "A Mattermost már nem támogatja a böngésző ezen verzióját"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Ezt a böngészőt a TAKWEN DOmár nem támogatja"
+    "translation": "Ezt a böngészőt a Mattermost már nem támogatja"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -2977,7 +2977,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Töltse le a TAKWEN DOalkalmazást, vagy használjon támogatott böngészőt a jobb élmény érdekében."
+    "translation": "Töltse le a Mattermost alkalmazást, vagy használjon támogatott böngészőt a jobb élmény érdekében."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -4977,43 +4977,43 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "A TAKWEN DOnem tudott frissíteni az Enterprise Edition-re. A letöltött bináris fájl digitális aláírását nem sikerült ellenőrizni."
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. A letöltött bináris fájl digitális aláírását nem sikerült ellenőrizni."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "A TAKWEN DOnem tudott frissíteni az Enterprise Edition-re."
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "A TAKWEN DOnem tudott frissíteni az Enterprise Edition-re. Ez a szolgáltatás csak x86-64 architektúrájú Linux rendszereken működik."
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re. Ez a szolgáltatás csak x86-64 architektúrájú Linux rendszereken működik."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "A TAKWEN DOnem tudott frissíteni az Enterprise Kuadásra. A {{.MattermostUsername}} TAKWEN DOrendszer felhasználó nem rendelkezik írási engedéllyel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a TAKWEN DOtelepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a TAKWEN DOfrissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Kuadásra. A {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási engedéllyel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Mattermost telepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "A TAKWEN DOnem tudott frissíteni az Enterprise Kiadásra. A {{.MattermostUsername}} TAKWEN DOrendszer felhasználó nem rendelkezik írási engedéllyel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a TAKWEN DOtelepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a TAKWEN DOfrissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Kiadásra. A {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási engedéllyel a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a kiszolgálón, amelyre a Mattermost telepítve van:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "A TAKWEN DOnem tudott frissíteni az Enterprise Kiadásra. A {{.MattermostUsername}} TAKWEN DOrendszer felhasználó nem rendelkezik írási jogosultsággal a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a szerveren, amelyre a TAKWEN DOtelepítve van:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a TAKWEN DOfrissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Kiadásra. A {{.MattermostUsername}} Mattermost rendszer felhasználó nem rendelkezik írási jogosultsággal a szükséges bináris fájlhoz. A rendszergazda frissítheti a fájl engedélyeket a következő parancs végrehajtásával azon a szerveren, amelyre a Mattermost telepítve van:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nA fájl engedélyek megváltoztatása után próbálkozzon újra a Mattermost frissítésével. Ha frissített és újraindított, ne felejtse el visszaállítani az eredeti fájl engedélyeket:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "A TAKWEN DOnem tudott frissíteni az Enterprise Edition-re."
+    "translation": "A Mattermost nem tudott frissíteni az Enterprise Edition-re."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "A TAKWEN DOEnterprise Edition frissítése már fut."
+    "translation": "A Mattermost Enterprise Edition frissítése már fut."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Nem frissíthet, mert már a TAKWEN DOEnterprise Edition -t használja."
+    "translation": "Nem frissíthet, mert már a Mattermost Enterprise Edition -t használja."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Sikeresen frissített a TAKWEN DOEnterprise Edition-re. Kérjük, indítsa újra a szervert a frissítés befejezéséhez."
+    "translation": "Sikeresen frissített a Mattermost Enterprise Edition-re. Kérjük, indítsa újra a szervert a frissítés befejezéséhez."
   },
   {
     "id": "api.unable_to_read_file_from_backend",
@@ -5049,7 +5049,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Ezt az e-mail címet használták TAKWEN DOfiók létrehozásához."
+    "translation": "Ezt az e-mail címet használták Mattermost fiók létrehozásához."
   },
   {
     "id": "api.templates.welcome_body.button",
@@ -5073,7 +5073,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
-    "translation": "Ha további kérdése van, forduljon a support@takwen.co/do e-mail címhez"
+    "translation": "Ha további kérdése van, forduljon a support@mattermost.com e-mail címhez"
   },
   {
     "id": "api.templates.warn_metric_ack.body.site_url_header",
@@ -5121,7 +5121,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Ez az e-mail cím volt használva a TAKWEN DOfiók létrehozásakor."
+    "translation": "Ez az e-mail cím volt használva a Mattermost fiók létrehozásakor."
   },
   {
     "id": "api.templates.verify_body.button",
@@ -5413,7 +5413,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "A TAKWEN DOEnterprise licensz le van tiltva."
+    "translation": "A Mattermost Enterprise licensz le van tiltva."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -5437,11 +5437,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "Az Ön TAKWEN DOCloud számlája lejárt"
+    "translation": "Az Ön Mattermost Cloud számlája lejárt"
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Fizetés esedékes a TAKWEN DOCloud előfizetéséhez"
+    "translation": "Fizetés esedékes a Mattermost Cloud előfizetéséhez"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -5449,7 +5449,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "A legutóbbi számlázási időszakra vonatkozó TAKWEN DOCloud számlája feldolgozásra került. A fizetési adataink azonban nincsenek nyilvántartva."
+    "translation": "A legutóbbi számlázási időszakra vonatkozó Mattermost Cloud számlája feldolgozásra került. A fizetési adataink azonban nincsenek nyilvántartva."
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -5461,11 +5461,11 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "Művelet szükséges: Sikertelen fizetés a TAKWEN DO{{.Plan}} csomagra"
+    "translation": "Művelet szükséges: Sikertelen fizetés a Mattermost {{.Plan}} csomagra"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "A TAKWEN DO{{.Plan}} zavartalan elérésének biztosítása érdekében kérjük, vegye fel a kapcsolatot a pénzintézetével a probléma megoldása érdekében, vagy frissítse fizetési adatait. A fizetési adatok frissítése után a TAKWEN DOmegpróbálja rendezni a fennmaradó egyenleget."
+    "translation": "A Mattermost {{.Plan}} zavartalan elérésének biztosítása érdekében kérjük, vegye fel a kapcsolatot a pénzintézetével a probléma megoldása érdekében, vagy frissítse fizetési adatait. A fizetési adatok frissítése után a Mattermost megpróbálja rendezni a fennmaradó egyenleget."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -5473,7 +5473,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Pénzintézete elutasította a TAKWEN DOCloud munkaterületéhez társított {{.CardBrand}} **** {{.LastFour}} kártyáról a fizetést."
+    "translation": "Pénzintézete elutasította a Mattermost Cloud munkaterületéhez társított {{.CardBrand}} **** {{.LastFour}} kártyáról a fizetést."
   },
   {
     "id": "api.templates.password_change_subject",
@@ -5529,7 +5529,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "A TAKWEN DOegy rugalmas, nyílt forráskódú üzenetküldő platform, amely biztonságos csapat együttműködést tesz lehetővé."
+    "translation": "A Mattermost egy rugalmas, nyílt forráskódú üzenetküldő platform, amely biztonságos csapat együttműködést tesz lehetővé."
   },
   {
     "id": "api.templates.invite_body.title",
@@ -5941,11 +5941,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack felhasználó összevonva egy létező TAKWEN DOfelhasználóval egyező e-mail címmel {{.Email}} és felhasználónévvel {{.Username}}, de nem sikerült hozzáadni a csapatukhoz.\n"
+    "translation": "Slack felhasználó összevonva egy létező Mattermost felhasználóval egyező e-mail címmel {{.Email}} és felhasználónévvel {{.Username}}, de nem sikerült hozzáadni a csapatukhoz.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack felhasználó összevonva egy létező TAKWEN DOfelhasználóval egyező e-mail címmel {{.Email}} és felhasználónévvel {{.Username}}.\n"
+    "translation": "Slack felhasználó összevonva egy létező Mattermost felhasználóval egyező e-mail címmel {{.Email}} és felhasználónévvel {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -5957,7 +5957,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "A {{.DisplayName}} Slack csatorna már létezik aktív TAKWEN DOcsatornaként. Mindkét csatorna összevonva.\n"
+    "translation": "A {{.DisplayName}} Slack csatorna már létezik aktív Mattermost csatornaként. Mindkét csatorna összevonva.\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -5985,7 +5985,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
-    "translation": "A TAKWEN DOrendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.takwen.co/do/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Mattermost rendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -5993,7 +5993,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "A TAKWEN DOrendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.takwen.co/do/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "A Mattermost rendszerének jelenleg több csapata van. Sok csapatnak megvan a maga preferált módja a koordinációra és az együttműködésre, beleértve a csatornák létrehozásának módját, kik hívhatnak meg új csapat tagokat és hogy hogyan kezelik az integrációkat. A csapat felülbírálási sémái lehetővé teszik a felhasználói engedélyek testreszabását az egyes csapatokon belül, hogy megfeleljenek a saját igényeiknek.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
@@ -6005,7 +6005,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "A TAKWEN DOrendszerében nagy számú üzenet van. Az alapértelmezett TAKWEN DOadatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.takwen.co/do/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Mattermost rendszerében nagy számú üzenet van. Az alapértelmezett Mattermost adatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
@@ -6013,7 +6013,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "A TAKWEN DOrendszerében nagy számú üzenet van. Az alapértelmezett TAKWEN DOadatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.takwen.co/do/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "A Mattermost rendszerében nagy számú üzenet van. Az alapértelmezett Mattermost adatbázis keresés körülbelül 2,5 millió bejegyzésnél kezdi mutatni a teljesítmény romlását. Több mint 5 millió bejegyzéssel az Elasticsearch segíthet elkerülni a jelentős teljesítmény problémákat, például az időtúllépéseket. Vegye fel velünk a kapcsolatot, ha többet szeretne megtudni és tudassa velünk, hogy hogyan tudunk segíteni.\n\n[További információk a teljesítmény javításáról](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
@@ -6025,7 +6025,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a TAKWEN DOfelhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.takwen.co/do/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a Mattermost felhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_title",
@@ -6037,7 +6037,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a TAKWEN DOfelhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.takwen.co/do/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "A csatornák segítenek a kommunikáció javításában, de azáltal, hogy a Mattermost felhasználók csatlakoznak és létrehoznak csatornákat, nő a rendszer szervezetten tartásának kihívása. A fejlett engedélyek segítségével beállíthatja, hogy mely felhasználók vagy szerepkörök hajthatnak végre bizonyos műveleteket, ideértve a csatornák beállítását és tagjainak kezelését, @channel vagy @here használatával a felhasználók széles körének címzését, valamint új webhorog létrehozását.\n\n[További információk a fejlett engedélyek használatáról](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
@@ -6049,19 +6049,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "A TAKWEN DOnyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Mattermost nyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "Méretezés a TAKWEN DOsegítségével"
+    "translation": "Méretezés a Mattermost segítségével"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "A TAKWEN DOnyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "A Mattermost nyomatékosan javasolja, hogy több mint 500 felhasználó telepítéséhez használja ki az olyan funkciók előnyeit, mint a felhasználó kezelés, a szerver fürtösítés és a teljesítmény figyelés. Vegye fel velünk a kapcsolatot, hogy többet tudjon meg és tudassa velünk, hogy hogyan tudunk segíteni.\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. A csapatomnak most 500 felhasználója van, és a TAKWEN DOEnterprise kiadást fontolgatom.\n"
+    "translation": "Mattermost kapcsolat felvételi kérés. A csapatomnak most 500 felhasználója van, és a Mattermost Enterprise kiadást fontolgatom.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
@@ -6073,11 +6073,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
-    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.takwen.co/do/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.takwen.co/do/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "Amikor rengeteg beszélgetés folyik az egész Mattermoston, kihívást jelenthet tudni, hogy hol keressünk fontos információkat. Ha nagy közönségnek szeretne üzenetet küldeni, beállíthat írásvédett bejelentési csatornákat, ahová bárki csatlakozhat, de csak a csatornák rendszergazdái küldhetnek üzeneteket.\n\n[További információk az írásvédett bejelentési csatornák létrehozásáról](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
@@ -6089,19 +6089,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "A TAKWEN DOrendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a TAKWEN DOszerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.takwen.co/do/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Mattermost rendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a Mattermost szerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
-    "translation": "Méretezés a TAKWEN DOsegítségével"
+    "translation": "Méretezés a Mattermost segítségével"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "A TAKWEN DOrendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a TAKWEN DOszerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.takwen.co/do/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "A Mattermost rendszerének most 200 felhasználója van. Amikor összekapcsolja Mattermostot és a szervezete egyszeri bejelentkezési szolgáltatóját, a felhasználók anélkül érhetik el a Mattermostot, hogy újra meg kellene adniuk hitelesítő adataikat. Javasoljuk, hogy integrálja SAML 2.0 szolgáltatóját a Mattermost szerverével. [Tudjon meg többet a SAML 2.0 integrációról](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvétele kérés. A csapatomnak már 200 felhasználója van, és fontolóra veszem a TAKWEN DOEnterprise kiadást.\n"
+    "translation": "Mattermost kapcsolat felvétele kérés. A csapatomnak már 200 felhasználója van, és fontolóra veszem a Mattermost Enterprise kiadást.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
@@ -6109,19 +6109,19 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "A TAKWEN DOrendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információ az AD/LDAP integrációról](https://www.takwen.co/do/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A Mattermost rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információ az AD/LDAP integrációról](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
-    "translation": "Méretezés a TAKWEN DOsegítségével"
+    "translation": "Méretezés a Mattermost segítségével"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "A TAKWEN DOrendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információk az AD/LDAP integrációról](https://www.takwen.co/do/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Kapcsolat felvételi gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "A Mattermost rendszerének több mint 100 felhasználója van. Ahogyan a felhasználói bázisa növekszik az új fiókok létrehozása időigényessé válhat. Javasoljuk, hogy integrálja vállalata Active Directory/LDAP-ját amely lehetővé teszi, hogy bárki, akinek van fiókja hozzáférjen a Mattermosthoz.\n\n[További információk az AD/LDAP integrációról](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nA Kapcsolat felvételi gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Mattermost kapcsolat felvételi kérés. A csapatomnak már 100 felhasználója van, és fontolóra veszem a TAKWEN DOEnterprise kiadást.\n"
+    "translation": "Mattermost kapcsolat felvételi kérés. A csapatomnak már 100 felhasználója van, és fontolóra veszem a Mattermost Enterprise kiadást.\n"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
@@ -6129,7 +6129,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "Az Ön TAKWEN DOrendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítéssel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes TAKWEN DOfióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információ a többtényezős hitelesítés kényszerítéséről](https://www.takwen.co/do/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "Az Ön Mattermost rendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítéssel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes Mattermost fióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információ a többtényezős hitelesítés kényszerítéséről](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -6137,7 +6137,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Az Ön TAKWEN DOrendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítési eszközökkel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes TAKWEN DOfióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információk a többtényezős hitelesítés kényszerítéséről](https://www.takwen.co/do/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "Az Ön Mattermost rendszerében engedélyezve van a többtényezős hitelesítés, amely lehetővé teszi a felhasználók számára, hogy a jelszavukon felül további hitelesítési eszközökkel biztosítsák fiókjukat. A rendszer biztonságának javítása érdekében megkövetelheti az összes Mattermost fióktól, hogy többtényezős hitelesítést használjanak.\n\n[További információk a többtényezős hitelesítés kényszerítéséről](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication).\n\nA Kapcsolat felvétele gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
@@ -6153,7 +6153,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a TAKWEN DOrendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.takwen.co/do/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://takwen.co/do/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://takwen.co/do/privacy-policy/), valamint termék e-mailek fogadását."
+    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a Mattermost rendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nA Próbaidőszak indítása gombra kattintva elfogadom a [Mattermost szoftver felhasználási megállapodást](https://mattermost.com/software-evaluation-agreement/), az [Adatvédelmi irányelveket](https://mattermost.com/privacy-policy/), valamint termék e-mailek fogadását."
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",
@@ -6161,7 +6161,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a TAKWEN DOrendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.takwen.co/do/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nA Kapcsolat felvétel gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "A projektek gyakran érintenek vállalaton belüli és kívüli embereket egyaránt. A Vendégfiókok segítségével külső partnereket vonhat be a Mattermost rendszerébe, és meghatározhatja, kivel dolgozhatnak és mit láthatnak.\n\n[További információ a vendégfiókok engedélyezéséről](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nA Kapcsolat felvétel gombra kattintva megosztja adatait a Mattermost, Inc.-vel. [További információk](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
@@ -6169,7 +6169,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
-    "translation": "A próba licenct nem lehet lekérni. Látogasson el a https://takwen.co/do/trial/ címre egy licenc kéréséhez."
+    "translation": "A próba licenct nem lehet lekérni. Látogasson el a https://mattermost.com/trial/ címre egy licenc kéréséhez."
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
@@ -6197,7 +6197,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_footer",
-    "translation": "Ha további kérdése van, forduljon a support@takwen.co/do e-mail címhez"
+    "translation": "Ha további kérdése van, forduljon a support@mattermost.com e-mail címhez"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_email_header",
@@ -6828,7 +6828,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Meghív egy külső TAKWEN DOpéldányt az aktuális megosztott csatornára"
+    "translation": "Meghív egy külső Mattermost példányt az aktuális megosztott csatornára"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -6896,7 +6896,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Megosztja az aktuális csatornát egy külső TAKWEN DOpéldánnyal."
+    "translation": "Megosztja az aktuális csatornát egy külső Mattermost példánnyal."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -7068,7 +7068,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Küldje el a következő AES 256 bites titkosított meghívót a külső TAKWEN DOrendszer rendszergazdának a jelszóval együtt. A meghívás elfogadásához a `{{.Command}}` perjel parancsot fogják használni.\n\n```\n{{.Invitation}}\n```\n\n**Győződjön meg róla, hogy a biztonságos kapcsolat a** {{.SiteURL}} **cím segítségével érheti el az Ön TAKWEN DOpéldányát.**"
+    "translation": "Küldje el a következő AES 256 bites titkosított meghívót a külső Mattermost rendszer rendszergazdának a jelszóval együtt. A meghívás elfogadásához a `{{.Command}}` perjel parancsot fogják használni.\n\n```\n{{.Invitation}}\n```\n\n**Győződjön meg róla, hogy a biztonságos kapcsolat a** {{.SiteURL}} **cím segítségével érheti el az Ön Mattermost példányát.**"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -7120,7 +7120,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Hívjon meg biztonságos kapcsolatokat a TAKWEN DOpéldányok közötti kommunikációhoz."
+    "translation": "Hívjon meg biztonságos kapcsolatokat a Mattermost példányok közötti kommunikációhoz."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -7312,7 +7312,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Küldjön egy e-mail meghívót az Ön TAKWEN DOcsapatának"
+    "translation": "Küldjön egy e-mail meghívót az Ön Mattermost csapatának"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -7632,7 +7632,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Kérem, adjon hozzá azokhoz a csapatokhoz és csatornákhoz, amelyekben szeretné, hogy részt vegyek. Ehhez használjon egy böngészőt vagy a TAKWEN DOalkalmazást."
+    "translation": "Kérem, adjon hozzá azokhoz a csapatokhoz és csatornákhoz, amelyekben szeretné, hogy részt vegyek. Ehhez használjon egy böngészőt vagy a Mattermost alkalmazást."
   },
   {
     "id": "api.bot.create_disabled",
@@ -7934,11 +7934,11 @@
   },
   {
     "id": "api.license.request_trial_license.fail_get_user_count.app_error",
-    "translation": "Nem sikerült megszerezni a próba licencet, kérjük próbálkozzon újra, vagy írjon a support@takwen.co/do címre. Nem lehet lekérni a regisztrált felhasználók számát."
+    "translation": "Nem sikerült megszerezni a próba licencet, kérjük próbálkozzon újra, vagy írjon a support@mattermost.com címre. Nem lehet lekérni a regisztrált felhasználók számát."
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Nem sikerült megszerezni a próba licencet, kérjük próbálkozzon újra, vagy írjon a support@takwen.co/do címre."
+    "translation": "Nem sikerült megszerezni a próba licencet, kérjük próbálkozzon újra, vagy írjon a support@mattermost.com címre."
   },
   {
     "id": "api.license.request_renewal_link.app_error",
@@ -7946,7 +7946,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "A licenc igényléséhez el kell fogadnia a TAKWEN DOszoftver használati megállapodását és az adatvédelmi irányelveit."
+    "translation": "A licenc igényléséhez el kell fogadnia a Mattermost szoftver használati megállapodását és az adatvédelmi irányelveit."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -8106,7 +8106,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Fogadja el egy külső TAKWEN DOpéldány meghívását"
+    "translation": "Fogadja el egy külső Mattermost példány meghívását"
   },
   {
     "id": "api.command_open.name",
@@ -8158,7 +8158,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Nem található a megadott csatorna. A csatornák azonosításához használja a [csatorna azonosítót](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel)."
+    "translation": "Nem található a megadott csatorna. A csatornák azonosításához használja a [csatorna azonosítót](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)."
   },
   {
     "id": "api.command_mute.name",
@@ -8170,7 +8170,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Nem sikerült megtalálni a {{.Channel}} csatornát. A csatornák azonosításához használja a [csatorna azonosítót](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel)."
+    "translation": "Nem sikerült megtalálni a {{.Channel}} csatornát. A csatornák azonosításához használja a [csatorna azonosítót](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)."
   },
   {
     "id": "api.command_mute.desc",
@@ -8322,7 +8322,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Nem sikerült megtalálni a {{.Channel}} csatornát. A csatornák azonosításához használja a [csatorna azonosítót](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel)."
+    "translation": "Nem sikerült megtalálni a {{.Channel}} csatornát. A csatornák azonosításához használja a [csatorna azonosítót](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)."
   },
   {
     "id": "api.command_invite.channel.app_error",
@@ -8465,7 +8465,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Úgy tűnik a TAKWEN DOe-mail helyesen van beállítva!"
+    "translation": "Úgy tűnik a Mattermost e-mail helyesen van beállítva!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -8713,7 +8713,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} ki lett kapcsolva. A következő bot fiókokat kezelték, amelyek le lettek tiltva.\n\n{{.BotNames}}{{else}}{{.UserName}} tiltásra került. Ők kezeltek {{.NumBots}} botfiókot, amelyek le lettek tiltva, beleértve a következőket:\n\n{{.BotNames}}{{end}}Az egyes botok tulajdonjogát úgy veheti át, hogy engedélyezi őket az **Integrációk > Botfiókok** menüpontban, és új tokeneket hoz létre a bothoz.\n\nTovábbi információért lásd a [dokumentációnkat](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} letiltásra került. A következő botfiókokat kezelték, amelyek még mindig engedélyezve vannak.\n\n{{.BotNames}}\n{{else}}{{.UserName}} letiltásra került. Ők kezelték a még mindig engedélyezett {{.NumBots}} botfiókokat, köztük a következőket:\n\n{{.BotNames}}{{end}}Nyomatékosan javasoljuk, hogy vegye tulajdonába az egyes botokat, és engedélyezze újra a **Integrációk > Botfiókok** menüpontban, és hozzon létre új tokeneket a bothoz.\n\nTovábbi információért lásd a [dokumentációnkat](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nHa azt szeretné, hogy a botfiókok automatikusan kikapcsolódjanak a tulajdonos litáltása után, állítsa a **Rendszerkonzol > Integrációk > Botfiókok** pontban a \"Botfiókok kikapcsolása, ha a tulajdonos letiltásra kerül\" opciót igazra.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} ki lett kapcsolva. A következő bot fiókokat kezelték, amelyek le lettek tiltva.\n\n{{.BotNames}}{{else}}{{.UserName}} tiltásra került. Ők kezeltek {{.NumBots}} botfiókot, amelyek le lettek tiltva, beleértve a következőket:\n\n{{.BotNames}}{{end}}Az egyes botok tulajdonjogát úgy veheti át, hogy engedélyezi őket az **Integrációk > Botfiókok** menüpontban, és új tokeneket hoz létre a bothoz.\n\nTovábbi információért lásd a [dokumentációnkat](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} letiltásra került. A következő botfiókokat kezelték, amelyek még mindig engedélyezve vannak.\n\n{{.BotNames}}\n{{else}}{{.UserName}} letiltásra került. Ők kezelték a még mindig engedélyezett {{.NumBots}} botfiókokat, köztük a következőket:\n\n{{.BotNames}}{{end}}Nyomatékosan javasoljuk, hogy vegye tulajdonába az egyes botokat, és engedélyezze újra a **Integrációk > Botfiókok** menüpontban, és hozzon létre új tokeneket a bothoz.\n\nTovábbi információért lásd a [dokumentációnkat](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nHa azt szeretné, hogy a botfiókok automatikusan kikapcsolódjanak a tulajdonos litáltása után, állítsa a **Rendszerkonzol > Integrációk > Botfiókok** pontban a \"Botfiókok kikapcsolása, ha a tulajdonos letiltásra kerül\" opciót igazra.{{end}}"
   },
   {
     "id": "api.user.upload_profile_user.check_image_limits.app_error",
@@ -8765,7 +8765,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Ez a teszt kulcs a TAKWEN DOEnterprise kiadáshoz lejárt és már nem érvényes. Ha szeretné meghosszabbítani a próba időszakot, kérjük [vegye fel a kapcsolatot értékesítési csapatunkkal](https://takwen.co/do/contact-us/)."
+    "translation": "Ez a teszt kulcs a Mattermost Enterprise kiadáshoz lejárt és már nem érvényes. Ha szeretné meghosszabbítani a próba időszakot, kérjük [vegye fel a kapcsolatot értékesítési csapatunkkal](https://mattermost.com/contact-us/)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8777,7 +8777,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, az előfizetése le fog járni {{.Days}} nap múlva. Reméljük, hogy megtapasztalta a rugalmas, biztonságos csoport munkát, amit a TAKWEN DObiztosít. Újítsa meg mielőbb az előfizetését, hogy a csapata biztosan tovább élvezhesse eme szolgáltatások nyújtotta előnyöket."
+    "translation": "{{.UserName}}, az előfizetése le fog járni {{.Days}} nap múlva. Reméljük, hogy megtapasztalta a rugalmas, biztonságos csoport munkát, amit a Mattermost biztosít. Újítsa meg mielőbb az előfizetését, hogy a csapata biztosan tovább élvezhesse eme szolgáltatások nyújtotta előnyöket."
   },
   {
     "id": "api.server.license_up_for_renewal.error_sending_email",
@@ -8785,7 +8785,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "A TAKWEN DOelőfizetése megújításra szorul"
+    "translation": "A Mattermost előfizetése megújításra szorul"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle_two",
@@ -9037,7 +9037,7 @@
   },
   {
     "id": "api.templates.server_inactivity_subtitle",
-    "translation": "Helló {{.Name}}, észrevettük, hogy a TAKWEN DOszervered egy kicsit porosodik. Vess egy pillantást néhány funkcióra, amelyek segíthetnek könnyíteni csapatod munkaterhét."
+    "translation": "Helló {{.Name}}, észrevettük, hogy a Mattermost szervered egy kicsit porosodik. Vess egy pillantást néhány funkcióra, amelyek segíthetnek könnyíteni csapatod munkaterhét."
   },
   {
     "id": "api.templates.server_inactivity_subject",
@@ -9101,7 +9101,7 @@
   },
   {
     "id": "api.license.request_trial_license.embargoed",
-    "translation": "Az embargóval sújtott országokra vonatkozó korlátozások miatt nem tudtuk feldolgozni a kérelmet. [További információ a dokumentációnkban](https://takwen.co/do/pl/limitations-for-embargoed-countries), vagy forduljon a legal@takwen.co/do címhez az exportkorlátozásokkal kapcsolatos kérdésekkel kapcsolatban."
+    "translation": "Az embargóval sújtott országokra vonatkozó korlátozások miatt nem tudtuk feldolgozni a kérelmet. [További információ a dokumentációnkban](https://mattermost.com/pl/limitations-for-embargoed-countries), vagy forduljon a legal@mattermost.com címhez az exportkorlátozásokkal kapcsolatos kérdésekkel kapcsolatban."
   },
   {
     "id": "api.getThreadsForUser.bad_only_params",
@@ -9165,11 +9165,11 @@
   },
   {
     "id": "api.templates.server_inactivity_footer_disclaimer",
-    "translation": "Ezt az egyszeri e-mailt azért kapta, mert a TAKWEN DOszervere több mint {{.Hours}} órán keresztül inaktív volt. Ezt az e-mailt a TAKWEN DOszervere automatikusan generálta."
+    "translation": "Ezt az egyszeri e-mailt azért kapta, mert a Mattermost szervere több mint {{.Hours}} órán keresztül inaktív volt. Ezt az e-mailt a Mattermost szervere automatikusan generálta."
   },
   {
     "id": "api.file.cloud_upload.app_error",
-    "translation": "Az mmctl segítségével történő feltöltés egy felhő alapú példányra nem támogatott. Kérjük, tekintse meg a dokumentációt itt: https://docs.takwen.co/do/manage/cloud-data-export.html."
+    "translation": "Az mmctl segítségével történő feltöltés egy felhő alapú példányra nem támogatott. Kérjük, tekintse meg a dokumentációt itt: https://docs.mattermost.com/manage/cloud-data-export.html."
   },
   {
     "id": "app.recent_searches.app_error",
@@ -9253,7 +9253,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "A TAKWEN DOegy nyílt forráskódú platform a biztonságos kommunikációhoz, együttműködéshez és az eszközök és csapatok közötti munka összehangolásához.\nA TAKWEN DOhárom kulcsfontosságú eszközt tartalmaz:\n\n**Csatornák** - Maradjon kapcsolatban csapatával 1:1 és csoportos üzenetküldéssel.\n**[Forgatókönyvek](/playbooks)** - Építsen és konfiguráljon megismételhető folyamatokat meghatározott és kiszámítható eredmények elérése érdekében.\n**[Táblák](/boards)** - Kezelje a projekteket és feladatokat Kanban tábla struktúrában, hogy segítse csapatát a kulcsfontosságú mérföldkövek elérésében.\n\n[Dokumentáció és útmutatók megtekintése]({{.HelpLink}})"
+    "translation": "A Mattermost egy nyílt forráskódú platform a biztonságos kommunikációhoz, együttműködéshez és az eszközök és csapatok közötti munka összehangolásához.\nA Mattermost három kulcsfontosságú eszközt tartalmaz:\n\n**Csatornák** - Maradjon kapcsolatban csapatával 1:1 és csoportos üzenetküldéssel.\n**[Forgatókönyvek](/playbooks)** - Építsen és konfiguráljon megismételhető folyamatokat meghatározott és kiszámítható eredmények elérése érdekében.\n**[Táblák](/boards)** - Kezelje a projekteket és feladatokat Kanban tábla struktúrában, hogy segítse csapatát a kulcsfontosságú mérföldkövek elérésében.\n\n[Dokumentáció és útmutatók megtekintése]({{.HelpLink}})"
   },
   {
     "id": "api.command_marketplace.desc",
@@ -9321,7 +9321,7 @@
   },
   {
     "id": "api.templates.delinquency_30.subject",
-    "translation": "Lépjen most, hogy megtarthassa a TAKWEN DO{{.Plan}} funkcióit"
+    "translation": "Lépjen most, hogy megtarthassa a Mattermost {{.Plan}} funkcióit"
   },
   {
     "id": "app.notify_admin.send_notification_post.app_error",

@@ -53,8 +53,8 @@ describe('Collapsed Reply Threads', () => {
         // # Upload and enable "matterpoll" plugin
         cy.apiUploadAndEnablePlugin(matterpollPlugin);
 
-        // # In center post the following: /poll "Do you like https://takwen.co/do?"
-        cy.postMessage('/poll "Do you like https://takwen.co/do?"');
+        // # In center post the following: /poll "Do you like https://mattermost.com?"
+        cy.postMessage('/poll "Do you like https://mattermost.com?"');
 
         cy.getLastPostId().then((pollId) => {
             // # Post a reply on the POLL to create a thread and follow
@@ -66,8 +66,8 @@ describe('Collapsed Reply Threads', () => {
             // # Visit global threads
             cy.uiClickSidebarItem('threads');
 
-            // * Text in ThreadItem should say 'username: Do you like https://takwen.co/do?'
-            cy.get('.attachment__truncated').first().should('have.text', user1.nickname + ': Do you like https://takwen.co/do?');
+            // * Text in ThreadItem should say 'username: Do you like https://mattermost.com?'
+            cy.get('.attachment__truncated').first().should('have.text', user1.nickname + ': Do you like https://mattermost.com?');
 
             // * Text in ThreadItem should say 'Total votes: 1'
             cy.get('.attachment__truncated').last().should('have.text', 'Total votes: 1');
@@ -85,8 +85,8 @@ describe('Collapsed Reply Threads', () => {
             // # Visit global threads
             cy.uiClickSidebarItem('threads');
 
-            // * Text in ThreadItem should say 'username: Do you like https://takwen.co/do?'
-            cy.get('.attachment__truncated').first().should('have.text', user1.nickname + ': Do you like https://takwen.co/do?');
+            // * Text in ThreadItem should say 'username: Do you like https://mattermost.com?'
+            cy.get('.attachment__truncated').first().should('have.text', user1.nickname + ': Do you like https://mattermost.com?');
 
             // * Text in ThreadItem should say 'This poll has ended. The results are:'
             cy.get('.attachment__truncated').last().should('have.text', 'This poll has ended. The results are:');

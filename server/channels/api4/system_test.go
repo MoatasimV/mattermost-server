@@ -617,7 +617,7 @@ func TestSupportedTimezones(t *testing.T) {
 }
 
 func TestRedirectLocation(t *testing.T) {
-	expected := "https://takwen.co/do/wp-content/themes/mattermostv2/img/logo-light.svg"
+	expected := "https://mattermost.com/wp-content/themes/mattermostv2/img/logo-light.svg"
 
 	testServer := httptest.NewServer(http.HandlerFunc(func(res http.ResponseWriter, req *http.Request) {
 		res.Header().Set("Location", expected)
@@ -639,7 +639,7 @@ func TestRedirectLocation(t *testing.T) {
 	*th.App.Config().ServiceSettings.EnableLinkPreviews = true
 	*th.App.Config().ServiceSettings.AllowedUntrustedInternalConnections = "127.0.0.1"
 
-	_, _, err := th.SystemAdminClient.GetRedirectLocation("https://takwen.co/do/", "")
+	_, _, err := th.SystemAdminClient.GetRedirectLocation("https://mattermost.com/", "")
 	require.NoError(t, err)
 
 	_, resp, err := th.SystemAdminClient.GetRedirectLocation("", "")
@@ -656,7 +656,7 @@ func TestRedirectLocation(t *testing.T) {
 	assert.Equal(t, expected, actual)
 
 	*th.App.Config().ServiceSettings.EnableLinkPreviews = false
-	actual, _, err = th.SystemAdminClient.GetRedirectLocation("https://takwen.co/do/", "")
+	actual, _, err = th.SystemAdminClient.GetRedirectLocation("https://mattermost.com/", "")
 	require.NoError(t, err)
 	assert.Equal(t, actual, "")
 

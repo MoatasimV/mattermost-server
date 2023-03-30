@@ -2,7 +2,7 @@
 
 exports[`components/error_page/ErrorLink should match snapshot 1`] = `
 <ExternalLink
-  href="https://docs.takwen.co/do/deployment/sso-gitlab.html"
+  href="https://docs.mattermost.com/deployment/sso-gitlab.html"
   location="error_link"
 >
   <MemoizedFormattedMessage

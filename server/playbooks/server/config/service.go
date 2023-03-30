@@ -112,7 +112,7 @@ func (c *ServiceImpl) OnConfigurationChange() error {
 
 	var configuration = new(Configuration)
 
-	// Load the public configuration fields from the TAKWEN DOserver configuration.
+	// Load the public configuration fields from the Mattermost server configuration.
 	if err := c.api.LoadPluginConfiguration(configuration); err != nil {
 		return errors.Wrapf(err, "failed to load plugin configuration")
 	}

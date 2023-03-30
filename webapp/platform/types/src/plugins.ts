@@ -111,7 +111,7 @@ export enum HostingType { // TODO remove this in favour of the definition in typ
 }
 
 export enum AuthorType { // TODO remove this in favour of the definition in types/marketplace after the mattermost-redux migration
-    TAKWEN DO= 'mattermost',
+    Mattermost = 'mattermost',
     Partner = 'partner',
     Community = 'community',
 }

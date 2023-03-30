@@ -230,7 +230,7 @@ describe('Interactive Dialog', () => {
 
         // # Enter valid email
         // * Verify that error is not shown for valid email.
-        const validEmail = 'test@takwen.co/do';
+        const validEmail = 'test@mattermost.com';
         cy.get('#someemail').scrollIntoView().clear().type(validEmail);
 
         cy.get('#interactiveDialogSubmit').click();

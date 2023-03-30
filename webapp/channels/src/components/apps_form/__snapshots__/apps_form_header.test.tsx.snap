@@ -14,7 +14,7 @@ exports[`components/apps_form/AppsFormHeader should not fail on empty value 1`] 
 
 exports[`components/apps_form/AppsFormHeader should render message with supported values 1`] = `
 <Connect(Markdown)
-  message="**bold** *italic* [link](https://takwen.co/do/) <br/> [link target blank](!https://takwen.co/do/)"
+  message="**bold** *italic* [link](https://mattermost.com/) <br/> [link target blank](!https://mattermost.com/)"
   options={
     Object {
       "mentionHighlight": false,

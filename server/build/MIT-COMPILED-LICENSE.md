@@ -1,6 +1,6 @@
 Mattermost MIT Compiled License
 
-**Note: this license does not cover source code, for information on source code licensing see LICENSE.txt in the TAKWEN DOsource code.
+**Note: this license does not cover source code, for information on source code licensing see LICENSE.txt in the Mattermost source code.
 
 Copyright (c) 2016-present Mattermost, Inc.
 

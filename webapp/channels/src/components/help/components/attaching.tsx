@@ -89,7 +89,7 @@ export default function Attaching(): JSX.Element {
             <p>
                 <FormattedMarkdownMessage
                     id='help.attaching.publicLinks.description'
-                    defaultMessage='Public links enable you to share file attachments with people outside your TAKWEN DOteam. Open the file previewer by selecting the thumbnail of an attachment, then select **Get a public link**. Copy the link provided. When the link is shared and opened by another user, the file automatically downloads.'
+                    defaultMessage='Public links enable you to share file attachments with people outside your Mattermost team. Open the file previewer by selecting the thumbnail of an attachment, then select **Get a public link**. Copy the link provided. When the link is shared and opened by another user, the file automatically downloads.'
                 />
             </p>
             <p>
@@ -119,7 +119,7 @@ export default function Attaching(): JSX.Element {
             <p>
                 <FormattedMessage
                     id='help.attaching.supported.description'
-                    defaultMessage='If you are trying to preview a media type that is not supported, the file previewer opens a standard media attachment icon. Supported media formats depend heavily on your browser and operating system. The following formats are supported by TAKWEN DOon most browsers:'
+                    defaultMessage='If you are trying to preview a media type that is not supported, the file previewer opens a standard media attachment icon. Supported media formats depend heavily on your browser and operating system. The following formats are supported by Mattermost on most browsers:'
                 />
             </p>
             <ul>

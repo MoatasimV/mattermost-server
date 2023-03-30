@@ -182,12 +182,12 @@
         "ShowFullName": true
     },
     "SupportSettings": {
-        "TermsOfServiceLink": "https://takwen.co/do/terms-of-use/",
-        "PrivacyPolicyLink": "https://takwen.co/do/privacy-policy/",
-        "AboutLink": "https://takwen.co/do/default-about/",
-        "HelpLink": "https://takwen.co/do/default-help/",
-        "ReportAProblemLink": "https://takwen.co/do/default-report-a-problem/",
-        "SupportEmail": "feedback@takwen.co/do"
+        "TermsOfServiceLink": "https://mattermost.com/terms-of-use/",
+        "PrivacyPolicyLink": "https://mattermost.com/privacy-policy/",
+        "AboutLink": "https://mattermost.com/default-about/",
+        "HelpLink": "https://mattermost.com/default-help/",
+        "ReportAProblemLink": "https://mattermost.com/default-report-a-problem/",
+        "SupportEmail": "feedback@mattermost.com"
     },
     "AnnouncementSettings": {
         "EnableBanner": false,
@@ -294,9 +294,9 @@
         "LoginButtonTextColor": ""
     },
     "NativeAppSettings": {
-        "AppDownloadLink": "https://takwen.co/do/download/",
-        "AndroidAppDownloadLink": "https://takwen.co/do/mattermost-android-app/",
-        "IosAppDownloadLink": "https://takwen.co/do/mattermost-ios-app/"
+        "AppDownloadLink": "https://mattermost.com/download/",
+        "AndroidAppDownloadLink": "https://mattermost.com/mattermost-android-app/",
+        "IosAppDownloadLink": "https://mattermost.com/mattermost-ios-app/"
     },
     "ClusterSettings": {
         "Enable": false,

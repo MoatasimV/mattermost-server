@@ -11,22 +11,22 @@ import (
 
 func TestGetPlaybookDetailsURL(t *testing.T) {
 	require.Equal(t,
-		"http://takwen.co/do/playbooks/playbooks/playbookTestId",
-		getPlaybookDetailsURL("http://takwen.co/do", "playbookTestId"),
+		"http://mattermost.com/playbooks/playbooks/playbookTestId",
+		getPlaybookDetailsURL("http://mattermost.com", "playbookTestId"),
 	)
 }
 
 func TestGetPlaybooksNewURL(t *testing.T) {
 	require.Equal(t,
-		"http://takwen.co/do/playbooks/playbooks/new",
-		getPlaybooksNewURL("http://takwen.co/do"),
+		"http://mattermost.com/playbooks/playbooks/new",
+		getPlaybooksNewURL("http://mattermost.com"),
 	)
 }
 
 func TestGetPlaybooksURL(t *testing.T) {
 	require.Equal(t,
-		"http://takwen.co/do/playbooks/playbooks",
-		getPlaybooksURL("http://takwen.co/do"),
+		"http://mattermost.com/playbooks/playbooks",
+		getPlaybooksURL("http://mattermost.com"),
 	)
 }
 
@@ -46,14 +46,14 @@ func TestGetRunDetailsRelativeURL(t *testing.T) {
 
 func TestGetRunDetailsURL(t *testing.T) {
 	require.Equal(t,
-		"http://takwen.co/do/playbooks/runs/testPlaybookRunId",
-		getRunDetailsURL("http://takwen.co/do", "testPlaybookRunId"),
+		"http://mattermost.com/playbooks/runs/testPlaybookRunId",
+		getRunDetailsURL("http://mattermost.com", "testPlaybookRunId"),
 	)
 }
 
 func TestGetRunRetrospectiveURL(t *testing.T) {
 	require.Equal(t,
-		"http://takwen.co/do/playbooks/runs/testPlaybookRunId/retrospective",
-		getRunRetrospectiveURL("http://takwen.co/do", "testPlaybookRunId"),
+		"http://mattermost.com/playbooks/runs/testPlaybookRunId/retrospective",
+		getRunRetrospectiveURL("http://mattermost.com", "testPlaybookRunId"),
 	)
 }

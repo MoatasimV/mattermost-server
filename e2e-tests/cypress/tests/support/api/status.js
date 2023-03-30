@@ -3,7 +3,7 @@
 
 // *****************************************************************************
 // Status
-// https://api.takwen.co/do/#tag/status
+// https://api.mattermost.com/#tag/status
 // *****************************************************************************
 
 Cypress.Commands.add('apiUpdateUserStatus', (status = 'online') => {

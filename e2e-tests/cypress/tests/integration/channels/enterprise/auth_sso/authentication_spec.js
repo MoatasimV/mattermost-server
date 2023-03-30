@@ -34,7 +34,7 @@ describe('Authentication', () => {
         // # Set restricted domain
         cy.apiUpdateConfig({
             TeamSettings: {
-                RestrictCreationToDomains: 'takwen.co/do, test.com',
+                RestrictCreationToDomains: 'mattermost.com, test.com',
             },
         }).then(() => {
             cy.visit(`/admin_console/user_management/teams/${testTeam.id}`);
@@ -44,7 +44,7 @@ describe('Authentication', () => {
             // # Click "Save"
             cy.findByText('Save').scrollIntoView().click();
 
-            // # Wait until we are at the TAKWEN DOTeams page
+            // # Wait until we are at the Mattermost Teams page
             cy.findByText('Mattermost Teams', {timeout: TIMEOUTS.ONE_MIN}).should('be.visible');
 
             cy.apiLogout();
@@ -89,7 +89,7 @@ describe('Authentication', () => {
                 EnableSignUpWithEmail: true,
             },
             TeamSettings: {
-                RestrictCreationToDomains: 'takwen.co/do, test.com',
+                RestrictCreationToDomains: 'mattermost.com, test.com',
             },
         }).then(() => {
             cy.apiLogout();

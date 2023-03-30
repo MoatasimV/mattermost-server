@@ -388,7 +388,7 @@ func testCreatePostWithOutgoingHook(
 		outGoingHookResponse := &model.OutgoingWebhookResponse{
 			Text:         model.NewString("some test text"),
 			Username:     "TestCommandServer",
-			IconURL:      "https://takwen.co/do/wp-content/uploads/2022/02/icon.png",
+			IconURL:      "https://mattermost.com/wp-content/uploads/2022/02/icon.png",
 			Type:         "custom_as",
 			ResponseType: respPostType,
 		}

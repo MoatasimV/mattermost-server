@@ -53,7 +53,7 @@ exports[`components/channel_header/components/UserGuideDropdown should match sna
         onClick={[Function]}
         show={true}
         text="Ask the community"
-        url="https://takwen.co/do/pl/default-ask-mattermost-community/"
+        url="https://mattermost.com/pl/default-ask-mattermost-community/"
       />
       <MenuItemExternalLink
         id="helpResourcesLink"
@@ -202,7 +202,7 @@ exports[`components/channel_header/components/UserGuideDropdown should match sna
         onClick={[Function]}
         show={true}
         text="Ask the community"
-        url="https://takwen.co/do/pl/default-ask-mattermost-community/"
+        url="https://mattermost.com/pl/default-ask-mattermost-community/"
       />
       <MenuItemExternalLink
         id="helpResourcesLink"

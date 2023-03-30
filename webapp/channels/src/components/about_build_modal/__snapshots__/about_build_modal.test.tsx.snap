@@ -186,7 +186,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
             id="about.licensed"
           />
           <Nbsp />
-          TAKWEN DOInc
+          Mattermost Inc
         </div>
       </div>
     </div>
@@ -199,10 +199,10 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
           id="about.enterpriseEditionLearn"
         />
         <ExternalLink
-          href="https://takwen.co/do/"
+          href="https://mattermost.com/"
           location="about_build_modal"
         >
-          takwen.co/do
+          mattermost.com
         </ExternalLink>
       </div>
       <div
@@ -225,7 +225,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
           className="about-modal__links"
         >
           <ExternalLink
-            href="https://takwen.co/do/terms-of-use/"
+            href="https://mattermost.com/terms-of-use/"
             id="tosLink"
             location="about_build_modal"
           >
@@ -236,7 +236,7 @@ exports[`components/AboutBuildModal should match snapshot for enterprise edition
           </ExternalLink>
            - 
           <ExternalLink
-            href="https://takwen.co/do/privacy-policy/"
+            href="https://mattermost.com/privacy-policy/"
             id="privacyLink"
             location="about_build_modal"
           >
@@ -427,14 +427,14 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
     >
       <div>
         <MemoizedFormattedMessage
-          defaultMessage="Join the TAKWEN DOcommunity at "
+          defaultMessage="Join the Mattermost community at "
           id="about.teamEditionLearn"
         />
         <ExternalLink
-          href="https://takwen.co/do/community/"
+          href="https://mattermost.com/community/"
           location="about_build_modal"
         >
-          takwen.co/do/community/
+          mattermost.com/community/
         </ExternalLink>
       </div>
       <div
@@ -457,7 +457,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
           className="about-modal__links"
         >
           <ExternalLink
-            href="https://takwen.co/do/terms-of-use/"
+            href="https://mattermost.com/terms-of-use/"
             id="tosLink"
             location="about_build_modal"
           >
@@ -468,7 +468,7 @@ exports[`components/AboutBuildModal should match snapshot for team edition 1`] =
           </ExternalLink>
            - 
           <ExternalLink
-            href="https://takwen.co/do/privacy-policy/"
+            href="https://mattermost.com/privacy-policy/"
             id="privacyLink"
             location="about_build_modal"
           >
@@ -669,14 +669,14 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
     >
       <div>
         <MemoizedFormattedMessage
-          defaultMessage="Join the TAKWEN DOcommunity at "
+          defaultMessage="Join the Mattermost community at "
           id="about.teamEditionLearn"
         />
         <ExternalLink
-          href="https://takwen.co/do/community/"
+          href="https://mattermost.com/community/"
           location="about_build_modal"
         >
-          takwen.co/do/community/
+          mattermost.com/community/
         </ExternalLink>
       </div>
       <div
@@ -699,7 +699,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
           className="about-modal__links"
         >
           <ExternalLink
-            href="https://takwen.co/do/terms-of-use/"
+            href="https://mattermost.com/terms-of-use/"
             id="tosLink"
             location="about_build_modal"
           >
@@ -710,7 +710,7 @@ exports[`components/AboutBuildModal should show ci if a ci build 1`] = `
           </ExternalLink>
            - 
           <ExternalLink
-            href="https://takwen.co/do/privacy-policy/"
+            href="https://mattermost.com/privacy-policy/"
             id="privacyLink"
             location="about_build_modal"
           >
@@ -900,14 +900,14 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
     >
       <div>
         <MemoizedFormattedMessage
-          defaultMessage="Join the TAKWEN DOcommunity at "
+          defaultMessage="Join the Mattermost community at "
           id="about.teamEditionLearn"
         />
         <ExternalLink
-          href="https://takwen.co/do/community/"
+          href="https://mattermost.com/community/"
           location="about_build_modal"
         >
-          takwen.co/do/community/
+          mattermost.com/community/
         </ExternalLink>
       </div>
       <div
@@ -930,7 +930,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
           className="about-modal__links"
         >
           <ExternalLink
-            href="https://takwen.co/do/terms-of-use/"
+            href="https://mattermost.com/terms-of-use/"
             id="tosLink"
             location="about_build_modal"
           >
@@ -941,7 +941,7 @@ exports[`components/AboutBuildModal should show dev if this is a dev build 1`] =
           </ExternalLink>
            - 
           <ExternalLink
-            href="https://takwen.co/do/privacy-policy/"
+            href="https://mattermost.com/privacy-policy/"
             id="privacyLink"
             location="about_build_modal"
           >

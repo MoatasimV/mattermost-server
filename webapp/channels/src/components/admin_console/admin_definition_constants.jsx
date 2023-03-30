@@ -32,7 +32,7 @@ const SECTION_TLS = (
         <td>
             <FormattedMessage
                 id='admin.connectionSecurityTlsDescription'
-                defaultMessage='Encrypts the communication between TAKWEN DOand your server.'
+                defaultMessage='Encrypts the communication between Mattermost and your server.'
             />
         </td>
     </tr>
@@ -110,7 +110,7 @@ export const WEBSERVER_MODE_HELP_TEXT = (
                     <td>
                         <FormattedMessage
                             id='admin.webserverModeGzipDescription'
-                            defaultMessage='The TAKWEN DOserver will serve static files compressed with gzip.'
+                            defaultMessage='The Mattermost server will serve static files compressed with gzip.'
                         />
                     </td>
                 </tr>
@@ -124,7 +124,7 @@ export const WEBSERVER_MODE_HELP_TEXT = (
                     <td>
                         <FormattedMessage
                             id='admin.webserverModeUncompressedDescription'
-                            defaultMessage='The TAKWEN DOserver will serve static files uncompressed.'
+                            defaultMessage='The Mattermost server will serve static files uncompressed.'
                         />
                     </td>
                 </tr>
@@ -138,7 +138,7 @@ export const WEBSERVER_MODE_HELP_TEXT = (
                     <td>
                         <FormattedMessage
                             id='admin.webserverModeDisabledDescription'
-                            defaultMessage='The TAKWEN DOserver will not serve static files.'
+                            defaultMessage='The Mattermost server will not serve static files.'
                         />
                     </td>
                 </tr>

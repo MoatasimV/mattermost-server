@@ -81,7 +81,7 @@ describe('components/MessageExportSettings', () => {
                     CustomerType: 'A10',
                     SMTPUsername: 'globalRelayUser',
                     SMTPPassword: 'globalRelayPassword',
-                    EmailAddress: 'globalRelay@takwen.co/do',
+                    EmailAddress: 'globalRelay@mattermost.com',
                 },
             },
         };
@@ -110,7 +110,7 @@ describe('components/MessageExportSettings', () => {
         expect(wrapper.find('#globalRelayCustomerType').prop('value')).toBe('A10');
         expect(wrapper.find('#globalRelaySMTPUsername').prop('value')).toBe('globalRelayUser');
         expect(wrapper.find('#globalRelaySMTPPassword').prop('value')).toBe('globalRelayPassword');
-        expect(wrapper.find('#globalRelayEmailAddress').prop('value')).toBe('globalRelay@takwen.co/do');
+        expect(wrapper.find('#globalRelayEmailAddress').prop('value')).toBe('globalRelay@mattermost.com');
     });
 
     test('should match snapshot, enabled, globalrelay', () => {
@@ -125,7 +125,7 @@ describe('components/MessageExportSettings', () => {
                     CustomerType: 'A10',
                     SMTPUsername: 'globalRelayUser',
                     SMTPPassword: 'globalRelayPassword',
-                    EmailAddress: 'globalRelay@takwen.co/do',
+                    EmailAddress: 'globalRelay@mattermost.com',
                 },
             },
         };
@@ -154,7 +154,7 @@ describe('components/MessageExportSettings', () => {
         expect(wrapper.find('#globalRelayCustomerType').prop('value')).toBe('A10');
         expect(wrapper.find('#globalRelaySMTPUsername').prop('value')).toBe('globalRelayUser');
         expect(wrapper.find('#globalRelaySMTPPassword').prop('value')).toBe('globalRelayPassword');
-        expect(wrapper.find('#globalRelayEmailAddress').prop('value')).toBe('globalRelay@takwen.co/do');
+        expect(wrapper.find('#globalRelayEmailAddress').prop('value')).toBe('globalRelay@mattermost.com');
     });
 });
 

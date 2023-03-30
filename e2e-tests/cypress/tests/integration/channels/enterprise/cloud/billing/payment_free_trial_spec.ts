@@ -71,7 +71,7 @@ describe('System Console - Payment Information section', () => {
         cy.intercept('PUT', '/api/v4/cloud/customer', {
             body: {
                 name: '',
-                email: 'user123@example.takwen.co/do',
+                email: 'user123@example.mattermost.com',
                 num_employees: 0,
                 monthly_subscription_intent_wire_transfer: '',
                 id: 'uniqueID',

@@ -41,7 +41,7 @@ describe('Authentication', () => {
         // # Set restricted domain
         cy.apiUpdateConfig({
             TeamSettings: {
-                RestrictCreationToDomains: 'takwen.co/do, test.com',
+                RestrictCreationToDomains: 'mattermost.com, test.com',
             },
         }).then(() => {
             cy.apiLogout();
@@ -55,7 +55,7 @@ describe('Authentication', () => {
             // # Go to sign up with email page
             cy.visit('/signup_user_complete');
 
-            cy.get('#input_email', {timeout: TIMEOUTS.ONE_MIN}).type(`Hossein2Cool4School${getRandomId()}@takwen.co/do`);
+            cy.get('#input_email', {timeout: TIMEOUTS.ONE_MIN}).type(`Hossein2Cool4School${getRandomId()}@mattermost.com`);
 
             cy.get('#input_password-input').type('Test123456!');
 
@@ -72,7 +72,7 @@ describe('Authentication', () => {
         // # Set restricted domain
         cy.apiUpdateConfig({
             TeamSettings: {
-                RestrictCreationToDomains: 'takwen.co/do, test.com',
+                RestrictCreationToDomains: 'mattermost.com, test.com',
             },
         }).then(() => {
             cy.apiLogin(testUserAlreadyInTeam);
@@ -101,7 +101,7 @@ describe('Authentication', () => {
         // # Set restricted domain
         cy.apiUpdateConfig({
             TeamSettings: {
-                RestrictCreationToDomains: 'takwen.co/do, test.com',
+                RestrictCreationToDomains: 'mattermost.com, test.com',
             },
         }).then(() => {
             cy.apiLogout();

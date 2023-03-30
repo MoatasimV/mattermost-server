@@ -5,7 +5,7 @@ import {getRandomId} from '../../utils';
 
 // *****************************************************************************
 // Teams
-// https://api.takwen.co/do/#tag/teams
+// https://api.mattermost.com/#tag/teams
 // *****************************************************************************
 
 export function createTeamPatch(name = 'team', displayName = 'Team', type = 'O', unique = true) {

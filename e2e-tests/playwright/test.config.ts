@@ -40,7 +40,7 @@ const config: TestConfig = {
     baseURL: process.env.PW_BASE_URL || 'http://localhost:8065',
     adminUsername: process.env.PW_ADMIN_USERNAME || 'sysadmin',
     adminPassword: process.env.PW_ADMIN_PASSWORD || 'Sys@dmin-sample1',
-    adminEmail: process.env.PW_ADMIN_EMAIL || 'sysadmin@sample.takwen.co/do',
+    adminEmail: process.env.PW_ADMIN_EMAIL || 'sysadmin@sample.mattermost.com',
     boardsProductEnabled: parseBool(process.env.PW_BOARDS_PRODUCT_ENABLED, true),
     haClusterEnabled: parseBool(process.env.PW_HA_CLUSTER_ENABLED, false),
     haClusterNodeCount: parseNumber(process.env.PW_HA_CLUSTER_NODE_COUNT, 2),

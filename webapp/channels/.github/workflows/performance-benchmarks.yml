@@ -37,16 +37,16 @@ jobs:
         working-directory: e2e/cypress
         run: |
           if [[ "${{ github.event.pull_request.head.sha }}" != "" ]]; then
-            echo "Using server build from pr-builds.takwen.co/do"
-            curl https://pr-builds.takwen.co/do/mattermost-webapp/commit/${{ github.event.pull_request.head.sha }}/mattermost-enterprise-linux-amd64.tar.gz > mattermost.tar.gz
+            echo "Using server build from pr-builds.mattermost.com"
+            curl https://pr-builds.mattermost.com/mattermost-webapp/commit/${{ github.event.pull_request.head.sha }}/mattermost-enterprise-linux-amd64.tar.gz > mattermost.tar.gz
 
             tar xf mattermost.tar.gz
           else
-            echo "Using server build from releases.takwen.co/do with web app build from pr-builds.takwen.co/do"
+            echo "Using server build from releases.mattermost.com with web app build from pr-builds.mattermost.com"
 
             # Note that the server commit might not be the latest if we merge server and web app branches at the same time
-            curl https://s3.amazonaws.com/releases.takwen.co/do/gitlab/bundle/${{ github.ref_name }}/mattermost-enterprise-linux-amd64.tar.gz > mattermost-server.tar.gz
-            curl https://pr-builds.takwen.co/do/mattermost-webapp/commit/${{ github.sha }}/mattermost-webapp.tar.gz > mattermost-webapp.tar.gz
+            curl https://s3.amazonaws.com/releases.mattermost.com/gitlab/bundle/${{ github.ref_name }}/mattermost-enterprise-linux-amd64.tar.gz > mattermost-server.tar.gz
+            curl https://pr-builds.mattermost.com/mattermost-webapp/commit/${{ github.sha }}/mattermost-webapp.tar.gz > mattermost-webapp.tar.gz
 
             # Unzip the server, replace the web app, and re-add product files
             tar xf mattermost-server.tar.gz
@@ -77,11 +77,11 @@ jobs:
           name: Cypress logs
           path: e2e/cypress/tests/integration/performance/logs/
           retention-days: 3
-      - name: Upload TAKWEN DOlogs
+      - name: Upload Mattermost logs
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: TAKWEN DOlogs
+          name: Mattermost logs
           path: e2e/cypress/mattermost/logs/mattermost.log
           retention-days: 3
       - name: Upload screenshots

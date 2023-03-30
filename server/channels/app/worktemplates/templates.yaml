@@ -212,13 +212,13 @@ visibility: public
 description:
     channel:
         id: "worktemplate.devops.incident_resolution.description.channel"
-        defaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything TAKWEN DOoffers to ensure the fires are put out and stakeholders informed along the way."
+        defaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything Mattermost offers to ensure the fires are put out and stakeholders informed along the way."
     board:
         id: "worktemplate.devops.incident_resolution.description.board"
-        defaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything TAKWEN DOoffers to ensure the fires are put out and stakeholders informed along the way."
+        defaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything Mattermost offers to ensure the fires are put out and stakeholders informed along the way."
     playbook:
         id: "worktemplate.devops.incident_resolution.description.playbook"
-        defaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything TAKWEN DOoffers to ensure the fires are put out and stakeholders informed along the way."
+        defaultMessage: "When everything is going wrong, having a repeatable process is the key to making sure everything is made right as quickly as possible. This Project combines everything Mattermost offers to ensure the fires are put out and stakeholders informed along the way."
 content:
   - playbook:
       id: irpb

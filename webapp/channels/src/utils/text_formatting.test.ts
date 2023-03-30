@@ -234,24 +234,24 @@ describe('handleUnicodeEmoji', () => {
 describe('linkOnlyMarkdown', () => {
     const options = {markdown: false, renderer: new LinkOnlyRenderer()};
     test('link without a title', () => {
-        const text = 'Do you like https://www.takwen.co/do?';
+        const text = 'Do you like https://www.mattermost.com?';
         const output = formatText(text, options, emptyEmojiMap);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.takwen.co/do" target="_blank">' +
-            'https://www.takwen.co/do</a>?');
+            'Do you like <a class="theme markdown__link" href="https://www.mattermost.com" target="_blank">' +
+            'https://www.mattermost.com</a>?');
     });
     test('link with a title', () => {
-        const text = 'Do you like [Mattermost](https://www.takwen.co/do)?';
+        const text = 'Do you like [Mattermost](https://www.mattermost.com)?';
         const output = formatText(text, options, emptyEmojiMap);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.takwen.co/do" target="_blank">' +
+            'Do you like <a class="theme markdown__link" href="https://www.mattermost.com" target="_blank">' +
             'Mattermost</a>?');
     });
     test('link with header signs to skip', () => {
-        const text = '#### Do you like [Mattermost](https://www.takwen.co/do)?';
+        const text = '#### Do you like [Mattermost](https://www.mattermost.com)?';
         const output = formatText(text, options, emptyEmojiMap);
         expect(output).toBe(
-            'Do you like <a class="theme markdown__link" href="https://www.takwen.co/do" target="_blank">' +
+            'Do you like <a class="theme markdown__link" href="https://www.mattermost.com" target="_blank">' +
             'Mattermost</a>?');
     });
 });

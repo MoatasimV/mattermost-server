@@ -280,7 +280,7 @@ function withPrefix(name: string, prefix: string) {
 }
 
 function createEmail(name: string, prefix: string) {
-    return `${prefix}${name}@sample.takwen.co/do`;
+    return `${prefix}${name}@sample.mattermost.com`;
 }
 
 export {

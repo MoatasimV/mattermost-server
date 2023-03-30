@@ -34,7 +34,7 @@ exports[`components/feature_discovery FeatureDiscovery should match snapshot 1`]
     <ExternalLink
       className="btn btn-secondary"
       data-testid="featureDiscovery_secondaryCallToAction"
-      href="https://test.takwen.co/do/secondary/"
+      href="https://test.mattermost.com/secondary/"
       location="feature_discovery"
     >
       <MemoizedFormattedMessage
@@ -98,7 +98,7 @@ exports[`components/feature_discovery FeatureDiscovery should match snapshot whe
     <ExternalLink
       className="btn btn-secondary"
       data-testid="featureDiscovery_secondaryCallToAction"
-      href="https://test.takwen.co/do/secondary/"
+      href="https://test.mattermost.com/secondary/"
       location="feature_discovery"
     >
       <MemoizedFormattedMessage

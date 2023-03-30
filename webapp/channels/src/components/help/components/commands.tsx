@@ -38,7 +38,7 @@ export default function HelpCommands(): JSX.Element {
             <p>
                 <FormattedMessage
                     id='help.commands.intro2'
-                    defaultMessage='Built-in slash commands come with all TAKWEN DOinstallations. See the <link>product documentation</link> for a list of available built-in slash commands.'
+                    defaultMessage='Built-in slash commands come with all Mattermost installations. See the <link>product documentation</link> for a list of available built-in slash commands.'
                     values={{
                         link: (msg: React.ReactNode) => (
                             <ExternalLink

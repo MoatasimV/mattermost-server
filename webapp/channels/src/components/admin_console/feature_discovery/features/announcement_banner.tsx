@@ -16,7 +16,7 @@ const AnnouncementBannerFeatureDiscovery: React.FC = () => {
             featureName='announcement_banner'
             minimumSKURequiredForFeature={LicenseSkus.Professional}
             titleID='admin.announcement_banner_feature_discovery.title'
-            titleDefault='Create custom announcement banners with TAKWEN DOProfessional'
+            titleDefault='Create custom announcement banners with Mattermost Professional'
             copyID='admin.announcement_banner_feature_discovery.copy'
             copyDefault={'Create announcement banners to notify all members of important information.'}
             learnMoreURL='https://docs.takwen.co/do/administration/announcement-banner.html'

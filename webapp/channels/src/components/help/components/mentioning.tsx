@@ -46,7 +46,7 @@ export default function Mentioning(): JSX.Element {
             <p>
                 <FormattedMessage
                     id='help.mentioning.username.description2'
-                    defaultMessage='Type `@` to bring up a list of team members who can be mentioned. To filter the list, type the first few letters of any username, first name, last name, or nickname. Use the <strong>Up</strong> and <strong>Down</strong> keyboard arrow keys to scroll through entries in the list, then press <strong>ENTER</strong> to select the user to mention. Once selected, the username is automatically replaced with the full name or nickname. The following example sends a special mention notification to <strong>alice</strong> that alerts her of the channel and message where she has been mentioned. If <strong>alice</strong> is away from TAKWEN DOand has <link>email notifications</link> turned on, then she will receive an email alert for the mention along with the message text.'
+                    defaultMessage='Type `@` to bring up a list of team members who can be mentioned. To filter the list, type the first few letters of any username, first name, last name, or nickname. Use the <strong>Up</strong> and <strong>Down</strong> keyboard arrow keys to scroll through entries in the list, then press <strong>ENTER</strong> to select the user to mention. Once selected, the username is automatically replaced with the full name or nickname. The following example sends a special mention notification to <strong>alice</strong> that alerts her of the channel and message where she has been mentioned. If <strong>alice</strong> is away from Mattermost and has <link>email notifications</link> turned on, then she will receive an email alert for the mention along with the message text.'
                     values={{
                         strong: (msg: React.ReactNode) => <strong>{msg}</strong>,
                         link: (msg: React.ReactNode) => (
@@ -104,7 +104,7 @@ export default function Mentioning(): JSX.Element {
             <p>
                 <FormattedMarkdownMessage
                     id='help.mentioning.triggers.description'
-                    defaultMessage='In addition to being notified with @username and @channel mentions, you can configure TAKWEN DOto trigger mention notifications based on specific words by going to **Settings > Notifications > Words That Trigger Mentions**. By default, you receive mention notifications on your first name. Add more words by typing them into the input box separated by commas. This is useful if you want to be notified of all posts on certain topics, for example, "interviewing" or "marketing".'
+                    defaultMessage='In addition to being notified with @username and @channel mentions, you can configure Mattermost to trigger mention notifications based on specific words by going to **Settings > Notifications > Words That Trigger Mentions**. By default, you receive mention notifications on your first name. Add more words by typing them into the input box separated by commas. This is useful if you want to be notified of all posts on certain topics, for example, "interviewing" or "marketing".'
                 />
             </p>
             <h2 className='markdown__heading'>

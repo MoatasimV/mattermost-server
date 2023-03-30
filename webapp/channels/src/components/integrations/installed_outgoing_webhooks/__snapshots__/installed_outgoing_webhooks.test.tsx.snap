@@ -254,7 +254,7 @@ exports[`components/integrations/InstalledOutgoingWebhooks should match snapshot
       values={
         Object {
           "appDirectory": <ExternalLink
-            href="https://takwen.co/do/marketplace"
+            href="https://mattermost.com/marketplace"
             location="installed_outgoing_webhooks"
           >
             <Memo(MemoizedFormattedMessage)
@@ -263,7 +263,7 @@ exports[`components/integrations/InstalledOutgoingWebhooks should match snapshot
             />
           </ExternalLink>,
           "buildYourOwn": <ExternalLink
-            href="https://developers.takwen.co/do/integrate/admin-guide/admin-webhooks-outgoing/"
+            href="https://developers.mattermost.com/integrate/admin-guide/admin-webhooks-outgoing/"
             location="installed_outgoing_webhooks"
           >
             <Memo(MemoizedFormattedMessage)

@@ -180,7 +180,7 @@ describe('Compliance Export', () => {
         verifyActianceXMLFile(
             targetFolder,
             'have.string',
-            `<LoginName>${newUser.username}@sample.takwen.co/do</LoginName>`,
+            `<LoginName>${newUser.username}@sample.mattermost.com</LoginName>`,
         );
 
         // # Post a message by Admin
@@ -202,7 +202,7 @@ describe('Compliance Export', () => {
         verifyActianceXMLFile(
             targetFolder,
             'not.have.string',
-            `<LoginName>${newUser.username}@sample.takwen.co/do</LoginName>`,
+            `<LoginName>${newUser.username}@sample.mattermost.com</LoginName>`,
         );
 
         // # Re-activate the user
@@ -227,7 +227,7 @@ describe('Compliance Export', () => {
         verifyActianceXMLFile(
             targetFolder,
             'have.string',
-            `<LoginName>${newUser.username}@sample.takwen.co/do</LoginName>`,
+            `<LoginName>${newUser.username}@sample.mattermost.com</LoginName>`,
         );
     });
 });

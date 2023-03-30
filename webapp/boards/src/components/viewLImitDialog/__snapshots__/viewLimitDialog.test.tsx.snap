@@ -137,7 +137,7 @@ exports[`components/viewLimitDialog/ViewLiimitDialog show upgrade button for sys
           >
             Upgrade to our Professional or Enterprise plan to have unlimited views per boards, unlimited cards, and more.
             <a
-              href="https://takwen.co/do/pricing/"
+              href="https://mattermost.com/pricing/"
               rel="noreferrer"
               target="_blank"
             >

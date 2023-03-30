@@ -59,7 +59,7 @@ func TestCORSRequestHandling(t *testing.T) {
 			"",
 			false,
 			func(req *http.Request) {
-				req.Header.Set("Origin", "http://pre-release.takwen.co/do")
+				req.Header.Set("Origin", "http://pre-release.mattermost.com")
 			},
 			"*",
 			"",
@@ -76,46 +76,46 @@ func TestCORSRequestHandling(t *testing.T) {
 			"",
 		},
 		"CORSEnabledMatching": {
-			"http://takwen.co/do",
+			"http://mattermost.com",
 			"",
 			false,
 			func(req *http.Request) {
-				req.Header.Set("Origin", "http://takwen.co/do")
+				req.Header.Set("Origin", "http://mattermost.com")
 			},
-			"http://takwen.co/do",
+			"http://mattermost.com",
 			"",
 			"",
 		},
 		"CORSEnabledMultiple": {
-			"http://spinmint.com http://takwen.co/do",
+			"http://spinmint.com http://mattermost.com",
 			"",
 			false,
 			func(req *http.Request) {
-				req.Header.Set("Origin", "http://takwen.co/do")
+				req.Header.Set("Origin", "http://mattermost.com")
 			},
-			"http://takwen.co/do",
+			"http://mattermost.com",
 			"",
 			"",
 		},
 		"CORSEnabledWithCredentials": {
-			"http://takwen.co/do",
+			"http://mattermost.com",
 			"",
 			true,
 			func(req *http.Request) {
-				req.Header.Set("Origin", "http://takwen.co/do")
+				req.Header.Set("Origin", "http://mattermost.com")
 			},
-			"http://takwen.co/do",
+			"http://mattermost.com",
 			"",
 			"true",
 		},
 		"CORSEnabledWithHeaders": {
-			"http://takwen.co/do",
+			"http://mattermost.com",
 			"x-my-special-header x-blueberry",
 			true,
 			func(req *http.Request) {
-				req.Header.Set("Origin", "http://takwen.co/do")
+				req.Header.Set("Origin", "http://mattermost.com")
 			},
-			"http://takwen.co/do",
+			"http://mattermost.com",
 			"X-My-Special-Header, X-Blueberry",
 			"true",
 		},

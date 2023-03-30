@@ -199,7 +199,7 @@ export default class MessageExportSettings extends AdminSettings {
                             defaultMessage='Email Address:'
                         />
                     }
-                    placeholder={Utils.localizeMessage('admin.complianceExport.globalRelayEmailAddress.example', 'E.g.: "globalrelay@takwen.co/do"')}
+                    placeholder={Utils.localizeMessage('admin.complianceExport.globalRelayEmailAddress.example', 'E.g.: "globalrelay@mattermost.com"')}
                     helpText={
                         <FormattedMessage
                             id='admin.complianceExport.globalRelayEmailAddress.description'
@@ -244,11 +244,11 @@ export default class MessageExportSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.service.complianceExportDesc'
-                            defaultMessage='When true, TAKWEN DOwill export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more.'
+                            defaultMessage='When true, Mattermost will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more.'
                             values={{
                                 link: (msg) => (
                                     <ExternalLink
-                                        href='https://docs.takwen.co/do/comply/compliance-export.html'
+                                        href='https://docs.mattermost.com/comply/compliance-export.html'
                                         location='message_export_settings'
                                     >
                                         {msg}

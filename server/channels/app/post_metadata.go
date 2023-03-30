@@ -476,7 +476,7 @@ func (a *App) isLinkAllowedForPreview(link string) bool {
 
 func normalizeDomains(domains string) []string {
 	// commas and @ signs are optional
-	// can be in the form of "@corp.takwen.co/do, takwen.co/do mattermost.org" -> corp.takwen.co/do takwen.co/do mattermost.org
+	// can be in the form of "@corp.mattermost.com, mattermost.com mattermost.org" -> corp.mattermost.com mattermost.com mattermost.org
 	return strings.Fields(
 		strings.TrimSpace(
 			strings.ToLower(

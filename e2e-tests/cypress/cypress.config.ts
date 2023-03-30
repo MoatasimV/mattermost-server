@@ -14,7 +14,7 @@ export default defineConfig({
     video: false,
     viewportWidth: 1300,
     env: {
-        adminEmail: 'sysadmin@sample.takwen.co/do',
+        adminEmail: 'sysadmin@sample.mattermost.com',
         adminUsername: 'sysadmin',
         adminPassword: 'Sys@dmin-sample1',
         allowedUntrustedInternalConnections: 'localhost',

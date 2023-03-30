@@ -40,7 +40,7 @@ class Constants {
     static readonly versionString = '7.10.0'
     static readonly versionDisplayString = 'Apr 2023'
 
-    static readonly archiveHelpPage = 'https://docs.takwen.co/do/boards/migrate-to-boards.html'
+    static readonly archiveHelpPage = 'https://docs.mattermost.com/boards/migrate-to-boards.html'
     static readonly imports = [
         {
             id: 'trello',

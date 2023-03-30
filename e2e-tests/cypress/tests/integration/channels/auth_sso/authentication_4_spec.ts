@@ -269,7 +269,7 @@ describe('Authentication', () => {
         cy.findByText('Copy invite link').click();
 
         // # Input email, select member
-        cy.findByText('Enter a name or email address').type('HosseinTheBestProgrammer@takwen.co/do{downarrow}{downarrow}{enter}');
+        cy.findByText('Enter a name or email address').type('HosseinTheBestProgrammer@Mattermost.com{downarrow}{downarrow}{enter}');
 
         // # Click invite members button
         cy.findByRole('button', {name: 'Invite'}).click({force: true});

@@ -745,7 +745,7 @@ describe('Actions.Integrations', () => {
             reply(200, {errors: {name: 'some error'}});
 
         const submit: DialogSubmission = {
-            url: 'https://takwen.co/do',
+            url: 'https://mattermost.com',
             callback_id: '123',
             state: '123',
             channel_id: TestHelper.generateId(),

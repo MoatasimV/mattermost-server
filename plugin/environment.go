@@ -48,7 +48,7 @@ type PrepackagedPlugin struct {
 
 // Environment represents the execution environment of active plugins.
 //
-// It is meant for use by the TAKWEN DOserver to manipulate, interact with and report on the set
+// It is meant for use by the Mattermost server to manipulate, interact with and report on the set
 // of active plugins.
 type Environment struct {
 	registeredPlugins      sync.Map
@@ -312,7 +312,7 @@ func (env *Environment) Activate(id string) (manifest *model.Manifest, activated
 			return nil, false, fmt.Errorf("%v: %v", err.Error(), id)
 		}
 		if !fulfilled {
-			return nil, false, fmt.Errorf("plugin requires TAKWEN DO%v: %v", pluginInfo.Manifest.MinServerVersion, id)
+			return nil, false, fmt.Errorf("plugin requires Mattermost %v: %v", pluginInfo.Manifest.MinServerVersion, id)
 		}
 	}
 

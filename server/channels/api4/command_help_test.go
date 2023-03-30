@@ -30,9 +30,9 @@ func TestHelpCommand(t *testing.T) {
 	assert.Contains(t, rs1.Text, model.SupportSettingsDefaultHelpLink, "failed to default help link")
 
 	th.App.UpdateConfig(func(cfg *model.Config) {
-		*cfg.SupportSettings.HelpLink = "https://docs.takwen.co/do/guides/user.html"
+		*cfg.SupportSettings.HelpLink = "https://docs.mattermost.com/guides/user.html"
 	})
 	rs2, _, err := client.ExecuteCommand(channel.Id, "/help ")
 	require.NoError(t, err)
-	assert.Contains(t, rs2.Text, "https://docs.takwen.co/do/guides/user.html", "failed to help link")
+	assert.Contains(t, rs2.Text, "https://docs.mattermost.com/guides/user.html", "failed to help link")
 }

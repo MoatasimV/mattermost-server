@@ -135,7 +135,7 @@ describe('EmojiUtils', () => {
             expect(EmojiUtils.getEmojiImageUrl(TestHelper.getSystemEmojiMock({short_names: ['system_emoji_short_names']}))).toBe('/static/emoji/system_emoji_short_names.png');
         });
 
-        test('return correct url for TAKWEN DOemoji', () => {
+        test('return correct url for mattermost emoji', () => {
             expect(EmojiUtils.getEmojiImageUrl(TestHelper.getCustomEmojiMock({id: 'mattermost', category: 'custom'}))).toBe('/static/emoji/mattermost.png');
 
             expect(EmojiUtils.getEmojiImageUrl(TestHelper.getCustomEmojiMock({id: 'mattermost'}))).toBe('/static/emoji/mattermost.png');

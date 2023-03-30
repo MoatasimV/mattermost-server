@@ -21,7 +21,7 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-const helpText = "###### TAKWEN DOPlaybooks Plugin - Slash Command Help\n" +
+const helpText = "###### Mattermost Playbooks Plugin - Slash Command Help\n" +
 	"* `/playbook run` - Run a playbook. \n" +
 	"* `/playbook finish` - Finish the playbook run in this channel. \n" +
 	"* `/playbook update` - Provide a status update. \n" +
@@ -35,12 +35,12 @@ const helpText = "###### TAKWEN DOPlaybooks Plugin - Slash Command Help\n" +
 	"* `/playbook settings digest [on/off]` - turn daily digest on/off. \n" +
 	"* `/playbook settings weekly-digest [on/off]` - turn weekly digest on/off. \n" +
 	"\n" +
-	"Learn more [in our documentation](https://takwen.co/do/pl/default-incident-response-app-documentation). \n" +
+	"Learn more [in our documentation](https://mattermost.com/pl/default-incident-response-app-documentation). \n" +
 	""
 
 const confirmPrompt = "CONFIRM"
 
-// Register is a function that allows the runner to register commands with the TAKWEN DOserver.
+// Register is a function that allows the runner to register commands with the mattermost server.
 type Register func(*model.Command) error
 
 // RegisterCommands should be called by the plugin to register all necessary commands
@@ -1982,7 +1982,7 @@ func (r *Runner) actionNukeDB(args []string) {
 	r.postCommandResponse("DB has been reset.")
 }
 
-// Execute should be called by the plugin when a command invocation is received from the TAKWEN DOserver.
+// Execute should be called by the plugin when a command invocation is received from the Mattermost server.
 func (r *Runner) Execute() error {
 	if err := r.isValid(); err != nil {
 		return err

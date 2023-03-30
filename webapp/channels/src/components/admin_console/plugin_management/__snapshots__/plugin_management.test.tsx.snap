@@ -36,7 +36,7 @@ exports[`components/PluginManagement should match snapshot 1`] = `
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -72,7 +72,7 @@ exports[`components/PluginManagement should match snapshot 1`] = `
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -179,7 +179,7 @@ exports[`components/PluginManagement should match snapshot 1`] = `
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -297,7 +297,7 @@ exports[`components/PluginManagement should match snapshot 1`] = `
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -386,7 +386,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Marketp
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -422,7 +422,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Marketp
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -529,7 +529,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Marketp
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -647,7 +647,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Marketp
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -744,7 +744,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Plugins
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -833,7 +833,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Remote 
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -869,7 +869,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Remote 
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -976,7 +976,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Remote 
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -1094,7 +1094,7 @@ exports[`components/PluginManagement should match snapshot when \`Enable Remote 
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -1183,7 +1183,7 @@ exports[`components/PluginManagement should match snapshot when \`Require Signat
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -1219,7 +1219,7 @@ exports[`components/PluginManagement should match snapshot when \`Require Signat
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -1328,7 +1328,7 @@ exports[`components/PluginManagement should match snapshot when \`Require Signat
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -1446,7 +1446,7 @@ exports[`components/PluginManagement should match snapshot when \`Require Signat
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -1535,7 +1535,7 @@ exports[`components/PluginManagement should match snapshot, No installed plugins
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -1571,7 +1571,7 @@ exports[`components/PluginManagement should match snapshot, No installed plugins
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -1678,7 +1678,7 @@ exports[`components/PluginManagement should match snapshot, No installed plugins
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -1796,7 +1796,7 @@ exports[`components/PluginManagement should match snapshot, No installed plugins
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -1889,7 +1889,7 @@ exports[`components/PluginManagement should match snapshot, allow insecure URL e
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -1925,7 +1925,7 @@ exports[`components/PluginManagement should match snapshot, allow insecure URL e
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -2032,7 +2032,7 @@ exports[`components/PluginManagement should match snapshot, allow insecure URL e
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -2150,7 +2150,7 @@ exports[`components/PluginManagement should match snapshot, allow insecure URL e
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -2239,7 +2239,7 @@ exports[`components/PluginManagement should match snapshot, disabled 1`] = `
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -2275,7 +2275,7 @@ exports[`components/PluginManagement should match snapshot, disabled 1`] = `
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -2566,7 +2566,7 @@ exports[`components/PluginManagement should match snapshot, text entered into th
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -2602,7 +2602,7 @@ exports[`components/PluginManagement should match snapshot, text entered into th
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -2709,7 +2709,7 @@ exports[`components/PluginManagement should match snapshot, text entered into th
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -2827,7 +2827,7 @@ exports[`components/PluginManagement should match snapshot, text entered into th
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -2916,7 +2916,7 @@ exports[`components/PluginManagement should match snapshot, upload disabled 1`] 
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -2952,7 +2952,7 @@ exports[`components/PluginManagement should match snapshot, upload disabled 1`] 
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -3184,7 +3184,7 @@ exports[`components/PluginManagement should match snapshot, upload disabled 1`] 
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -3273,7 +3273,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -3309,7 +3309,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -3416,7 +3416,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -3534,7 +3534,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -3686,7 +3686,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -3722,7 +3722,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -3829,7 +3829,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -3947,7 +3947,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -4067,7 +4067,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -4103,7 +4103,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -4210,7 +4210,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -4328,7 +4328,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -4448,7 +4448,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -4484,7 +4484,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -4591,7 +4591,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -4709,7 +4709,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>
@@ -4829,7 +4829,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, enables plugins on your TAKWEN DOserver. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                defaultMessage="When true, enables plugins on your Mattermost server. Use plugins to integrate with third-party systems, extend functionality, or customize the user interface of your Mattermost server. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.enableDesc"
                 values={
                   Object {
@@ -4865,7 +4865,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
             }
             helpText={
               <Memo(MemoizedFormattedMessage)
-                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during TAKWEN DOserver startup and initialization. See <link>documentation</link> to learn more."
+                defaultMessage="When true, uploading plugins is disabled and may only be installed through the Marketplace. Plugins are always verified during Mattermost server startup and initialization. See <link>documentation</link> to learn more."
                 id="admin.plugins.settings.requirePluginSignatureDesc"
                 values={
                   Object {
@@ -4972,7 +4972,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Upload a plugin for your TAKWEN DOserver. See <link>documentation</link> to learn more."
+                  defaultMessage="Upload a plugin for your Mattermost server. See <link>documentation</link> to learn more."
                   id="admin.plugin.uploadDesc"
                   values={
                     Object {
@@ -5090,7 +5090,7 @@ exports[`components/PluginManagement should match snapshot, with installed plugi
                 className="help-text"
               >
                 <MemoizedFormattedMessage
-                  defaultMessage="Installed plugins on your TAKWEN DOserver."
+                  defaultMessage="Installed plugins on your Mattermost server."
                   id="admin.plugin.installedDesc"
                 />
               </p>

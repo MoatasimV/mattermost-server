@@ -421,7 +421,7 @@ exports[`components/post_view/MessageAttachment should match snapshot when the a
         className="attachment__title"
       >
         <Connect(Markdown)
-          message="Do you like https://takwen.co/do?"
+          message="Do you like https://mattermost.com?"
           options={
             Object {
               "autolinkedUrlSchemes": Array [],

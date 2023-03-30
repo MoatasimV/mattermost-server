@@ -10,7 +10,7 @@ import cloudDefaultConfig from './cloud_default_config.json';
 
 // *****************************************************************************
 // System
-// https://api.takwen.co/do/#tag/system
+// https://api.mattermost.com/#tag/system
 // *****************************************************************************
 
 function hasLicenseForFeature(license, key) {

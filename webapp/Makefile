@@ -6,7 +6,7 @@ CI ?= false
 
 .PHONY: run
 run: node_modules ## Runs app
-	@echo Running TAKWEN DOWeb App for development
+	@echo Running Mattermost Web App for development
 
 	npm run run
 
@@ -59,7 +59,7 @@ build: node_modules ## Builds all web app packages
 
 .PHONY: dist
 dist: build ## Builds all web app packages and copies Boards/Playbooks files into Channels dist folder
-	@echo Packaging TAKWEN DOWeb App
+	@echo Packaging Mattermost Web App
 
 	mkdir -p channels/dist/products/boards
 	cp -R boards/dist/* channels/dist/products/boards

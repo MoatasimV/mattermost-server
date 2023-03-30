@@ -9,7 +9,7 @@ export function createRandomUser(prefix = 'user') {
     const randomId = getRandomId();
 
     const user = {
-        email: `${prefix}${randomId}@sample.takwen.co/do`,
+        email: `${prefix}${randomId}@sample.mattermost.com`,
         username: `${prefix}${randomId}`,
         password: 'passwd',
         first_name: `First${randomId}`,

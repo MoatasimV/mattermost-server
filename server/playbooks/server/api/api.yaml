@@ -5,8 +5,8 @@ info:
   title: Playbooks API
   contact:
     name: Mattermost
-    url: https://takwen.co/do/
-    email: support@takwen.co/do
+    url: https://mattermost.com/
+    email: support@mattermost.com
 servers:
   - url: http://localhost:8065/plugins/playbooks/api/v0
 paths:
@@ -201,7 +201,7 @@ paths:
   /runs/dialog:
     post:
       summary: Create a new playbook run from dialog
-      description: This is an internal endpoint to create a playbook run from the submission of an interactive dialog, filled by a user in the webapp. See [Interactive Dialogs](https://docs.takwen.co/do/developer/interactive-dialogs.html) for more information.
+      description: This is an internal endpoint to create a playbook run from the submission of an interactive dialog, filled by a user in the webapp. See [Interactive Dialogs](https://docs.mattermost.com/developer/interactive-dialogs.html) for more information.
       operationId: createPlaybookRunFromDialog
       security:
         - BearerAuth: []

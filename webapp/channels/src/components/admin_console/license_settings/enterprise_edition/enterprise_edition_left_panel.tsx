@@ -110,7 +110,7 @@ const EnterpriseEditionLeftPanel = ({
             <div className='subtitle'>
                 <FormattedMessage
                     id='admin.license.enterpriseEdition.subtitle'
-                    defaultMessage='This is an Enterprise Edition for the TAKWEN DO{skuName} plan'
+                    defaultMessage='This is an Enterprise Edition for the Mattermost {skuName} plan'
                     values={{skuName}}
                 />
             </div>
@@ -140,7 +140,7 @@ const EnterpriseEditionLeftPanel = ({
             <div className='license-notices'>
                 {upgradedFromTE ? <>
                     <p>
-                        {'When using TAKWEN DOEnterprise Edition, the software is offered under a commercial license. See '}
+                        {'When using Mattermost Enterprise Edition, the software is offered under a commercial license. See '}
                         <a
                             role='button'
                             onClick={openEELicenseModal}
@@ -288,7 +288,7 @@ const renderRemoveButton = (
     let removeButtonText = (
         <FormattedMessage
             id='admin.license.keyRemove'
-            defaultMessage='Remove license and downgrade to TAKWEN DOFree'
+            defaultMessage='Remove license and downgrade to Mattermost Free'
         />
     );
     if (removing) {

@@ -91,7 +91,7 @@ build: setup-go-work build-client build-linux build-windows build-osx
 build-cmd: setup-go-work build-client build-cmd-linux build-cmd-windows build-cmd-osx
 
 build-client:
-	@echo Building TAKWEN DOweb app
+	@echo Building mattermost web app
 
 	cd $(BUILD_WEBAPP_DIR) && $(MAKE) dist
 
@@ -138,15 +138,15 @@ endif
 		cp ../manifest.txt $(DIST_PATH); \
 	fi
 
-	@# Import TAKWEN DOplugin public key
+	@# Import Mattermost plugin public key
 	gpg --import build/plugin-production-public-key.gpg
 
 	@# Download prepackaged plugins
 	mkdir -p tmpprepackaged
 	@cd tmpprepackaged && for plugin_package in $(PLUGIN_PACKAGES) ; do \
 		for ARCH in "osx-amd64" "windows-amd64" "linux-amd64" ; do \
-			curl -f -O -L https://plugins-store.test.takwen.co/do/release/$$plugin_package-$$ARCH.tar.gz; \
-			curl -f -O -L https://plugins-store.test.takwen.co/do/release/$$plugin_package-$$ARCH.tar.gz.sig; \
+			curl -f -O -L https://plugins-store.test.mattermost.com/release/$$plugin_package-$$ARCH.tar.gz; \
+			curl -f -O -L https://plugins-store.test.mattermost.com/release/$$plugin_package-$$ARCH.tar.gz.sig; \
 		done; \
 	done
 
@@ -197,14 +197,14 @@ endif
 package-osx-amd64: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_OSX_AMD64) CURRENT_PACKAGE_ARCH=darwin_amd64 PLUGIN_ARCH=osx-amd64 MMCTL_PLATFORM="Darwin-x86_64" MM_BIN_NAME=mattermost $(MAKE) package-general
 	@# Package
-	tar -C $(DIST_PATH_OSX_AMD64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-osx-amd64.tar.gz TAKWEN DO../mattermost
+	tar -C $(DIST_PATH_OSX_AMD64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-osx-amd64.tar.gz mattermost ../mattermost
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/osx_amd64
 
 package-osx-arm64: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_OSX_ARM64) CURRENT_PACKAGE_ARCH=darwin_arm64 PLUGIN_ARCH=osx-arm64 MMCTL_PLATFORM="Darwin-arm64" MM_BIN_NAME=mattermost $(MAKE) package-general
 	@# Package
-	tar -C $(DIST_PATH_OSX_ARM64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-osx-arm64.tar.gz TAKWEN DO../mattermost
+	tar -C $(DIST_PATH_OSX_ARM64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-osx-arm64.tar.gz mattermost ../mattermost
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/osx_arm64
 
@@ -213,14 +213,14 @@ package-osx: package-osx-amd64 package-osx-arm64
 package-linux-amd64: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_LIN_AMD64) CURRENT_PACKAGE_ARCH=linux_amd64 PLUGIN_ARCH=linux-amd64 MMCTL_PLATFORM="Linux-x86_64" MM_BIN_NAME=mattermost $(MAKE) package-general
 	@# Package
-	tar -C $(DIST_PATH_LIN_AMD64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-linux-amd64.tar.gz TAKWEN DO../mattermost
+	tar -C $(DIST_PATH_LIN_AMD64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-linux-amd64.tar.gz mattermost ../mattermost
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/linux_amd64
 
 package-linux-arm64: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_LIN_ARM64) CURRENT_PACKAGE_ARCH=linux_arm64 PLUGIN_ARCH=linux-arm64 MMCTL_PLATFORM="Linux-aarch64" MM_BIN_NAME=mattermost $(MAKE) package-general
 	@# Package
-	tar -C $(DIST_PATH_LIN_ARM64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-linux-arm64.tar.gz TAKWEN DO../mattermost
+	tar -C $(DIST_PATH_LIN_ARM64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-linux-arm64.tar.gz mattermost ../mattermost
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/linux_arm64
 
@@ -260,7 +260,7 @@ endif
 		fi; \
 	done
 	@# Package
-	cd $(DIST_PATH_WIN)/.. && zip -9 -r -q -l ../mattermost-$(BUILD_TYPE_NAME)-windows-amd64.zip TAKWEN DO../mattermost && cd ../..
+	cd $(DIST_PATH_WIN)/.. && zip -9 -r -q -l ../mattermost-$(BUILD_TYPE_NAME)-windows-amd64.zip mattermost ../mattermost && cd ../..
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/windows
 

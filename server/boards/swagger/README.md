@@ -50,22 +50,22 @@ curl -X GET \
  "http://localhost:8000/api/v2/teams/0/boards"
 ```
 
-# Differences for TAKWEN DOBoards
+# Differences for Mattermost Boards
 
-The auto-generated Swagger API documentation is for Focalboard Personal Server. If you are calling the API on TAKWEN DOBoards, the additional changes are:
+The auto-generated Swagger API documentation is for Focalboard Personal Server. If you are calling the API on Mattermost Boards, the additional changes are:
 
 ### API URLs endpoint
 
-The API endpoint is at `https://SERVERNAME/plugins/focalboard/api/`, e.g. `https://community.takwen.co/do/plugins/focalboard/api/`.
+The API endpoint is at `https://SERVERNAME/plugins/focalboard/api/`, e.g. `https://community.mattermost.com/plugins/focalboard/api/`.
 
-### Use the TAKWEN DOauth token
+### Use the Mattermost auth token
 
-Refer to the [Mattermost API documentation here](https://api.takwen.co/do/#tag/authentication) on how to obtain the auth token.
+Refer to the [Mattermost API documentation here](https://api.mattermost.com/#tag/authentication) on how to obtain the auth token.
 
 Pass this token as a bearer token to the Boards APIs, e.g.
 
 ```
-curl -i -H "X-Requested-With: XMLHttpRequest" -H 'Authorization: Bearer abcdefghijklmnopqrstuvwxyz' https://community.takwen.co/do/plugins/focalboard/api/v2/workspaces
+curl -i -H "X-Requested-With: XMLHttpRequest" -H 'Authorization: Bearer abcdefghijklmnopqrstuvwxyz' https://community.mattermost.com/plugins/focalboard/api/v2/workspaces
 ```
 
 Note that the `X-Requested-With: XMLHttpRequest` header is required to pass the CSRF check.

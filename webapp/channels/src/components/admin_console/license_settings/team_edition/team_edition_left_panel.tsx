@@ -19,9 +19,9 @@ const TeamEdition: React.FC<TeamEditionProps> = ({openEELicenseModal, currentPla
             </div>
             <hr/>
             <div>
-                <p>{'When using TAKWEN DOTeam Edition, the software is offered under a TAKWEN DOMIT Compiled License. See MIT-COMPILED-LICENSE.md in your root install directory for details.'}</p>
+                <p>{'When using Mattermost Team Edition, the software is offered under a Mattermost MIT Compiled License. See MIT-COMPILED-LICENSE.md in your root install directory for details.'}</p>
                 <p>
-                    {'When using TAKWEN DOEnterprise Edition, the software is offered under a commercial license. See '}
+                    {'When using Mattermost Enterprise Edition, the software is offered under a commercial license. See '}
                     <a
                         role='button'
                         onClick={openEELicenseModal}

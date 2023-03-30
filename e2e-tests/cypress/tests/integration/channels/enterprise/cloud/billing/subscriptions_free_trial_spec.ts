@@ -54,7 +54,7 @@ function simulateSubscription() {
         statusCode: 200,
         body: {
             name: 'Test environment ',
-            email: 'test.takwen.co/do@takwen.co/do',
+            email: 'test.mattermost.com@mattermost.com',
             num_employees: 12,
             monthly_subscription_alt_payment_method: '',
             id: 'oip7khhhkpbk7cjkrf7m66qyas',

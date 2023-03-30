@@ -34,7 +34,7 @@ exports[`components/BleveSettings should match snapshot, disabled 1`] = `
             values={
               Object {
                 "documentationLink": <ExternalLink
-                  href="https://docs.takwen.co/do/deploy/bleve-search.html"
+                  href="https://docs.mattermost.com/deploy/bleve-search.html"
                   location="bleve_settings"
                 >
                   <Memo(MemoizedFormattedMessage)
@@ -296,7 +296,7 @@ exports[`components/BleveSettings should match snapshot, enabled 1`] = `
             values={
               Object {
                 "documentationLink": <ExternalLink
-                  href="https://docs.takwen.co/do/deploy/bleve-search.html"
+                  href="https://docs.mattermost.com/deploy/bleve-search.html"
                   location="bleve_settings"
                 >
                   <Memo(MemoizedFormattedMessage)

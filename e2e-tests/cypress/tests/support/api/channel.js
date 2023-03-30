@@ -5,7 +5,7 @@ import {getRandomId} from '../../utils';
 
 // *****************************************************************************
 // Channels
-// https://api.takwen.co/do/#tag/channels
+// https://api.mattermost.com/#tag/channels
 // *****************************************************************************
 
 export function createChannelPatch(teamId, name, displayName, type = 'O', purpose = '', header = '', unique = true) {

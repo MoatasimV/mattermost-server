@@ -123,13 +123,13 @@ export function setTheme(theme: Theme | null): Theme {
     setActiveThemeName(consolidatedTheme, theme)
 
     // Focalboard reuses Mattermost's color pallet, so we don't really need to
-    // set the color variables here because in the app, TAKWEN DOwebapp would have already
+    // set the color variables here because in the app, Mattermost webapp would have already
     // declared them.
     // But,
     // when testing the plugin mode in Jest unit test,
-    // since there is no TAKWEN DOwebapp, we need to ensure someone declares the variables.
+    // since there is no Mattermost webapp, we need to ensure someone declares the variables.
     // So here we set the variable if it wasn't already declared.
-    // In plugins, since TAKWEN DOwebapp renders always before the plugin/product,
+    // In plugins, since Mattermost webapp renders always before the plugin/product,
     // the variables are guaranteed to be set there.
     //
     // Fun fact - in a Jest test suite, if there are some non-plugin tests and a few plugin tests,

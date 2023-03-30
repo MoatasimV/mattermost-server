@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "La configurazione email di TAKWEN DOè corretta!"
+    "translation": "La configurazione email di Mattermost è corretta!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -633,7 +633,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Impossibile trovare il canale {{.Channel}}. Usare [channel handle](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
+    "translation": "Impossibile trovare il canale {{.Channel}}. Usare [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
   },
   {
     "id": "api.command_invite.desc",
@@ -777,7 +777,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Impossibile trovare il canale {{.Channel}}. Usare [channel handle](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
+    "translation": "Impossibile trovare il canale {{.Channel}}. Usare [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
   },
   {
     "id": "api.command_mute.hint",
@@ -789,7 +789,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Impossibile trovare il canale specificato. Usare [channel handle](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
+    "translation": "Impossibile trovare il canale specificato. Usare [channel handle](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) per identificare i canali."
   },
   {
     "id": "api.command_mute.not_member.error",
@@ -1533,11 +1533,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "L'utente Slack è stato unito ad un utente TAKWEN DOcon email {{.Email}} e nome-utente {{.Username}}.\r\n"
+    "translation": "L'utente Slack è stato unito ad un utente Mattermost con email {{.Email}} e nome-utente {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "L'utente Slack è stato unito ad un utente TAKWEN DOcon email {{.Email}} e nome-utente {{.Username}}, ma non è stato possibile aggiungere l'utente al team.\r\n"
+    "translation": "L'utente Slack è stato unito ad un utente Mattermost con email {{.Email}} e nome-utente {{.Username}}, ma non è stato possibile aggiungere l'utente al team.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -3225,7 +3225,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Impossibile trovare gli utenti AD/LDAP. Controllare se il server TAKWEN DOriesce a collegarsi al server AD/LDAP e riprovare."
+    "translation": "Impossibile trovare gli utenti AD/LDAP. Controllare se il server Mattermost riesce a collegarsi al server AD/LDAP e riprovare."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -5261,7 +5261,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} disattivato. Hanno gestito questi account bot che adesso sono disattivati.\n\n{{.BotNames}}{{else}}{{.UserName}} disattivato. Hanno gestito {{.NumBots}} account bot che sono stati disattivati, inclusi i seguenti:\n\n{{.BotNames}}{{end}}Puoi impossessarti di ciascuno di questi bot attivandoli in **Integrazioni > Account Bot** e creando nuovi token per il bot.\n\nPer ulteriori informazioni, vedere la [documentazione](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} disattivato. Hanno gestito i sequenti account bot che sono ancora attivi.\n\n{{.BotNames}}\n{{else}}{{.UserName}} disattivato. Hanno gestito {{.NumBots}} account bot che sono ancora attivi, inclusi i seguenti:\n\n{{.BotNames}}{{end}} Si raccomanda caldamente di impossessarsi di ciascuno di questi bot riattivandoli in **Integrazioni > Account Bot** e creando nuovi token per i bot.\n\nPer ulteriori informazioni, vedere la [documentazione](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nSe desideri che gli account bot siano disattivati automaticamente dopo la disattivazione dell'utente, impostare “Disattiva gli account bot dopo la disattivazione dell'utente” nella *Console di Sistema > Integrazioni > Account Bot** a vero.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} disattivato. Hanno gestito questi account bot che adesso sono disattivati.\n\n{{.BotNames}}{{else}}{{.UserName}} disattivato. Hanno gestito {{.NumBots}} account bot che sono stati disattivati, inclusi i seguenti:\n\n{{.BotNames}}{{end}}Puoi impossessarti di ciascuno di questi bot attivandoli in **Integrazioni > Account Bot** e creando nuovi token per il bot.\n\nPer ulteriori informazioni, vedere la [documentazione](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} disattivato. Hanno gestito i sequenti account bot che sono ancora attivi.\n\n{{.BotNames}}\n{{else}}{{.UserName}} disattivato. Hanno gestito {{.NumBots}} account bot che sono ancora attivi, inclusi i seguenti:\n\n{{.BotNames}}{{end}} Si raccomanda caldamente di impossessarsi di ciascuno di questi bot riattivandoli in **Integrazioni > Account Bot** e creando nuovi token per i bot.\n\nPer ulteriori informazioni, vedere la [documentazione](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nSe desideri che gli account bot siano disattivati automaticamente dopo la disattivazione dell'utente, impostare “Disattiva gli account bot dopo la disattivazione dell'utente” nella *Console di Sistema > Integrazioni > Account Bot** a vero.{{end}}"
   },
   {
     "id": "app.channel.get_channels.not_found.app_error",
@@ -5393,7 +5393,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Limite Dimensione Superato. Controllare [dimensione massima pagina](https://docs.takwen.co/do/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)."
+    "translation": "Limite Dimensione Superato. Controllare [dimensione massima pagina](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)."
   },
   {
     "id": "group_not_associated_to_synced_team",
@@ -5473,7 +5473,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Scarica l'app TAKWEN DOoppure utilizza un browser supportato per un'esperienza migliore."
+    "translation": "Scarica l'app Mattermost oppure utilizza un browser supportato per un'esperienza migliore."
   },
   {
     "id": "model.config.is_valid.bleve_search.enable_autocomplete.app_error",
@@ -5485,7 +5485,7 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Impossibile ottenere una licenza di prova, per favore riprovare o contattare support@takwen.co/do."
+    "translation": "Impossibile ottenere una licenza di prova, per favore riprovare o contattare support@mattermost.com."
   },
   {
     "id": "api.team.import_team.unknown_import_from.app_error",
@@ -5661,7 +5661,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Licenza TAKWEN DOEnteprise disabilitata."
+    "translation": "Licenza Mattermost Enteprise disabilitata."
   },
   {
     "id": "api.user.create_user.guest_accounts.disabled.app_error",
@@ -6009,7 +6009,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Devi accettare l'Accordo di Valutazione Software TAKWEN DOe la Politica sulla Privacy per richiedere una licenza."
+    "translation": "Devi accettare l'Accordo di Valutazione Software Mattermost e la Politica sulla Privacy per richiedere una licenza."
   },
   {
     "id": "api.invalid_channel",
@@ -6181,7 +6181,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
-    "translation": "Se ci sono ulteriori richieste, contattare support@takwen.co/do"
+    "translation": "Se ci sono ulteriori richieste, contattare support@mattermost.com"
   },
   {
     "id": "api.templates.warn_metric_ack.body.site_url_header",
@@ -6205,15 +6205,15 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
-    "translation": "Aggiorna TAKWEN DOa edizione enterprise"
+    "translation": "Aggiorna Mattermost a edizione enterprise"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost consiglia caldamente che le installazioni con più di 500 utenti si aggiornino a TAKWEN DOEnterprise Edition, che offre funzionalità avanzate come la gestione utenti, il server clustering e il monitore delle performance.\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "Mattermost consiglia caldamente che le installazioni con più di 500 utenti si aggiornino a Mattermost Enterprise Edition, che offre funzionalità avanzate come la gestione utenti, il server clustering e il monitore delle performance.\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Il tuo TAKWEN DOadesso ha 200 utenti. Man mano che la tua base di utenti cresce, gestire ulteriori account può richiedere molto tempo. Ti consigliamo di aggiornare il tuo sistema a TAKWEN DOEnterprise Edition e integrarlo nell'Active Directory/LDAP della tua organizzazione, che consentirà a chiunque con un account di accedere a Mattermost. Gli utenti potranno accedere senza dover creare nuovi nomi utente e nuove password e gli amministratori risparmieranno tempo nel gestire gli account.\n\n[Scopri di più su come integrare AD/LDAP](https://docs.takwen.co/do/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "Il tuo Mattermost adesso ha 200 utenti. Man mano che la tua base di utenti cresce, gestire ulteriori account può richiedere molto tempo. Ti consigliamo di aggiornare il tuo sistema a Mattermost Enterprise Edition e integrarlo nell'Active Directory/LDAP della tua organizzazione, che consentirà a chiunque con un account di accedere a Mattermost. Gli utenti potranno accedere senza dover creare nuovi nomi utente e nuove password e gli amministratori risparmieranno tempo nel gestire gli account.\n\n[Scopri di più su come integrare AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
@@ -6249,7 +6249,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_footer",
-    "translation": "Se ci sono ulteriori richieste, per favore contattare support@takwen.co/do"
+    "translation": "Se ci sono ulteriori richieste, per favore contattare support@mattermost.com"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_email_header",
@@ -6657,11 +6657,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
-    "translation": "Aggiorna TAKWEN DOa edizione enterprise"
+    "translation": "Aggiorna Mattermost a edizione enterprise"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Il tuo TAKWEN DOadesso ha 200 utenti. Man mano che la tua base di utenti cresce, gestire ulteriori account può richiedere molto tempo. Ti consigliamo di aggiornare il tuo sistema a TAKWEN DOEnterprise Edition e integrarlo nell'Active Directory/LDAP della tua organizzazione, che consentirà a chiunque con un account di accedere a Mattermost. Gli utenti potranno accedere senza dover creare nuovi nomi utente e nuove password e gli amministratori risparmieranno tempo nel gestire gli account.\n\n[Scopri di più su come integrare AD/LDAP](https://docs.takwen.co/do/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://takwen.co/do/pl/default-admin-advisory)"
+    "translation": "Il tuo Mattermost adesso ha 200 utenti. Man mano che la tua base di utenti cresce, gestire ulteriori account può richiedere molto tempo. Ti consigliamo di aggiornare il tuo sistema a Mattermost Enterprise Edition e integrarlo nell'Active Directory/LDAP della tua organizzazione, che consentirà a chiunque con un account di accedere a Mattermost. Gli utenti potranno accedere senza dover creare nuovi nomi utente e nuove password e gli amministratori risparmieranno tempo nel gestire gli account.\n\n[Scopri di più su come integrare AD/LDAP](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nContattando il servizio clienti, le tue informazioni di contatto verranno inviate a Mattermost, Inc. [Per saperne di più](https://mattermost.com/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",

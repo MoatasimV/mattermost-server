@@ -1,7 +1,7 @@
 {
   "name": "@mattermost/types",
   "version": "7.9.0",
-  "description": "Shared type definitions used by the TAKWEN DOweb app",
+  "description": "Shared type definitions used by the Mattermost web app",
   "keywords": [
     "mattermost"
   ],

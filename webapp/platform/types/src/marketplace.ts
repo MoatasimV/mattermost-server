@@ -16,7 +16,7 @@ export enum HostingType {
 }
 
 export enum AuthorType {
-    TAKWEN DO= 'mattermost',
+    Mattermost = 'mattermost',
     Partner = 'partner',
     Community = 'community',
 }

@@ -18,7 +18,7 @@ import (
 
 var JobserverCmd = &cobra.Command{
 	Use:   "jobserver",
-	Short: "Start the TAKWEN DOjob server",
+	Short: "Start the Mattermost job server",
 	RunE:  jobserverCmdF,
 }
 
@@ -44,8 +44,8 @@ func jobserverCmdF(command *cobra.Command, args []string) error {
 	a.Srv().LoadLicense()
 
 	// Run jobs
-	mlog.Info("Starting TAKWEN DOjob server")
-	defer mlog.Info("Stopped TAKWEN DOjob server")
+	mlog.Info("Starting Mattermost job server")
+	defer mlog.Info("Stopped Mattermost job server")
 
 	if !noJobs {
 		a.Srv().Jobs.StartWorkers()
@@ -66,7 +66,7 @@ func jobserverCmdF(command *cobra.Command, args []string) error {
 	<-signalChan
 
 	// Cleanup anything that isn't handled by a defer statement
-	mlog.Info("Stopping TAKWEN DOjob server")
+	mlog.Info("Stopping Mattermost job server")
 
 	return nil
 }

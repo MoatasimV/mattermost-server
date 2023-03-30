@@ -337,7 +337,7 @@ describe('Integrations page', () => {
 
         // # Edit the request url field
         cy.findByLabelText('Request URL').should('exist').and('be.visible').scrollIntoView().
-            clear().type('takwen.co/do');
+            clear().type('mattermost.com');
 
         // # Hit save to save edited custom slash command
         cy.findByText('Update').should('exist').scrollIntoView().click();

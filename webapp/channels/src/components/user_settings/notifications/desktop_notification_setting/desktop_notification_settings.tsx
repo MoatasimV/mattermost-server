@@ -193,7 +193,7 @@ export default class DesktopNotificationSettings extends React.PureComponent<Pro
                         <div className='mt-5'>
                             <FormattedMessage
                                 id='user.settings.notifications.sounds_info'
-                                defaultMessage='Notification sounds are available on Firefox, Edge, Safari, Chrome and TAKWEN DODesktop Apps.'
+                                defaultMessage='Notification sounds are available on Firefox, Edge, Safari, Chrome and Mattermost Desktop Apps.'
                             />
                         </div>
                     </fieldset>
@@ -320,7 +320,7 @@ export default class DesktopNotificationSettings extends React.PureComponent<Pro
                     <div className='mt-5'>
                         <FormattedMessage
                             id='user.settings.notifications.info'
-                            defaultMessage='Desktop notifications are available on Edge, Firefox, Safari, Chrome and TAKWEN DODesktop Apps.'
+                            defaultMessage='Desktop notifications are available on Edge, Firefox, Safari, Chrome and Mattermost Desktop Apps.'
                         />
                     </div>
                 </fieldset>

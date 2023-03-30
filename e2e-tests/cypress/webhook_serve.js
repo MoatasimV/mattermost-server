@@ -273,7 +273,7 @@ function getWebhookResponse(body, {responseType, username, iconUrl}) {
 \`\`\`
 #### Outgoing Webhook Payload
 ${payload}
-#### Webhook override to TAKWEN DOinstance
+#### Webhook override to Mattermost instance
 - response_type: "${responseType}"
 - type: ""
 - username: "${username}"

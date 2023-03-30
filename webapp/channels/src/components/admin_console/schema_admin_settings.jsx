@@ -1132,7 +1132,7 @@ export default class SchemaAdminSettings extends React.PureComponent {
                     // nothing to validate, and validation would fail anyways and prevent saving
                     // In practice, this only happens in custom cloud setup environments like RFQA
                     // where it sets things in the config file directly instead of in the environment
-                    // (like cloud TAKWEN DOdoes)
+                    // (like cloud Mattermost does)
                     continue;
                 }
                 const result = setting.validate(this.state[setting.key]);

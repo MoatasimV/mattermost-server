@@ -18,7 +18,7 @@ describe('Managing bots in Teams and Channels', () => {
     before(() => {
         cy.apiUpdateConfig({
             TeamSettings: {
-                RestrictCreationToDomains: 'sample.takwen.co/do',
+                RestrictCreationToDomains: 'sample.mattermost.com',
             },
         });
         cy.apiInitSetup({loginAfter: true}).then((out) => {

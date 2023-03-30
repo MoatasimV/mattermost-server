@@ -1,3 +1,3 @@
-# TAKWEN DOChangelog
+# Mattermost Changelog
 
-Please see [Mattermost Changelog](http://docs.takwen.co/do/administration/changelog.html) in product documentation.
+Please see [Mattermost Changelog](http://docs.mattermost.com/administration/changelog.html) in product documentation.

@@ -65,7 +65,7 @@ export default class ClusterTable extends React.PureComponent {
                         <WarningIcon/>
                         <FormattedMessage
                             id='admin.cluster.version_mismatch_warning'
-                            defaultMessage='WARNING: Multiple versions of TAKWEN DOhas been detected in your HA cluster. Unless you are currently performing an upgrade please ensure all nodes in your cluster are running the same TAKWEN DOversion to avoid platform disruption.'
+                            defaultMessage='WARNING: Multiple versions of Mattermost has been detected in your HA cluster. Unless you are currently performing an upgrade please ensure all nodes in your cluster are running the same Mattermost version to avoid platform disruption.'
                         />
                     </div>
                 );

@@ -63,7 +63,7 @@ export interface Subscription {
     deleteAt?: number
 }
 
-// The TAKWEN DOwebsocket client interface
+// The Mattermost websocket client interface
 export interface MMWebSocketClient {
     conn: WebSocket | null
     sendMessage(action: string, data: any, responseCallback?: () => void): void /* eslint-disable-line @typescript-eslint/no-explicit-any */
@@ -322,9 +322,9 @@ class WSClient {
 
     open(): void {
         if (this.client !== null) {
-            // configure the TAKWEN DOwebsocket client callbacks
+            // configure the Mattermost websocket client callbacks
             const onConnect = () => {
-                Utils.log('WSClient in plugin mode, reusing TAKWEN DOWS connection')
+                Utils.log('WSClient in plugin mode, reusing Mattermost WS connection')
 
                 // if there are any subscriptions set by the
                 // components, send their subscribe messages

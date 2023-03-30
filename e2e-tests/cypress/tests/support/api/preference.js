@@ -5,7 +5,7 @@ import theme from '../../fixtures/theme.json';
 
 // *****************************************************************************
 // Preferences
-// https://api.takwen.co/do/#tag/preferences
+// https://api.mattermost.com/#tag/preferences
 // *****************************************************************************
 
 /**

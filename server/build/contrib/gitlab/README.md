@@ -1,6 +1,6 @@
 # GitLab CI/CD configuration for Mattermost
 
-The [.gitlab-ci.yml](./.gitlab-ci.yml) file in this directory provides a [GitLab CI/CD configuration file](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html) that can be used to run linting and unit testing for the TAKWEN DOapplication.
+The [.gitlab-ci.yml](./.gitlab-ci.yml) file in this directory provides a [GitLab CI/CD configuration file](https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html) that can be used to run linting and unit testing for the Mattermost application.
 
 ## Usage
 

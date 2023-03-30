@@ -160,7 +160,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                                 documentationLink: (
                                     <ExternalLink
                                         location='elasticsearch_settings'
-                                        href='https://docs.takwen.co/do/scale/elasticsearch.html'
+                                        href='https://docs.mattermost.com/scale/elasticsearch.html'
                                     >
                                         <FormattedMessage
                                             id='admin.elasticsearch.enableIndexingDescription.documentationLinkText'
@@ -193,7 +193,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                                 documentationLink: (
                                     <ExternalLink
                                         location='elasticsearch_settings'
-                                        href='https://docs.takwen.co/do/scale/elasticsearch.html'
+                                        href='https://docs.mattermost.com/scale/elasticsearch.html'
                                     >
                                         <FormattedMessage
                                             id='admin.elasticsearch.connectionUrlExample.documentationLinkText'
@@ -280,7 +280,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.elasticsearch.skipTLSVerificationDescription'
-                            defaultMessage='When true, TAKWEN DOwill not require the Elasticsearch certificate to be signed by a trusted Certificate Authority.'
+                            defaultMessage='When true, Mattermost will not require the Elasticsearch certificate to be signed by a trusted Certificate Authority.'
                         />
                     }
                     value={this.state.skipTLSVerification}
@@ -353,7 +353,7 @@ export default class ElasticsearchSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.elasticsearch.testHelpText'
-                            defaultMessage='Tests if the TAKWEN DOserver can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. A successful test will also re-initialize the client if you have started Elasticsearch after starting Mattermost. But this will not restart the workers. To do that, please toggle "Enable Elasticsearch Indexing".'
+                            defaultMessage='Tests if the Mattermost server can connect to the Elasticsearch server specified. Testing the connection only saves the configuration if the test is successful. A successful test will also re-initialize the client if you have started Elasticsearch after starting Mattermost. But this will not restart the workers. To do that, please toggle "Enable Elasticsearch Indexing".'
                         />
                     }
                     buttonText={

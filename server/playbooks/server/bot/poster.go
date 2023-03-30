@@ -183,12 +183,12 @@ func (b *Bot) NotifyAdmins(messageType, authorUserID string, isTeamEdition bool)
 	separator := "\n\n---\n\n"
 	if isCloud {
 		postType = "custom_cloud_upgrade"
-		footer = separator + "[Upgrade now](https://customers.takwen.co/do)."
+		footer = separator + "[Upgrade now](https://customers.mattermost.com)."
 	} else {
-		footer = "[Learn more](https://takwen.co/do/pricing).\n\nWhen you select **Start 30-day trial**, you agree to the [Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/), [Privacy Policy](https://takwen.co/do/privacy-policy/), and receiving product emails."
+		footer = "[Learn more](https://mattermost.com/pricing).\n\nWhen you select **Start 30-day trial**, you agree to the [Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), and receiving product emails."
 
 		if isTeamEdition {
-			footer = "[Learn more](https://takwen.co/do/pricing).\n\n[Convert to TAKWEN DOStarter](https://docs.takwen.co/do/install/ee-install.html#converting-team-edition-to-enterprise-edition) to unlock this feature. Then, start a trial or upgrade to TAKWEN DOProfessional or Enterprise."
+			footer = "[Learn more](https://mattermost.com/pricing).\n\n[Convert to Mattermost Starter](https://docs.mattermost.com/install/ee-install.html#converting-team-edition-to-enterprise-edition) to unlock this feature. Then, start a trial or upgrade to Mattermost Professional or Enterprise."
 		}
 	}
 

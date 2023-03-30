@@ -3,7 +3,7 @@
 
 // *****************************************************************************
 // SAML
-// https://api.takwen.co/do/#tag/SAML
+// https://api.mattermost.com/#tag/SAML
 // *****************************************************************************
 
 Cypress.Commands.add('apiGetSAMLCertificateStatus', () => {
