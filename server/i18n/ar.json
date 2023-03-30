@@ -953,7 +953,7 @@
   },
   {
     "id": "api.channel.remove_members.denied",
-    "translation": "تم رفض حذف عضوية المستخدمين التاليين للقناة بسبب قيود المجموعة: {{ .UserIDs }}"
+    "translation": "تم رفض حذف عضوية المستخدمين التاليين للقناة بسبب قيود المجموعة: {{.UserIDs}}"
   },
   {
     "id": "api.channel.remove_member.removed",
@@ -969,7 +969,7 @@
   },
   {
     "id": "api.channel.remove.default.app_error",
-    "translation": "لا يمكن حذف المستخدِم من المحادثة الإفتراضية {{Channel.}}"
+    "translation": "لا يمكن حذف المستخدِم من المحادثة الإفتراضية {{.Channel}}."
   },
   {
     "id": "api.channel.post_user_add_remove_message_and_forget.error",
@@ -1029,7 +1029,7 @@
   },
   {
     "id": "api.channel.leave.default.app_error",
-    "translation": "لايمكن مغادرة القناة الافتراضية {{Channel.}}"
+    "translation": "لايمكن مغادرة القناة الافتراضية {{.Channel}}."
   },
   {
     "id": "api.channel.join_channel.post_and_forget",
@@ -1053,7 +1053,7 @@
   },
   {
     "id": "api.channel.delete_channel.cannot.app_error",
-    "translation": "لايمكن حذف القناة الافتراضية {{Channel.}}."
+    "translation": "لايمكن حذف القناة الافتراضية {{.Channel}}.."
   },
   {
     "id": "api.channel.delete_channel.archived",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "api.channel.create_channel.max_channel_limit.app_error",
-    "translation": "لا يمكن إنشاء اكثر من {{MaxChannelsPerTeam.}} قناة للفريق الحالي"
+    "translation": "لا يمكن إنشاء اكثر من {{.MaxChannelsPerTeam}} قناة للفريق الحالي"
   },
   {
     "id": "api.channel.create_channel.direct_channel.app_error",
@@ -1109,7 +1109,7 @@
   },
   {
     "id": "api.channel.add_members.user_denied",
-    "translation": "تم رفض عضوية المستخدمين التاليين للقناة بسبب قيود المجموعة: {{ .UserIDs }}"
+    "translation": "تم رفض عضوية المستخدمين التاليين للقناة بسبب قيود المجموعة: {{.UserIDs}}"
   },
   {
     "id": "api.channel.add_members.error",

@@ -18,13 +18,16 @@ import messages_sv from 'i18n/sv.json'
 import messages_tr from 'i18n/tr.json'
 import messages_zhHans from 'i18n/zh_Hans.json'
 import messages_zhHant from 'i18n/zh_Hant.json'
+import messages_ar from 'i18n/ar.json'
 
 import {UserSettings} from './userSettings'
 
-const supportedLanguages = ['ca', 'de', 'el', 'en', 'es', 'fr', 'id', 'it', 'ja', 'nl', 'oc', 'pt-br', 'ru', 'sv', 'tr', 'zh-cn', 'zh-tw']
+const supportedLanguages = ['ar', 'ca', 'de', 'el', 'en', 'es', 'fr', 'id', 'it', 'ja', 'nl', 'oc', 'pt-br', 'ru', 'sv', 'tr', 'zh-cn', 'zh-tw']
 
 export function getMessages(lang: string): {[key: string]: string} {
     switch (lang) {
+    case 'ar':
+        return messages_ar
     case 'ca':
         return messages_ca
     case 'de':

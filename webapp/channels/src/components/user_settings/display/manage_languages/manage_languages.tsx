@@ -42,6 +42,20 @@ type State = {
 };
 
 export class ManageLanguage extends React.PureComponent<Props, State> {
+    componentDidUpdate(prevProps: Props) {
+        if (prevProps.locale !== this.props.locale) {
+            this.updateHtmlDirAttribute();
+        }
+    }
+    updateHtmlDirAttribute() {
+        const htmlElement = document.querySelector('html');
+        if (this.props.locale === 'ar') {
+            htmlElement?.setAttribute('dir', 'rtl');
+        } else {
+            htmlElement?.removeAttribute('dir');
+        }
+    }
+
     reactSelectContainer: React.RefObject<HTMLDivElement>;
     constructor(props: Props) {
         super(props);
@@ -69,6 +83,7 @@ export class ManageLanguage extends React.PureComponent<Props, State> {
                 this.handleContainerKeyDown,
             );
         }
+        this.updateHtmlDirAttribute();
     }
 
     componentWillUnmount() {
