@@ -109,7 +109,7 @@ const LearnMoreTrialModal = (
                     height={180}
                 />
             ),
-            pageURL: 'https://docs.takwen.co/do/onboard/sso-saml.html',
+            pageURL: 'https://docs.mattermost.com/onboard/sso-saml.html',
             buttonLabel,
         },
         {
@@ -123,7 +123,7 @@ const LearnMoreTrialModal = (
                     height={180}
                 />
             ),
-            pageURL: 'https://docs.takwen.co/do/onboard/ad-ldap.html',
+            pageURL: 'https://docs.mattermost.com/onboard/ad-ldap.html',
             buttonLabel,
         },
         {

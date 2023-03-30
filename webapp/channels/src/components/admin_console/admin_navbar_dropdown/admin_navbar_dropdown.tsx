@@ -79,7 +79,7 @@ class AdminNavbarDropdown extends React.PureComponent<Props> {
         let commercialSupport = (
             <Menu.ItemExternalLink
                 onClick={() => trackEvent('admin', 'click_administrators_support')}
-                url='https://takwen.co/do/support/'
+                url='https://mattermost.com/support/'
                 text={formatMessage({id: 'admin.nav.commercialSupport', defaultMessage: 'Commercial Support'})}
             />
         );
@@ -94,9 +94,9 @@ class AdminNavbarDropdown extends React.PureComponent<Props> {
             );
         }
 
-        let adminGuideLink = 'https://docs.takwen.co/do/guides/administration.html';
+        let adminGuideLink = 'https://docs.mattermost.com/guides/administration.html';
         if (isCloud) {
-            adminGuideLink = 'https://docs.takwen.co/do/guides/administration.html#cloud-workspace-management';
+            adminGuideLink = 'https://docs.mattermost.com/guides/administration.html#cloud-workspace-management';
         }
 
         return (
@@ -113,7 +113,7 @@ class AdminNavbarDropdown extends React.PureComponent<Props> {
                     />
                     <Menu.ItemExternalLink
                         onClick={() => trackEvent('admin', 'click_administrators_forum')}
-                        url={'https://forum.takwen.co/do/t/how-to-use-the-troubleshooting-forum/150'}
+                        url={'https://forum.mattermost.com/t/how-to-use-the-troubleshooting-forum/150'}
                         text={formatMessage({id: 'admin.nav.troubleshootingForum', defaultMessage: 'Troubleshooting Forum'})}
                     />
                     {commercialSupport}

@@ -51,7 +51,7 @@ export default function Mentioning(): JSX.Element {
                         strong: (msg: React.ReactNode) => <strong>{msg}</strong>,
                         link: (msg: React.ReactNode) => (
                             <ExternalLink
-                                href='https://docs.takwen.co/do/messaging/configuring-notifications.html#email-notifications'
+                                href='https://docs.mattermost.com/messaging/configuring-notifications.html#email-notifications'
                                 location='mentioning_help'
                             >
                                 {msg}

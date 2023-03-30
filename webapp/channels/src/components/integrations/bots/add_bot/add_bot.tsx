@@ -633,7 +633,7 @@ export default class AddBot extends React.PureComponent<Props, State> {
                                     values={{
                                         link: (msg: React.ReactNode) => (
                                             <ExternalLink
-                                                href='https://developers.takwen.co/do/integrate/admin-guide/admin-personal-access-token/'
+                                                href='https://developers.mattermost.com/integrate/admin-guide/admin-personal-access-token/'
                                                 location='add_bot'
                                             >
                                                 {msg}

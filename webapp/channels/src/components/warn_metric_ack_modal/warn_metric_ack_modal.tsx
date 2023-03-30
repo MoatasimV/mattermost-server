@@ -106,7 +106,7 @@ export default class WarnMetricAckModal extends React.PureComponent<Props, State
             return '';
         }
 
-        const mailRecipient = 'support-advisor@takwen.co/do';
+        const mailRecipient = 'support-advisor@mattermost.com';
         const mailSubject = 'Mattermost Contact Us request';
         let mailBody = 'Mattermost Contact Us request.';
         if (this.props.warnMetricStatus.id === WarnMetricTypes.SYSTEM_WARN_METRIC_NUMBER_OF_ACTIVE_USERS_500) {
@@ -131,7 +131,7 @@ export default class WarnMetricAckModal extends React.PureComponent<Props, State
         mailBody += 'Telemetry Id ' + this.props.telemetryId;
         mailBody += '\r\n';
 
-        mailBody += 'If you have any additional inquiries, please contact support@takwen.co/do';
+        mailBody += 'If you have any additional inquiries, please contact support@mattermost.com';
 
         const mailToLinkText = 'mailto:' + mailRecipient + '?cc=' + this.props.user.email + '&subject=' + encodeURIComponent(mailSubject) + '&body=' + encodeURIComponent(mailBody);
 
@@ -178,7 +178,7 @@ export default class WarnMetricAckModal extends React.PureComponent<Props, State
         }
 
         let descriptionText;
-        const learnMoreLink = 'https://takwen.co/do/pl/default-admin-advisory';
+        const learnMoreLink = 'https://mattermost.com/pl/default-admin-advisory';
 
         if (this.props.warnMetricStatus.id === WarnMetricTypes.SYSTEM_WARN_METRIC_NUMBER_OF_ACTIVE_USERS_500) {
             descriptionText = (

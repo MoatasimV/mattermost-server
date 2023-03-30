@@ -59,7 +59,7 @@ export const ViewLimitModal = (props: Props): JSX.Element => {
                 defaultMessage='Upgrade to our Professional or Enterprise plan to have unlimited views per boards, unlimited cards, and more.'
             />
             <a
-                href='https://takwen.co/do/pricing/'
+                href='https://mattermost.com/pricing/'
                 target='_blank'
                 rel='noreferrer'
             >

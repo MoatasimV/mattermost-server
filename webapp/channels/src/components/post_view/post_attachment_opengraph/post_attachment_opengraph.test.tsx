@@ -32,10 +32,10 @@ const openGraphData = {
         width: 2400}],
     locale: '',
     locales_alternate: null,
-    site_name: 'takwen.co/do',
+    site_name: 'Mattermost.com',
     title: 'Mattermost | Open Source Collaboration for Developers',
     type: 'website',
-    url: 'https://www.takwen.co/do',
+    url: 'https://www.mattermost.com',
     videos: null,
 };
 
@@ -69,14 +69,14 @@ const initialState = {
 };
 
 describe('PostAttachmentOpenGraph', () => {
-    const imageUrl = 'http://takwen.co/do/OpenGraphImage.jpg';
+    const imageUrl = 'http://mattermost.com/OpenGraphImage.jpg';
     const toggleEmbedVisibility = jest.fn();
     const post = {
         id: 'post_id_1',
         root_id: 'root_id',
         channel_id: 'channel_id',
         create_at: 1,
-        message: 'https://takwen.co/do',
+        message: 'https://mattermost.com',
         metadata: {
             images: {
                 [imageUrl]: {
@@ -92,7 +92,7 @@ describe('PostAttachmentOpenGraph', () => {
     const baseProps = {
         post,
         postId: '',
-        link: 'http://takwen.co/do',
+        link: 'http://mattermost.com',
         currentUserId: '1234',
         openGraphData: {
             description: 'description',

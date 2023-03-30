@@ -12,7 +12,7 @@ const ConvertEnterpriseNotice = () => (
             <StyledOl>
                 <li>
                     <a
-                        href={'https://docs.takwen.co/do/install/ee-install.html#converting-team-edition-to-enterprise-edition'}
+                        href={'https://docs.mattermost.com/install/ee-install.html#converting-team-edition-to-enterprise-edition'}
                         target={'_blank'}
                         rel='noreferrer'
                     >

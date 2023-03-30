@@ -256,7 +256,7 @@ export default function ChannelMembersRHS({
                         }, {
                             link: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://docs.takwen.co/do/welcome/about-user-roles.html#channel-admin'
+                                    href='https://docs.mattermost.com/welcome/about-user-roles.html#channel-admin'
                                     location='channel_members_rhs'
                                 >
                                     {msg}

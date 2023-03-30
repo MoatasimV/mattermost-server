@@ -65,7 +65,7 @@ describe('components/post_view/embedded_bindings/embedded_binding', () => {
         const props = {
             ...baseProps,
             attachment: {
-                title: 'Do you like https://takwen.co/do?',
+                title: 'Do you like https://mattermost.com?',
             } as MessageAttachmentType,
         };
 

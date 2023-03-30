@@ -19,7 +19,7 @@ const GuestAccessFeatureDiscovery: React.FC = () => {
             titleDefault='Enable guest accounts with Mattermost Professional'
             copyID='admin.guest_access_feature_discovery.copy'
             copyDefault={'Collaborate with users outside of your organization while tightly controlling their access channels and team members.'}
-            learnMoreURL='https://docs.takwen.co/do/deployment/guest-accounts.html'
+            learnMoreURL='https://docs.mattermost.com/deployment/guest-accounts.html'
             featureDiscoveryImage={<GuestAccessSVG/>}
         />
     );

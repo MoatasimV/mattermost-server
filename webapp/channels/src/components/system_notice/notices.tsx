@@ -43,7 +43,7 @@ const notices: Notice[] = [
                 values={{
                     link: (msg: React.ReactNode) => (
                         <ExternalLink
-                            href='https://api.takwen.co/do/#tag/APIv3-Deprecation'
+                            href='https://api.mattermost.com/#tag/APIv3-Deprecation'
                             location='system_notices'
                         >
                             {msg}
@@ -77,7 +77,7 @@ const notices: Notice[] = [
                 values={{
                     link: (msg: React.ReactNode) => (
                         <ExternalLink
-                            href='https://docs.takwen.co/do/deployment/advanced-permissions.html'
+                            href='https://docs.mattermost.com/deployment/advanced-permissions.html'
                             location='system_notices'
                         >
                             {msg}
@@ -117,7 +117,7 @@ const notices: Notice[] = [
                 values={{
                     link: (msg: React.ReactNode) => (
                         <ExternalLink
-                            href='https://takwen.co/do/performance'
+                            href='https://mattermost.com/performance'
                             location='system_notices'
                         >
                             {msg}
@@ -163,7 +163,7 @@ const notices: Notice[] = [
                 values={{
                     link: (msg: React.ReactNode) => (
                         <ExternalLink
-                            href='https://forum.takwen.co/do/t/mattermost-is-dropping-support-for-internet-explorer-ie11-in-v5-16/7575'
+                            href='https://forum.mattermost.com/t/mattermost-is-dropping-support-for-internet-explorer-ie11-in-v5-16/7575'
                             location='system_notices'
                         >
                             {msg}

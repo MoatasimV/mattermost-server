@@ -104,7 +104,7 @@ export default class PermissionSchemesSettings extends React.PureComponent<Props
 
         const docLink = (
             <ExternalLink
-                href='https://docs.takwen.co/do/administration/config-settings.html#jobs'
+                href='https://docs.mattermost.com/administration/config-settings.html#jobs'
                 location='permission_scheme_settings'
             >
                 <FormattedMessage
@@ -169,7 +169,7 @@ export default class PermissionSchemesSettings extends React.PureComponent<Props
                     subtitleValues={{
                         link: (msg: React.ReactNode) => (
                             <ExternalLink
-                                href='https://docs.takwen.co/do/onboard/advanced-permissions.html'
+                                href='https://docs.mattermost.com/onboard/advanced-permissions.html'
                                 location='permission_scheme_settings'
                             >
                                 {msg}
@@ -238,7 +238,7 @@ export default class PermissionSchemesSettings extends React.PureComponent<Props
                                         values={{
                                             link: (msg: React.ReactNode) => (
                                                 <ExternalLink
-                                                    href='https://docs.takwen.co/do/onboard/advanced-permissions.html'
+                                                    href='https://docs.mattermost.com/onboard/advanced-permissions.html'
                                                     location='permission_scheme_settings'
                                                 >
                                                     {msg}
@@ -259,7 +259,7 @@ export default class PermissionSchemesSettings extends React.PureComponent<Props
                             subtitleValues={{
                                 link: (msg: React.ReactNode) => (
                                     <ExternalLink
-                                        href='https://docs.takwen.co/do/onboard/advanced-permissions.html'
+                                        href='https://docs.mattermost.com/onboard/advanced-permissions.html'
                                         location='permission_scheme_settings'
                                     >
                                         {msg}

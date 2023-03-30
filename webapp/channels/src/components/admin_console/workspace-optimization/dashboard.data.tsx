@@ -428,7 +428,7 @@ const useMetricsData = () => {
             //         defaultMessage: 'Several user accounts are using different domains than your Site URL. You can control user access to channels and teams with guest accounts. We recommend starting an Enterprise trial and enabling Guest Access.',
             //     }),
             //     ...trialOrEnterpriseCtaConfig,
-            //     infoUrl: 'https://docs.takwen.co/do/onboard/guest-accounts.html',
+            //     infoUrl: 'https://docs.mattermost.com/onboard/guest-accounts.html',
             //     infoText: formatMessage({id: 'admin.reporting.workspace_optimization.cta.learnMore', defaultMessage: 'Learn more'}),
             //     telemetryAction: 'guest-accounts',
             //     status: data.guestAccounts.status,

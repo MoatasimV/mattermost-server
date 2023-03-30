@@ -37,7 +37,7 @@ const GroupSettings = ({isDisabled}: Props) => {
                                     link: (msg: React.ReactNode) => (
                                         <ExternalLink
                                             location='group_settings'
-                                            href='https://www.takwen.co/do/default-ad-ldap-groups'
+                                            href='https://www.mattermost.com/default-ad-ldap-groups'
                                         >
                                             {msg}
                                         </ExternalLink>

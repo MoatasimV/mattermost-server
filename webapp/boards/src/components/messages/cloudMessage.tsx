@@ -19,7 +19,7 @@ import CompassIcon from 'src/widgets/icons/compassIcon'
 import TelemetryClient, {TelemetryCategory, TelemetryActions} from 'src/telemetry/telemetryClient'
 
 import './cloudMessage.scss'
-const signupURL = 'https://takwen.co/do/pricing'
+const signupURL = 'https://mattermost.com/pricing'
 const displayAfter = (1000 * 60 * 60 * 24) //24 hours
 
 const CloudMessage = () => {

@@ -108,7 +108,7 @@ export default class OpenIdConvert extends React.PureComponent<Props, State> {
                         <ExternalLink
                             className='btn-secondary'
                             location='openid_convert'
-                            href='https://www.takwen.co/do/default-openid-docs'
+                            href='https://www.mattermost.com/default-openid-docs'
                             data-testid='openIdLearnMore'
                         >
                             <FormattedMessage

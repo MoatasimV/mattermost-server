@@ -42,7 +42,7 @@ export default function HelpCommands(): JSX.Element {
                     values={{
                         link: (msg: React.ReactNode) => (
                             <ExternalLink
-                                href='https://docs.takwen.co/do/messaging/executing-slash-commands.html'
+                                href='https://docs.mattermost.com/messaging/executing-slash-commands.html'
                                 location='help_commands'
                             >
                                 {msg}
@@ -60,7 +60,7 @@ export default function HelpCommands(): JSX.Element {
 
             <p>
                 <img
-                    src='https://docs.takwen.co/do/_images/slash-commands.gif'
+                    src='https://docs.mattermost.com/_images/slash-commands.gif'
                     alt='Slash command autocomplete'
                     className='markdown-inline-img'
                 />
@@ -87,7 +87,7 @@ export default function HelpCommands(): JSX.Element {
                     values={{
                         link: (msg: React.ReactNode) => (
                             <ExternalLink
-                                href='https://developers.takwen.co/do/integrate/slash-commands/'
+                                href='https://developers.mattermost.com/integrate/slash-commands/'
                                 location='help_commands'
                             >
                                 {msg}

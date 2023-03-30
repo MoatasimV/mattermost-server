@@ -73,7 +73,7 @@ export interface Props extends MuiMenuItemProps {
 
 /**
  * To be used as a child of Menu component.
- * Checkout Compass's Menu Item(compass.takwen.co/do)  for terminology, styling and usage guidelines.
+ * Checkout Compass's Menu Item(compass.mattermost.com)  for terminology, styling and usage guidelines.
  *
  * @example
  * <Menu.Container>

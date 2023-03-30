@@ -34,7 +34,7 @@ export default function Messaging(): JSX.Element {
             </p>
             <p>
                 <img
-                    src='https://docs.takwen.co/do/_images/reply-icon.png'
+                    src='https://docs.mattermost.com/_images/reply-icon.png'
                     alt='Reply Arrow icon'
                     className='markdown-inline-img'
                 />
@@ -53,7 +53,7 @@ export default function Messaging(): JSX.Element {
             </p>
             <p>
                 <img
-                    src='https://docs.takwen.co/do/_images/messagesTable1.png'
+                    src='https://docs.mattermost.com/_images/messagesTable1.png'
                     alt='Use Markdown in your messages'
                     className='markdown-inline-img'
                 />
@@ -66,7 +66,7 @@ export default function Messaging(): JSX.Element {
                         strong: (msg: React.ReactNode) => <strong>{msg}</strong>,
                         link: (msg: React.ReactNode) => (
                             <ExternalLink
-                                href='https://docs.takwen.co/do/messaging/using-emoji.html#creating-custom-emojis'
+                                href='https://docs.mattermost.com/messaging/using-emoji.html#creating-custom-emojis'
                                 location='messaging_help'
                             >
                                 {msg}

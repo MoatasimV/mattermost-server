@@ -459,7 +459,7 @@ export default class UserAccessTokenSection extends React.PureComponent<Props, S
                         values={{
                             linkTokens: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://developers.takwen.co/do/integrate/admin-guide/admin-personal-access-token/'
+                                    href='https://developers.mattermost.com/integrate/admin-guide/admin-personal-access-token/'
                                     location='user_access_token_section'
                                 >
                                     {msg}
@@ -467,7 +467,7 @@ export default class UserAccessTokenSection extends React.PureComponent<Props, S
                             ),
                             linkAPI: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://api.takwen.co/do/#tag/authentication'
+                                    href='https://api.mattermost.com/#tag/authentication'
                                     location='user_access_token_section'
                                 >
                                     {msg}
@@ -486,7 +486,7 @@ export default class UserAccessTokenSection extends React.PureComponent<Props, S
                         values={{
                             linkTokens: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://developers.takwen.co/do/integrate/admin-guide/admin-personal-access-token/'
+                                    href='https://developers.mattermost.com/integrate/admin-guide/admin-personal-access-token/'
                                     location='user_access_token_section'
                                 >
                                     {msg}
@@ -494,7 +494,7 @@ export default class UserAccessTokenSection extends React.PureComponent<Props, S
                             ),
                             linkAPI: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://api.takwen.co/do/#tag/authentication'
+                                    href='https://api.mattermost.com/#tag/authentication'
                                     location='user_access_token_section'
                                 >
                                     {msg}

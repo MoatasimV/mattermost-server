@@ -21,7 +21,7 @@ describe('components/feature_discovery', () => {
                     titleDefault='Foo'
                     copyID='translation.test.copy'
                     copyDefault={'Bar'}
-                    learnMoreURL='https://test.takwen.co/do/secondary/'
+                    learnMoreURL='https://test.mattermost.com/secondary/'
                     featureDiscoveryImage={<SamlSVG/>}
                     // eslint-disable-next-line @typescript-eslint/naming-convention
                     stats={{TOTAL_USERS: 20}}
@@ -49,7 +49,7 @@ describe('components/feature_discovery', () => {
                     titleDefault='Foo'
                     copyID='translation.test.copy'
                     copyDefault={'Bar'}
-                    learnMoreURL='https://test.takwen.co/do/secondary/'
+                    learnMoreURL='https://test.mattermost.com/secondary/'
                     featureDiscoveryImage={<SamlSVG/>}
                     // eslint-disable-next-line @typescript-eslint/naming-convention
                     stats={{TOTAL_USERS: 20}}
@@ -78,7 +78,7 @@ describe('components/feature_discovery', () => {
                     titleDefault='Foo'
                     copyID='translation.test.copy'
                     copyDefault={'Bar'}
-                    learnMoreURL='https://test.takwen.co/do/secondary/'
+                    learnMoreURL='https://test.mattermost.com/secondary/'
                     featureDiscoveryImage={<SamlSVG/>}
                     // eslint-disable-next-line @typescript-eslint/naming-convention
                     stats={{TOTAL_USERS: 20}}

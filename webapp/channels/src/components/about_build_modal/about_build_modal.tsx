@@ -92,9 +92,9 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                 />
                 <ExternalLink
                     location='about_build_modal'
-                    href='https://takwen.co/do/community/'
+                    href='https://mattermost.com/community/'
                 >
-                    {'takwen.co/do/community/'}
+                    {'mattermost.com/community/'}
                 </ExternalLink>
             </div>
         );
@@ -123,9 +123,9 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                     />
                     <ExternalLink
                         location='about_build_modal'
-                        href='https://takwen.co/do/'
+                        href='https://mattermost.com/'
                     >
-                        {'takwen.co/do'}
+                        {'mattermost.com'}
                     </ExternalLink>
                 </div>
             );
@@ -241,7 +241,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                         {'\u00a0' + mmversion}
                                     </span>
                                 </div>
-                                {/* <div>
+                                <div>
                                     <FormattedMessage
                                         id='about.dbversion'
                                         defaultMessage='Database Schema Version:'
@@ -249,17 +249,17 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                     <span id='dbversionString'>
                                         {'\u00a0' + config.SchemaVersion}
                                     </span>
-                                </div> */}
+                                </div>
                                 {buildnumber}
-                                {/* <div>
+                                <div>
                                     <FormattedMessage
                                         id='about.database'
                                         defaultMessage='Database:'
                                     />
                                     {'\u00a0' + config.SQLDriverName}
-                                </div> */}
+                                </div>
                             </div>
-                            {/* {licensee} */}
+                            {licensee}
                         </div>
                     </div>
                     <div className='about-modal__footer'>
@@ -268,7 +268,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                             <div className='about-modal__copyright'>
                                 <FormattedMessage
                                     id='about.copyright'
-                                    defaultMessage='Copyright {currentYear} TAKWEN LTD, Inc. All rights reserved'
+                                    defaultMessage='Copyright 2015 - {currentYear} Mattermost, Inc. All rights reserved'
                                     values={{
                                         currentYear: new Date().getFullYear(),
                                     }}

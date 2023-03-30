@@ -145,7 +145,7 @@ export default class InstalledOAuthApps extends React.PureComponent<Props, State
                         values={{
                             oauthApplications: (
                                 <ExternalLink
-                                    href='https://developers.takwen.co/do/integrate/admin-guide/admin-oauth2/'
+                                    href='https://developers.mattermost.com/integrate/admin-guide/admin-oauth2/'
                                     location='installed_oauth_apps'
                                 >
                                     <FormattedMessage
@@ -156,7 +156,7 @@ export default class InstalledOAuthApps extends React.PureComponent<Props, State
                             ),
                             appDirectory: (
                                 <ExternalLink
-                                    href='https://takwen.co/do/marketplace/'
+                                    href='https://mattermost.com/marketplace/'
                                     location='installed_oauth_apps'
                                 >
                                     <FormattedMessage

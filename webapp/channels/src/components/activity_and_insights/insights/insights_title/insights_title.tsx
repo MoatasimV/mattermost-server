@@ -121,7 +121,7 @@ const InsightsTitle = (props: Props) => {
                                     <ExternalLink
                                         location='insights_title'
                                         onClick={openTeamInsightsDoc}
-                                        href={'https://docs.takwen.co/do/welcome/insights.html#team-insights'}
+                                        href={'https://docs.mattermost.com/welcome/insights.html#team-insights'}
                                     >
                                         <FormattedMessage
                                             id='insights.accessModal.teamDocsLink'
@@ -146,7 +146,7 @@ const InsightsTitle = (props: Props) => {
                                             <ExternalLink
                                                 onClick={openInsightsDoc}
                                                 location='insights_title'
-                                                href={'https://docs.takwen.co/do/welcome/insights.html'}
+                                                href={'https://docs.mattermost.com/welcome/insights.html'}
                                             >
                                                 <FormattedMessage
                                                     id='insights.accessModal.docsLink'
@@ -158,7 +158,7 @@ const InsightsTitle = (props: Props) => {
                                             <ExternalLink
                                                 onClick={openTeamInsightsDoc}
                                                 location='insights_title'
-                                                href={'https://docs.takwen.co/do/welcome/insights.html#team-insights'}
+                                                href={'https://docs.mattermost.com/welcome/insights.html#team-insights'}
                                             >
                                                 <FormattedMessage
                                                     id='insights.accessModal.teamDocsLink'
@@ -169,7 +169,7 @@ const InsightsTitle = (props: Props) => {
                                         contactSales: (
                                             <ExternalLink
                                                 onClick={openContactSales}
-                                                href={'https://takwen.co/do/contact-sales/'}
+                                                href={'https://mattermost.com/contact-sales/'}
                                                 location='insights_title'
                                             >
                                                 <FormattedMessage
@@ -194,7 +194,7 @@ const InsightsTitle = (props: Props) => {
                                         insightsDoc: (
                                             <ExternalLink
                                                 onClick={openInsightsDoc}
-                                                href={'https://docs.takwen.co/do/welcome/insights.html'}
+                                                href={'https://docs.mattermost.com/welcome/insights.html'}
                                                 location='insights_title'
                                             >
                                                 <FormattedMessage
@@ -206,7 +206,7 @@ const InsightsTitle = (props: Props) => {
                                         teamInsights: (
                                             <ExternalLink
                                                 onClick={openTeamInsightsDoc}
-                                                href={'https://docs.takwen.co/do/welcome/insights.html#team-insights'}
+                                                href={'https://docs.mattermost.com/welcome/insights.html#team-insights'}
                                                 location='insights_title'
                                             >
                                                 <FormattedMessage
@@ -218,7 +218,7 @@ const InsightsTitle = (props: Props) => {
                                         contactSales: (
                                             <ExternalLink
                                                 onClick={openContactSales}
-                                                href={'https://takwen.co/do/contact-sales/'}
+                                                href={'https://mattermost.com/contact-sales/'}
                                                 location='insights_title'
                                             >
                                                 <FormattedMessage

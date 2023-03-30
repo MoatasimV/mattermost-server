@@ -14,7 +14,7 @@ describe('components/DialogIntroductionText', () => {
     test('should render message with supported values', () => {
         const descriptor = {
             id: 'testsupported',
-            value: '**bold** *italic* [link](https://takwen.co/do/) <br/> [link target blank](!https://takwen.co/do/)',
+            value: '**bold** *italic* [link](https://mattermost.com/) <br/> [link target blank](!https://mattermost.com/)',
             emojiMap,
         };
         const wrapper = mount(<DialogIntroductionText {...descriptor}/>);

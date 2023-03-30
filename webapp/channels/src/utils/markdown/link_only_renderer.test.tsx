@@ -113,9 +113,9 @@ describe('formatWithRenderer | LinkOnlyRenderer', () => {
         },
         {
             description: 'heading: multiline with header and links',
-            inputText: '###### H6 header\n[link 1](https://takwen.co/do) - [link 2](https://takwen.co/do)',
-            outputText: 'H6 header <a class="theme markdown__link" href="https://takwen.co/do" target="_blank">' +
-            'link 1</a> - <a class="theme markdown__link" href="https://takwen.co/do" target="_blank">link 2</a>',
+            inputText: '###### H6 header\n[link 1](https://mattermost.com) - [link 2](https://mattermost.com)',
+            outputText: 'H6 header <a class="theme markdown__link" href="https://mattermost.com" target="_blank">' +
+            'link 1</a> - <a class="theme markdown__link" href="https://mattermost.com" target="_blank">link 2</a>',
         },
         {
             description: 'list: 1. First ordered list item',
@@ -262,20 +262,20 @@ describe('formatWithRenderer | LinkOnlyRenderer', () => {
         },
         {
             description: 'link: link without a scheme',
-            inputText: 'Do you like www.takwen.co/do?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.takwen.co/do" target="_blank">' +
-            'www.takwen.co/do</a>?',
+            inputText: 'Do you like www.mattermost.com?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.mattermost.com" target="_blank">' +
+            'www.mattermost.com</a>?',
         },
         {
             description: 'link: link with a scheme',
-            inputText: 'Do you like http://www.takwen.co/do?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.takwen.co/do" target="_blank">' +
-            'http://www.takwen.co/do</a>?',
+            inputText: 'Do you like http://www.mattermost.com?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.mattermost.com" target="_blank">' +
+            'http://www.mattermost.com</a>?',
         },
         {
             description: 'link: link with a title',
-            inputText: 'Do you like [Mattermost](http://www.takwen.co/do)?',
-            outputText: 'Do you like <a class="theme markdown__link" href="http://www.takwen.co/do" target="_blank">' +
+            inputText: 'Do you like [Mattermost](http://www.mattermost.com)?',
+            outputText: 'Do you like <a class="theme markdown__link" href="http://www.mattermost.com" target="_blank">' +
             'Mattermost</a>?',
         },
         {

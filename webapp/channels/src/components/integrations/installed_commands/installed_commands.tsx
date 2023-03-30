@@ -115,7 +115,7 @@ export default class InstalledCommands extends React.PureComponent<Props> {
                         values={{
                             buildYourOwn: (
                                 <ExternalLink
-                                    href='https://developers.takwen.co/do/integrate/admin-guide/admin-slash-commands/'
+                                    href='https://developers.mattermost.com/integrate/admin-guide/admin-slash-commands/'
                                     location='installed_commands'
                                 >
                                     <FormattedMessage
@@ -126,7 +126,7 @@ export default class InstalledCommands extends React.PureComponent<Props> {
                             ),
                             appDirectory: (
                                 <ExternalLink
-                                    href='https://takwen.co/do/marketplace'
+                                    href='https://mattermost.com/marketplace'
                                     location='installed_commands'
                                 >
                                     <FormattedMessage

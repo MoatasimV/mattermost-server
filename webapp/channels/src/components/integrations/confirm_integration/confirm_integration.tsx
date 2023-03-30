@@ -75,7 +75,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
                     values={{
                         link: (msg: string) => (
                             <ExternalLink
-                                href='https://developers.takwen.co/do/integrate/admin-guide/admin-slash-commands/'
+                                href='https://developers.mattermost.com/integrate/admin-guide/admin-slash-commands/'
                                 location='confirm_integration'
                             >
                                 {msg}
@@ -112,7 +112,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
                     values={{
                         link: (msg: string) => (
                             <ExternalLink
-                                href='https://developers.takwen.co/do/integrate/admin-guide/admin-webhooks-incoming/'
+                                href='https://developers.mattermost.com/integrate/admin-guide/admin-webhooks-incoming/'
                                 location='confirm_integration'
                             >
                                 {msg}
@@ -149,7 +149,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
                     values={{
                         link: (msg: string) => (
                             <ExternalLink
-                                href='https://developers.takwen.co/do/integrate/admin-guide/admin-webhooks-outgoing/'
+                                href='https://developers.mattermost.com/integrate/admin-guide/admin-webhooks-outgoing/'
                                 location='confirm_integration'
                             >
                                 {msg}
@@ -189,7 +189,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
                     values={{
                         link: (msg: string) => (
                             <ExternalLink
-                                href='https://developers.takwen.co/do/integrate/admin-guide/admin-oauth2/'
+                                href='https://developers.mattermost.com/integrate/admin-guide/admin-oauth2/'
                                 location='confirm_integration'
                             >
                                 {msg}
@@ -256,13 +256,13 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
             <p>
                 <FormattedMessage
                     id='bots.manage.created.text'
-                    defaultMessage='Your bot account **{botname}** has been created successfully. Please use the following access token to connect to the bot (see [documentation](https://takwen.co/do/pl/default-bot-accounts) for further details).'
+                    defaultMessage='Your bot account **{botname}** has been created successfully. Please use the following access token to connect to the bot (see [documentation](https://mattermost.com/pl/default-bot-accounts) for further details).'
                     values={{
                         botname: bot.display_name || bot.username,
                         strong: (msg: string) => <strong>{msg}</strong>,
                         link: (msg: string) => (
                             <ExternalLink
-                                href='https://takwen.co/do/pl/default-bot-accounts'
+                                href='https://mattermost.com/pl/default-bot-accounts'
                                 location='confirm_integration'
                             >
                                 {msg}
@@ -288,7 +288,7 @@ const ConfirmIntegration = ({team, location, commands, oauthApps, incomingHooks,
                     values={{
                         link: (msg: string) => (
                             <ExternalLink
-                                href='https://takwen.co/do/pl/default-bot-accounts'
+                                href='https://mattermost.com/pl/default-bot-accounts'
                                 location='confirm_integration'
                             >
                                 {msg}
