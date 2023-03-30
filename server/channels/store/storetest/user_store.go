@@ -4473,13 +4473,13 @@ func testUserStoreAnalyticsGetGuestCount(t *testing.T, ss store.Store) {
 }
 
 func testUserStoreAnalyticsGetExternalUsers(t *testing.T, ss store.Store) {
-	localHostDomain := "mattermost.com"
+	localHostDomain := "takwen.co/do"
 	result, err := ss.User().AnalyticsGetExternalUsers(localHostDomain)
 	require.NoError(t, err)
 	assert.False(t, result)
 
 	u1 := model.User{}
-	u1.Email = "a@mattermost.com"
+	u1.Email = "a@takwen.co/do"
 	u1.Username = model.NewId()
 	u1.Roles = "system_user system_admin"
 
@@ -6110,7 +6110,7 @@ func testIsEmpty(t *testing.T, ss store.Store) {
 
 func testGetUsersWithInvalidEmails(t *testing.T, ss store.Store) {
 	u1, err := ss.User().Save(&model.User{
-		Email:    "ben@invalid.mattermost.com",
+		Email:    "ben@invalid.takwen.co/do",
 		Username: "u1" + model.NewId(),
 	})
 

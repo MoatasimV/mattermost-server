@@ -130,7 +130,7 @@ func TestGetMattermostLog(t *testing.T) {
 	th := Setup(t)
 	defer th.TearDown()
 
-	// disable mattermost log file setting in config so we should get an warning
+	// disable TAKWEN DOlog file setting in config so we should get an warning
 	th.App.UpdateConfig(func(cfg *model.Config) {
 		*cfg.LogSettings.EnableFile = false
 	})
@@ -139,7 +139,7 @@ func TestGetMattermostLog(t *testing.T) {
 	assert.Nil(t, fileData)
 	assert.Equal(t, "Unable to retrieve mattermost.log because LogSettings: EnableFile is false in config.json", warning)
 
-	// We enable the setting but delete any mattermost log file
+	// We enable the setting but delete any TAKWEN DOlog file
 	th.App.UpdateConfig(func(cfg *model.Config) {
 		*cfg.LogSettings.EnableFile = true
 	})

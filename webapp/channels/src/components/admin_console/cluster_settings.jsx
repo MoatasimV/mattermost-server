@@ -87,7 +87,7 @@ export default class ClusterSettings extends AdminSettings {
                             link: (msg) => (
                                 <ExternalLink
                                     location='cluster_settings'
-                                    href='http://docs.mattermost.com/deployment/cluster.html'
+                                    href='http://docs.takwen.co/do/deployment/cluster.html'
                                 >
                                     {msg}
                                 </ExternalLink>
@@ -114,7 +114,7 @@ export default class ClusterSettings extends AdminSettings {
                             link: (msg) => (
                                 <ExternalLink
                                     location='cluster_settings'
-                                    href='http://docs.mattermost.com/deployment/cluster.html'
+                                    href='http://docs.takwen.co/do/deployment/cluster.html'
                                 >
                                     {msg}
                                 </ExternalLink>
@@ -152,12 +152,12 @@ export default class ClusterSettings extends AdminSettings {
                     helpText={
                         <FormattedMessage
                             id='admin.cluster.enableDescription'
-                            defaultMessage='When true, Mattermost will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost.'
+                            defaultMessage='When true, TAKWEN DOwill run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost.'
                             values={{
                                 link: (msg) => (
                                     <ExternalLink
                                         location='cluster_settings'
-                                        href='http://docs.mattermost.com/deployment/cluster.html'
+                                        href='http://docs.takwen.co/do/deployment/cluster.html'
                                     >
                                         {msg}
                                     </ExternalLink>

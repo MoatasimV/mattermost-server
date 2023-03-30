@@ -115,21 +115,21 @@ func (s *Server) doEmojisPermissionsMigration() {
 	// Emoji creation is set to all by default
 	role, err = s.GetRoleByName(context.Background(), model.SystemUserRoleId)
 	if err != nil {
-		mlog.Fatal("Failed to migrate emojis creation permissions from mattermost config.", mlog.Err(err))
+		mlog.Fatal("Failed to migrate emojis creation permissions from TAKWEN DOconfig.", mlog.Err(err))
 		return
 	}
 
 	if role != nil {
 		role.Permissions = append(role.Permissions, model.PermissionCreateEmojis.Id, model.PermissionDeleteEmojis.Id)
 		if _, nErr := s.Store().Role().Save(role); nErr != nil {
-			mlog.Fatal("Failed to migrate emojis creation permissions from mattermost config.", mlog.Err(nErr))
+			mlog.Fatal("Failed to migrate emojis creation permissions from TAKWEN DOconfig.", mlog.Err(nErr))
 			return
 		}
 	}
 
 	systemAdminRole, err = s.GetRoleByName(context.Background(), model.SystemAdminRoleId)
 	if err != nil {
-		mlog.Fatal("Failed to migrate emojis creation permissions from mattermost config.", mlog.Err(err))
+		mlog.Fatal("Failed to migrate emojis creation permissions from TAKWEN DOconfig.", mlog.Err(err))
 		return
 	}
 
@@ -139,7 +139,7 @@ func (s *Server) doEmojisPermissionsMigration() {
 		model.PermissionDeleteOthersEmojis.Id,
 	)
 	if _, err := s.Store().Role().Save(systemAdminRole); err != nil {
-		mlog.Fatal("Failed to migrate emojis creation permissions from mattermost config.", mlog.Err(err))
+		mlog.Fatal("Failed to migrate emojis creation permissions from TAKWEN DOconfig.", mlog.Err(err))
 		return
 	}
 

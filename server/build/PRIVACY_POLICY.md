@@ -1,1 +1,1 @@
-https://mattermost.com/privacy-policy/
+https://takwen.co/do/privacy-policy/

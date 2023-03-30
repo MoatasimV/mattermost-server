@@ -9,7 +9,7 @@ import configureStore from 'store';
 const store = configureStore();
 
 // eslint-disable-next-line no-process-env
-if (process.env.NODE_ENV !== 'production' || window.location.origin === 'https://community.mattermost.com') {
+if (process.env.NODE_ENV !== 'production' || window.location.origin === 'https://community.takwen.co/do') {
     window.store = store;
 }
 

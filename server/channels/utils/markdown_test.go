@@ -122,7 +122,7 @@ func TestStripMarkdown(t *testing.T) {
 		},
 		{
 			name: "heading: multiline with header and links",
-			args: "###### H6 header\n[link 1](https://mattermost.com) - [link 2](https://mattermost.com)",
+			args: "###### H6 header\n[link 1](https://takwen.co/do) - [link 2](https://takwen.co/do)",
 			want: "H6 header link 1 - link 2",
 		},
 		{

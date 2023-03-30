@@ -20,14 +20,14 @@ exports[`PostAttachmentOpenGraph should match snapshot 1`] = `
       }
     }
     currentUserId="1234"
-    link="http://mattermost.com"
+    link="http://takwen.co/do"
     openGraphData={
       Object {
         "description": "description",
         "images": Array [
           Object {
             "secure_url": "",
-            "url": "http://mattermost.com/OpenGraphImage.jpg",
+            "url": "http://takwen.co/do/OpenGraphImage.jpg",
           },
         ],
         "site_name": "Mattermost",
@@ -39,10 +39,10 @@ exports[`PostAttachmentOpenGraph should match snapshot 1`] = `
         "channel_id": "channel_id",
         "create_at": 1,
         "id": "post_id_1",
-        "message": "https://mattermost.com",
+        "message": "https://takwen.co/do",
         "metadata": Object {
           "images": Object {
-            "http://mattermost.com/OpenGraphImage.jpg": Object {
+            "http://takwen.co/do/OpenGraphImage.jpg": Object {
               "format": "png",
               "frameCount": 0,
               "height": 100,
@@ -65,16 +65,16 @@ exports[`PostAttachmentOpenGraph should match snapshot 1`] = `
       currentUserId="user-1"
       enableLinkPreviews={true}
       imageCollapsed={false}
-      link="http://mattermost.com"
+      link="http://takwen.co/do"
       post={
         Object {
           "channel_id": "channel_id",
           "create_at": 1,
           "id": "post_id_1",
-          "message": "https://mattermost.com",
+          "message": "https://takwen.co/do",
           "metadata": Object {
             "images": Object {
-              "http://mattermost.com/OpenGraphImage.jpg": Object {
+              "http://takwen.co/do/OpenGraphImage.jpg": Object {
                 "format": "png",
                 "frameCount": 0,
                 "height": 100,

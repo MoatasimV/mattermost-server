@@ -287,7 +287,7 @@ func Test_requestTrial(t *testing.T) {
 		defer th.TearDown()
 
 		// patch the customer with the additional contact updated with the valid business email
-		newValidBusinessEmail.Email = *model.NewString("valid.email@mattermost.com")
+		newValidBusinessEmail.Email = *model.NewString("valid.email@takwen.co/do")
 
 		th.Client.Login(th.BasicUser.Email, th.BasicUser.Password)
 
@@ -296,7 +296,7 @@ func Test_requestTrial(t *testing.T) {
 		cloud := mocks.CloudInterface{}
 
 		cloud.Mock.On("GetSubscription", mock.Anything).Return(subscription, nil)
-		cloud.Mock.On("RequestCloudTrial", mock.Anything, mock.Anything, "valid.email@mattermost.com").Return(subscription, nil)
+		cloud.Mock.On("RequestCloudTrial", mock.Anything, mock.Anything, "valid.email@takwen.co/do").Return(subscription, nil)
 		cloud.Mock.On("InvalidateCaches").Return(nil)
 
 		cloudImpl := th.App.Srv().Cloud
@@ -384,7 +384,7 @@ func Test_validateBusinessEmail(t *testing.T) {
 
 		th.Client.Login(th.BasicUser.Email, th.BasicUser.Password)
 
-		validBusinessEmail := model.ValidateBusinessEmailRequest{Email: "valid@mattermost.com"}
+		validBusinessEmail := model.ValidateBusinessEmailRequest{Email: "valid@takwen.co/do"}
 
 		th.App.Srv().SetLicense(model.NewTestLicense("cloud"))
 
@@ -430,7 +430,7 @@ func Test_validateWorkspaceBusinessEmail(t *testing.T) {
 		cloud := mocks.CloudInterface{}
 
 		cloudCustomerInfo := model.CloudCustomerInfo{
-			Email: "valid@mattermost.com",
+			Email: "valid@takwen.co/do",
 		}
 
 		cloudCustomer := &model.CloudCustomer{

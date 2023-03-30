@@ -1125,7 +1125,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "يرجى إضافتي إلى الفرق والقنوات التي ترغبون تفاعلي فيها. لإجراء ذلك، استخدم المتصفح أو تطبيق Mattermost لسطح المكتب."
+    "translation": "يرجى إضافتي إلى الفرق والقنوات التي ترغبون تفاعلي فيها. لإجراء ذلك، استخدم المتصفح أو تطبيق TAKWEN DOلسطح المكتب."
   },
   {
     "id": "api.bot.create_disabled",
@@ -1169,7 +1169,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "يبدو أن بريدك الالكتروني الخاص بـ mattermost تم إعداده بشكل صحيح!"
+    "translation": "يبدو أن بريدك الالكتروني الخاص بـ TAKWEN DOتم إعداده بشكل صحيح!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",

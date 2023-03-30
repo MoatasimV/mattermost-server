@@ -43,7 +43,7 @@ const BoardsSwitcher = (props: Props): JSX.Element => {
                                        onboardingTourCategory === TOUR_SIDEBAR &&
                                        onboardingTourStep === SidebarTourSteps.SEARCH_FOR_BOARDS.toString()
 
-    // We need this keyboard handling (copied from Mattermost webapp) instead of
+    // We need this keyboard handling (copied from TAKWEN DOwebapp) instead of
     // using react-hotkeys-hook as react-hotkeys-hook is unable to handle keyboard shortcuts that
     // the browser uses when the user is focused in an input field.
     //

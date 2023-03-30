@@ -5,7 +5,7 @@ Mattermost Web App
 NOTICES:
 --------
 
-This document includes a list of open source components used in Mattermost Web App, including those that have been modified.
+This document includes a list of open source components used in TAKWEN DOWeb App, including those that have been modified.
 
 --------
 
@@ -338,7 +338,7 @@ JavaScript/TypeScript client for Mattermost
 
 This product contains '@mattermost/compass-components' by Mattermost.
 
-The compass components package is the implementation of the compass design system meant (but not limited) to be used in the mattermost products: Messaging, Playbooks and Focalboard.
+The compass components package is the implementation of the compass design system meant (but not limited) to be used in the TAKWEN DOproducts: Messaging, Playbooks and Focalboard.
 
 * HOMEPAGE:
   * https://github.com/mattermost/compass-components
@@ -368,7 +368,7 @@ Simple steps to adding new icons to the Compass Icons font.
 
 This product contains '@mattermost/types'.
 
-Shared type definitions used by the Mattermost web app
+Shared type definitions used by the TAKWEN DOweb app
 
 * HOMEPAGE:
   * https://github.com/mattermost/mattermost-webapp/tree/master/packages/types#readme

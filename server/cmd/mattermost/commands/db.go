@@ -28,13 +28,13 @@ var InitDbCmd = &cobra.Command{
 
 This command should be run using a database configuration DSN.`,
 	Example: `  # you can use the config flag to pass the DSN
-  $ mattermost db init --config postgres://localhost/mattermost
+  $ TAKWEN DOdb init --config postgres://localhost/mattermost
 
   # or you can use the MM_CONFIG environment variable
-  $ MM_CONFIG=postgres://localhost/mattermost mattermost db init
+  $ MM_CONFIG=postgres://localhost/mattermost TAKWEN DOdb init
 
   # and you can set a custom defaults file to be loaded into the database
-  $ MM_CUSTOM_DEFAULTS_PATH=custom.json MM_CONFIG=postgres://localhost/mattermost mattermost db init`,
+  $ MM_CUSTOM_DEFAULTS_PATH=custom.json MM_CONFIG=postgres://localhost/mattermost TAKWEN DOdb init`,
 	Args: cobra.NoArgs,
 	RunE: initDbCmdF,
 }
@@ -42,7 +42,7 @@ This command should be run using a database configuration DSN.`,
 var ResetCmd = &cobra.Command{
 	Use:   "reset",
 	Short: "Reset the database to initial state",
-	Long:  "Completely erases the database causing the loss of all data. This will reset Mattermost to its initial state.",
+	Long:  "Completely erases the database causing the loss of all data. This will reset TAKWEN DOto its initial state.",
 	RunE:  resetCmdF,
 }
 

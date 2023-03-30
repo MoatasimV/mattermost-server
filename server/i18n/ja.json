@@ -631,7 +631,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "チャンネル {{.Channel}} が見つかりませんでした。チャンネルの指定には[チャンネルのハンドル名](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)を使用してください。"
+    "translation": "チャンネル {{.Channel}} が見つかりませんでした。チャンネルの指定には[チャンネルのハンドル名](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel)を使用してください。"
   },
   {
     "id": "api.command_invite.desc",
@@ -667,7 +667,7 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "チャンネル {{.Channel}} が見つかりませんでした。チャンネルの指定には[チャンネルのハンドル名](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)を使用してください。"
+    "translation": "チャンネル {{.Channel}} が見つかりませんでした。チャンネルの指定には[チャンネルのハンドル名](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel)を使用してください。"
   },
   {
     "id": "api.command_invite.success",
@@ -775,7 +775,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "チャンネル {{.Channel}} が見つかりませんでした。チャンネルの指定には[チャンネルのハンドル名](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)を使用してください。"
+    "translation": "チャンネル {{.Channel}} が見つかりませんでした。チャンネルの指定には[チャンネルのハンドル名](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel)を使用してください。"
   },
   {
     "id": "api.command_mute.hint",
@@ -787,7 +787,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "指定したチャンネルが見つかりませんでした。チャンネルの指定には[チャンネルのハンドル名](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)を使用してください。"
+    "translation": "指定したチャンネルが見つかりませんでした。チャンネルの指定には[チャンネルのハンドル名](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel)を使用してください。"
   },
   {
     "id": "api.command_mute.not_member.error",
@@ -4965,7 +4965,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "サイズ制限超過。[最大ページサイズ](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)を確認してください。"
+    "translation": "サイズ制限超過。[最大ページサイズ](https://docs.takwen.co/do/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)を確認してください。"
   },
   {
     "id": "ent.ldap.syncronize.delete_group_constained_memberships",
@@ -5453,7 +5453,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} は無効化されています。現在無効化されている以下の Bot アカウントを管理していました。\n\n{{.BotNames}}{{else}}{{.UserName}} は無効化されています。 現在無効化されている以下の Bot アカウントを含む {{.NumBots}} 個の Bot アカウントを管理していました: \n\n{{.BotNames}}{{end}} **統合機能 > Botアカウント** からBotを有効にし、Bot用のトークンを新たに作成することで、これらのBotを引き継ぐことができます。\n\n詳しくは[説明文書](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled)を参照してください。{{else}}{{if .printAllBots}}{{.UserName}} は無効化されています。現在も有効化されている以下の Bot アカウントを管理していました。\n\n{{.BotNames}}\n{{else}}{{.UserName}} は無効化されています。以下を含む現在も有効な {{.NumBots}} 個の Bot アカウントを管理していました:\n\n{{.BotNames}}{{end}}**統合機能 > Botアカウント** から各Botを再度有効化し、Bot用のトークンを新たに生成してBotを引き継ぐことを強く推奨します。\n\n詳しくは[説明文書](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled)を参照してください。\n\nユーザーが無効化された際に自動でBotも無効化したい場合、**システムコンソール > 統合機能 > Botアカウント** の \"所有者が無効化された際にBotアカウントを無効化する\" を true にしてください。{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} は無効化されています。現在無効化されている以下の Bot アカウントを管理していました。\n\n{{.BotNames}}{{else}}{{.UserName}} は無効化されています。 現在無効化されている以下の Bot アカウントを含む {{.NumBots}} 個の Bot アカウントを管理していました: \n\n{{.BotNames}}{{end}} **統合機能 > Botアカウント** からBotを有効にし、Bot用のトークンを新たに作成することで、これらのBotを引き継ぐことができます。\n\n詳しくは[説明文書](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled)を参照してください。{{else}}{{if .printAllBots}}{{.UserName}} は無効化されています。現在も有効化されている以下の Bot アカウントを管理していました。\n\n{{.BotNames}}\n{{else}}{{.UserName}} は無効化されています。以下を含む現在も有効な {{.NumBots}} 個の Bot アカウントを管理していました:\n\n{{.BotNames}}{{end}}**統合機能 > Botアカウント** から各Botを再度有効化し、Bot用のトークンを新たに生成してBotを引き継ぐことを強く推奨します。\n\n詳しくは[説明文書](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled)を参照してください。\n\nユーザーが無効化された際に自動でBotも無効化したい場合、**システムコンソール > 統合機能 > Botアカウント** の \"所有者が無効化された際にBotアカウントを無効化する\" を true にしてください。{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -5929,7 +5929,7 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "トライアルライセンスを取得できませんでした。再度試してみるか、support@mattermost.com に連絡してください。"
+    "translation": "トライアルライセンスを取得できませんでした。再度試してみるか、support@takwen.co/do に連絡してください。"
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
@@ -6329,7 +6329,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "あなたのMattermostには200ユーザーが登録しています。Mattermostをあなたの組織のシングルサインオンプロバイダーに接続することで、ユーザーは再度認証情報を入力することなくMattermostへアクセスできるようになります。MattermostサーバーをSAML 2.0プロバイダーと連携することをおすすめします。詳しくは[SAML2.0連携に関する説明](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報をMattermost, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "あなたのMattermostには200ユーザーが登録しています。Mattermostをあなたの組織のシングルサインオンプロバイダーに接続することで、ユーザーは再度認証情報を入力することなくMattermostへアクセスできるようになります。MattermostサーバーをSAML 2.0プロバイダーと連携することをおすすめします。詳しくは[SAML2.0連携に関する説明](https://www.takwen.co/do/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報をMattermost, Inc. へ共有します。詳しくは[説明文書](https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "model.command.is_valid.plugin_id.app_error",
@@ -6361,7 +6361,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "500ユーザーを超える場合は、ユーザー管理やサーバーのクラスタリング、パフォーマンスモニタリング機能の利用を強く推奨します。詳細についてはお問い合わせください。\n\n問い合わせる をクリックすると、あなたの情報をMattermost Inc.へ共有します。詳しくは [説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "500ユーザーを超える場合は、ユーザー管理やサーバーのクラスタリング、パフォーマンスモニタリング機能の利用を強く推奨します。詳細についてはお問い合わせください。\n\n問い合わせる をクリックすると、あなたの情報をMattermost Inc.へ共有します。詳しくは [説明文書](https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
@@ -6397,7 +6397,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_footer",
-    "translation": "追加の質問がある場合は、support@mattermost.comへお問い合わせください"
+    "translation": "追加の質問がある場合は、support@takwen.co/doへお問い合わせください"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_email_header",
@@ -6433,7 +6433,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
-    "translation": "追加の質問がある場合は、support@mattermost.comへお問い合わせください"
+    "translation": "追加の質問がある場合は、support@takwen.co/doへお問い合わせください"
   },
   {
     "id": "app.role.save.invalid_role.app_error",
@@ -7133,7 +7133,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
-    "translation": "あなたのMattermostにはいくつかのチームが存在します。多くのチームは、チャンネルの作成方法や、誰が新しいチームメイトを招待できるか、また、どのように統合機能を管理するかなどのチーム運営について各々が好む方法を持っています。チーム上書きスキームにより、それぞれの要求を満たすようチームごとにユーザー権限設定をカスタマイズできます。\n\n詳しくは[高度な権限設定に関する説明](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "あなたのMattermostにはいくつかのチームが存在します。多くのチームは、チャンネルの作成方法や、誰が新しいチームメイトを招待できるか、また、どのように統合機能を管理するかなどのチーム運営について各々が好む方法を持っています。チーム上書きスキームにより、それぞれの要求を満たすようチームごとにユーザー権限設定をカスタマイズできます。\n\n詳しくは[高度な権限設定に関する説明](https://www.takwen.co/do/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -7141,7 +7141,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "あなたのMattermostにはいくつかのチームが存在します。多くのチームは、チャンネルの作成方法や、誰が新しいチームメイトを招待できるか、また、どのように統合機能を管理するかなどのチーム運営について各々が好む方法を持っています。チーム上書きスキームにより、それぞれの要求を満たすようチームごとにユーザー権限設定をカスタマイズできます。\n\n詳しくは[高度な権限設定に関する説明](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)を参照してください。\n\n問い合わせ をクリックすることで、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "あなたのMattermostにはいくつかのチームが存在します。多くのチームは、チャンネルの作成方法や、誰が新しいチームメイトを招待できるか、また、どのように統合機能を管理するかなどのチーム運営について各々が好む方法を持っています。チーム上書きスキームにより、それぞれの要求を満たすようチームごとにユーザー権限設定をカスタマイズできます。\n\n詳しくは[高度な権限設定に関する説明](https://www.takwen.co/do/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override)を参照してください。\n\n問い合わせ をクリックすることで、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
@@ -7153,7 +7153,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "あなたのMattermostシステムには非常に多くのメッセージがあります。Mattermostのデフォルトのデータベース検索は約250万投稿からパフォーマンスが劣化し始めます。500万投稿以上ある場合、Elasticsearchを導入することで、検索のタイムアウトなどの深刻なパフォーマンスの問題を回避することができます。Elasticsearchとの連携について詳しく知りたい場合や、何かサポートできることがないか私たちに問い合わせてください。\n\n詳しくは[パフォーマンス改善に関する説明](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "あなたのMattermostシステムには非常に多くのメッセージがあります。Mattermostのデフォルトのデータベース検索は約250万投稿からパフォーマンスが劣化し始めます。500万投稿以上ある場合、Elasticsearchを導入することで、検索のタイムアウトなどの深刻なパフォーマンスの問題を回避することができます。Elasticsearchとの連携について詳しく知りたい場合や、何かサポートできることがないか私たちに問い合わせてください。\n\n詳しくは[パフォーマンス改善に関する説明](https://www.takwen.co/do/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
@@ -7161,7 +7161,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "あなたのMattermostシステムには非常に多くのメッセージがあります。Mattermostのデフォルトのデータベース検索は約250万投稿からパフォーマンスが劣化し始めます。500万投稿以上ある場合、Elasticsearchを導入することで、検索のタイムアウトなどの深刻なパフォーマンスの問題を回避することができます。Elasticsearchとの連携について詳しく知りたい場合や、何かサポートできることがないか私たちに問い合わせてください。\n\n詳しくは[パフォーマンス改善に関する説明](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)を参照してください\n\n問い合わせ をクリックすると、あなたの情報は Mattermost, Inc. へ共有されます。詳しくは[説明文書}(https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "あなたのMattermostシステムには非常に多くのメッセージがあります。Mattermostのデフォルトのデータベース検索は約250万投稿からパフォーマンスが劣化し始めます。500万投稿以上ある場合、Elasticsearchを導入することで、検索のタイムアウトなどの深刻なパフォーマンスの問題を回避することができます。Elasticsearchとの連携について詳しく知りたい場合や、何かサポートできることがないか私たちに問い合わせてください。\n\n詳しくは[パフォーマンス改善に関する説明](https://www.takwen.co/do/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)を参照してください\n\n問い合わせ をクリックすると、あなたの情報は Mattermost, Inc. へ共有されます。詳しくは[説明文書}(https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
@@ -7173,7 +7173,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "チャンネルはコミュニケーションの改善をサポートするものですが、Mattermost全体でチャンネルの作成や参加が多くなるにつれ、システムを整理されたものにし続けることが課題になってきます。高度な権限設定により、どのユーザー、もしくはどのロールの人が何のアクションを実行可能かを設定することができます。例えば、チャンネル設定やメンバーの管理や、@channel、@hereなどのタグによるグループへの発信、新たなウェブフックの作成などを制限できます。\n\n詳しくは[高度な権限設定の利用に関する説明](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "チャンネルはコミュニケーションの改善をサポートするものですが、Mattermost全体でチャンネルの作成や参加が多くなるにつれ、システムを整理されたものにし続けることが課題になってきます。高度な権限設定により、どのユーザー、もしくはどのロールの人が何のアクションを実行可能かを設定することができます。例えば、チャンネル設定やメンバーの管理や、@channel、@hereなどのタグによるグループへの発信、新たなウェブフックの作成などを制限できます。\n\n詳しくは[高度な権限設定の利用に関する説明](https://www.takwen.co/do/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
@@ -7181,7 +7181,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "チャンネルはコミュニケーションの改善をサポートするものですが、Mattermost全体でチャンネルの作成や参加が多くなるにつれ、システムを整理されたものにし続けることが課題になってきます。高度な権限設定により、どのユーザー、もしくはどのロールの人が何のアクションを実行可能かを設定することができます。例えば、チャンネル設定やメンバーの管理や、@channel、@hereなどのタグによるグループへの発信、新たなウェブフックの作成などを制限できます。\n\n詳しくは[高度な権限設定の利用に関する説明](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)を参照してください\n\n問い合わせ をクリックすると、あなたの情報が Mattermost, Inc. へ共有されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "チャンネルはコミュニケーションの改善をサポートするものですが、Mattermost全体でチャンネルの作成や参加が多くなるにつれ、システムを整理されたものにし続けることが課題になってきます。高度な権限設定により、どのユーザー、もしくはどのロールの人が何のアクションを実行可能かを設定することができます。例えば、チャンネル設定やメンバーの管理や、@channel、@hereなどのタグによるグループへの発信、新たなウェブフックの作成などを制限できます。\n\n詳しくは[高度な権限設定の利用に関する説明](https://www.takwen.co/do/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)を参照してください\n\n問い合わせ をクリックすると、あなたの情報が Mattermost, Inc. へ共有されます。詳しくは[説明文書](https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_title",
@@ -7193,7 +7193,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "500ユーザーを超える場合は、ユーザー管理やサーバーのクラスタリング、パフォーマンスモニタリング機能の利用を強く推奨します。詳細についてはお問い合わせください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "500ユーザーを超える場合は、ユーザー管理やサーバーのクラスタリング、パフォーマンスモニタリング機能の利用を強く推奨します。詳細についてはお問い合わせください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
@@ -7209,11 +7209,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
-    "translation": "Mattermost全体で多くの会話がなされている場合、どこに重要な情報があるかを知るのは難しいことかもしれません。多くのユーザーに対してメッセージを配信したい場合、誰でも参加可能だがチャンネル管理者しかメッセージの投稿ができないような閲覧専用の連絡チャンネルを立てることができます。\n\n詳しくは[閲覧専用の連絡チャンネルの作成に関する説明](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "Mattermost全体で多くの会話がなされている場合、どこに重要な情報があるかを知るのは難しいことかもしれません。多くのユーザーに対してメッセージを配信したい場合、誰でも参加可能だがチャンネル管理者しかメッセージの投稿ができないような閲覧専用の連絡チャンネルを立てることができます。\n\n詳しくは[閲覧専用の連絡チャンネルの作成に関する説明](https://www.takwen.co/do/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Mattermost全体で多くの会話がなされている場合、どこに重要な情報があるかを知るのは難しいことかもしれません。多くのユーザーに対してメッセージを配信したい場合、誰でも参加可能だがチャンネル管理者しかメッセージの投稿ができないような閲覧専用の連絡チャンネルを立てることができます。\n\n詳しくは[閲覧専用の連絡チャンネルの作成に関する説明](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)を参照してください\n\n問い合わせ をクリックすると、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "Mattermost全体で多くの会話がなされている場合、どこに重要な情報があるかを知るのは難しいことかもしれません。多くのユーザーに対してメッセージを配信したい場合、誰でも参加可能だがチャンネル管理者しかメッセージの投稿ができないような閲覧専用の連絡チャンネルを立てることができます。\n\n詳しくは[閲覧専用の連絡チャンネルの作成に関する説明](https://www.takwen.co/do/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)を参照してください\n\n問い合わせ をクリックすると、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
@@ -7225,7 +7225,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "あなたのMattermostには200ユーザーが登録しています。Mattermostをあなたの組織のシングルサインオンプロバイダーに接続することで、ユーザーは再度認証情報を入力することなくMattermostへアクセスできるようになります。MattermostサーバーをSAML 2.0プロバイダーと連携することをおすすめします。詳しくは[SAML2.0連携に関する説明](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "あなたのMattermostには200ユーザーが登録しています。Mattermostをあなたの組織のシングルサインオンプロバイダーに接続することで、ユーザーは再度認証情報を入力することなくMattermostへアクセスできるようになります。MattermostサーバーをSAML 2.0プロバイダーと連携することをおすすめします。詳しくは[SAML2.0連携に関する説明](https://www.takwen.co/do/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
@@ -7237,7 +7237,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "あなたのMattermostには100名以上のユーザーがいます。ユーザー数が増加するにつれ、新しいアカウントの準備などは時間のかかる作業となっていく可能性があります。組織のActive Directory/LDAPと連携し、誰でも組織のアカウントでMattermostにアクセス可能となるよう設定することをおすすめします。\n\n詳しくは[AD/LDAP連携に関する説明](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/) に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "あなたのMattermostには100名以上のユーザーがいます。ユーザー数が増加するにつれ、新しいアカウントの準備などは時間のかかる作業となっていく可能性があります。組織のActive Directory/LDAPと連携し、誰でも組織のアカウントでMattermostにアクセス可能となるよう設定することをおすすめします。\n\n詳しくは[AD/LDAP連携に関する説明](https://www.takwen.co/do/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)を参照してください\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/) に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
@@ -7245,7 +7245,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "あなたのMattermostには100名以上のユーザーがいます。ユーザー数が増加するにつれ、新しいアカウントの準備などは時間のかかる作業となっていく可能性があります。組織のActive Directory/LDAPと連携し、誰でも組織のアカウントでMattermostにアクセス可能となるよう設定することをおすすめします。\n\n詳しくは[AD/LDAP連携に関する説明](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)を参照してください\n\n問い合わせ をクリックすると、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "あなたのMattermostには100名以上のユーザーがいます。ユーザー数が増加するにつれ、新しいアカウントの準備などは時間のかかる作業となっていく可能性があります。組織のActive Directory/LDAPと連携し、誰でも組織のアカウントでMattermostにアクセス可能となるよう設定することをおすすめします。\n\n詳しくは[AD/LDAP連携に関する説明](https://www.takwen.co/do/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)を参照してください\n\n問い合わせ をクリックすると、あなたの情報を Mattermost, Inc. へ共有します。詳しくは[説明文書](https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
@@ -7257,7 +7257,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "このMattermostでは多要素認証が有効になっており、ユーザーはパスワードとは別の認証を追加することで、アカウントをより安全にすることを選択できます。システム全体のセキュリティを改善するために、すべてのアカウントに対して多要素認証の利用を要求することもできます。\n\n詳しくは[多要素認証の強制についての説明](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "このMattermostでは多要素認証が有効になっており、ユーザーはパスワードとは別の認証を追加することで、アカウントをより安全にすることを選択できます。システム全体のセキュリティを改善するために、すべてのアカウントに対して多要素認証の利用を要求することもできます。\n\n詳しくは[多要素認証の強制についての説明](https://www.takwen.co/do/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/)に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -7265,7 +7265,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "このMattermostでは多要素認証が有効になっており、ユーザーはパスワードとは別の認証を追加することで、アカウントをより安全にすることを選択できます。システム全体のセキュリティを改善するために、すべてのアカウントに対して多要素認証の利用を要求することもできます。\n\n詳しくは[多要素認証の強制についての説明](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が Mattermost, Inc. へ共有されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "このMattermostでは多要素認証が有効になっており、ユーザーはパスワードとは別の認証を追加することで、アカウントをより安全にすることを選択できます。システム全体のセキュリティを改善するために、すべてのアカウントに対して多要素認証の利用を要求することもできます。\n\n詳しくは[多要素認証の強制についての説明](https://www.takwen.co/do/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が Mattermost, Inc. へ共有されます。詳しくは[説明文書](https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
@@ -7277,7 +7277,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをMattermostに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://mattermost.com/software-evaluation-agreement/) と [プライバシーポリシー](https://mattermost.com/privacy-policy/) に同意したことになり、製品に関する電子メールを受信するようになります。"
+    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをMattermostに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.takwen.co/do/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\nトライアル開始 をクリックすると、[Mattermost Software Evaluation Agreement](https://takwen.co/do/software-evaluation-agreement/) と [プライバシーポリシー](https://takwen.co/do/privacy-policy/) に同意したことになり、製品に関する電子メールを受信するようになります。"
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",
@@ -7285,7 +7285,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをMattermostに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が Mattermost Inc. へ送信されます。詳しくは[説明文書](https://mattermost.com/pl/default-admin-advisory)を参照してください"
+    "translation": "プロジェクトには組織内、組織外の両方の人が参画することがあります。ゲストアカウント機能により、外部のパートナーをMattermostに参加させることができ、ゲストが閲覧可能な情報などの設定を行うことができます。\n\n詳しくは[ゲストアカウントに関する説明](https://www.takwen.co/do/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)を参照してください。\n\n問い合わせ をクリックすると、あなたの情報が TAKWEN DOInc. へ送信されます。詳しくは[説明文書](https://takwen.co/do/pl/default-admin-advisory)を参照してください"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
@@ -7293,11 +7293,11 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
-    "translation": "トライアルライセンスを取得できませんでした。 https://mattermost.com/trial/ からライセンスをリクエストしてください。"
+    "translation": "トライアルライセンスを取得できませんでした。 https://takwen.co/do/trial/ からライセンスをリクエストしてください。"
   },
   {
     "id": "api.license.request_trial_license.fail_get_user_count.app_error",
-    "translation": "トライアルライセンスを取得できませんでした。 support@mattermost.comまで連絡してください。登録ユーザー数を取得できません。"
+    "translation": "トライアルライセンスを取得できませんでした。 support@takwen.co/doまで連絡してください。登録ユーザー数を取得できません。"
   },
   {
     "id": "ent.elasticsearch.index_channels_batch.error",
@@ -7689,7 +7689,7 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "注意: Mattermost {{.Plan}}の支払いができませんでした"
+    "translation": "注意: TAKWEN DO{{.Plan}}の支払いができませんでした"
   },
   {
     "id": "api.templates.payment_failed.info3",
@@ -8769,7 +8769,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "新しいトライアルライセンスを適用できませんでした。あなたは、以前このMattermostインスタンスにトライアルライセンスを適用したことがあります。トライアル期間の延長をご希望の場合は[営業までご連絡ください](https://mattermost.com/contact-us/)。"
+    "translation": "新しいトライアルライセンスを適用できませんでした。あなたは、以前このMattermostインスタンスにトライアルライセンスを適用したことがあります。トライアル期間の延長をご希望の場合は[営業までご連絡ください](https://takwen.co/do/contact-us/)。"
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -9133,7 +9133,7 @@
   },
   {
     "id": "api.license.request_trial_license.embargoed",
-    "translation": "禁輸国に対する制限のため、リクエストを処理することができませんでした。輸出制限に関するご質問は、[説明文書を参照するか](https://mattermost.com/pl/limitations-for-embargoed-countries)、legal@mattermost.com までお問い合わせください。"
+    "translation": "禁輸国に対する制限のため、リクエストを処理することができませんでした。輸出制限に関するご質問は、[説明文書を参照するか](https://takwen.co/do/pl/limitations-for-embargoed-countries)、legal@takwen.co/do までお問い合わせください。"
   },
   {
     "id": "api.insights.feature_disabled",
@@ -9165,7 +9165,7 @@
   },
   {
     "id": "api.templates.server_inactivity_footer_disclaimer",
-    "translation": "あなたの Mattermost サーバが {{.Hours}} 時間以上アクティブでなかったため、このワンタイム電子メールが送信されました。この電子メールは、Mattermost サーバによって自動的に生成されたものです。"
+    "translation": "あなたの TAKWEN DOサーバが {{.Hours}} 時間以上アクティブでなかったため、このワンタイム電子メールが送信されました。この電子メールは、Mattermost サーバによって自動的に生成されたものです。"
   },
   {
     "id": "app.recent_searches.app_error",
@@ -9173,7 +9173,7 @@
   },
   {
     "id": "api.file.cloud_upload.app_error",
-    "translation": "クラウドインスタンスへのmmctlによるアップロードはサポートされていません。こちらのドキュメントを確認してください：https://docs.mattermost.com/manage/cloud-data-export.html。"
+    "translation": "クラウドインスタンスへのmmctlによるアップロードはサポートされていません。こちらのドキュメントを確認してください：https://docs.takwen.co/do/manage/cloud-data-export.html。"
   },
   {
     "id": "model.config.is_valid.image_decoder_concurrency.app_error",

@@ -79,9 +79,9 @@ func (a *App) EnsureBot(c request.CTX, productID string, bot *model.Bot) (string
 		} else {
 			c.Logger().Error("Product attempted to use an account that already exists. Convert user to a bot "+
 				"account in the CLI by running 'mattermost user convert <username> --bot'. If the user is an "+
-				"existing user account you want to preserve, change its username and restart the Mattermost server, "+
+				"existing user account you want to preserve, change its username and restart the TAKWEN DOserver, "+
 				"after which the plugin will create a bot account with that name. For more information about bot "+
-				"accounts, see https://mattermost.com/pl/default-bot-accounts", mlog.String("username",
+				"accounts, see https://takwen.co/do/pl/default-bot-accounts", mlog.String("username",
 				bot.Username),
 				mlog.String("user_id",
 					user.Id),

@@ -77,7 +77,7 @@ func (es *Service) SendEmailChangeVerifyEmail(newUserEmail, locale, siteURL, tok
 	data.Props["VerifyButton"] = T("api.templates.email_change_verify_body.button")
 	data.Props["QuestionTitle"] = T("api.templates.questions_footer.title")
 	data.Props["EmailInfo1"] = T("api.templates.email_us_anytime_at")
-	data.Props["SupportEmail"] = "feedback@mattermost.com"
+	data.Props["SupportEmail"] = "feedback@takwen.co/do"
 	data.Props["FooterV2"] = T("api.templates.email_footer_v2")
 
 	body, err := es.templatesContainer.RenderToString("email_change_verify_body", data)
@@ -296,12 +296,12 @@ func (es *Service) SendCloudWelcomeEmail(userEmail, locale, teamInviteID, workSp
 	data.Props["AddAppsInfo"] = T("api.templates.cloud_welcome_email.add_apps_info")
 	data.Props["AddAppsSubInfo"] = T("api.templates.cloud_welcome_email.add_apps_sub_info")
 	data.Props["AppMarketPlace"] = T("api.templates.cloud_welcome_email.app_market_place")
-	data.Props["AppMarketPlaceLink"] = "https://integrations.mattermost.com/"
+	data.Props["AppMarketPlaceLink"] = "https://integrations.takwen.co/do/"
 	data.Props["DownloadMMInfo"] = T("api.templates.cloud_welcome_email.download_mm_info")
 	data.Props["SignInSubInfo"] = T("api.templates.cloud_welcome_email.signin_sub_info")
 	data.Props["MMApps"] = T("api.templates.cloud_welcome_email.mm_apps")
 	data.Props["SignInSubInfo2"] = T("api.templates.cloud_welcome_email.signin_sub_info2")
-	data.Props["DownloadMMAppsLink"] = "https://mattermost.com/download/"
+	data.Props["DownloadMMAppsLink"] = "https://takwen.co/do/download/"
 	data.Props["Button"] = T("api.templates.cloud_welcome_email.button")
 	data.Props["GettingStartedQuestions"] = T("api.templates.cloud_welcome_email.start_questions")
 
@@ -957,7 +957,7 @@ func (es *Service) SendLicenseUpForRenewalEmail(email, name, locale, siteURL, ct
 	data.Props["Button"] = ctaText
 	data.Props["ButtonURL"] = ctaLink
 	data.Props["QuestionTitle"] = T("api.templates.questions_footer.title")
-	data.Props["SupportEmail"] = "feedback@mattermost.com"
+	data.Props["SupportEmail"] = "feedback@takwen.co/do"
 	data.Props["QuestionInfo"] = T("api.templates.questions_footer.info")
 
 	body, err := es.templatesContainer.RenderToString("license_up_for_renewal", data)

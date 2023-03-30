@@ -71,7 +71,7 @@
         "FeedbackName": "",
         "FeedbackOrganization": "",
         "SendPushNotifications": true,
-        "PushNotificationServer": "https://push-test.mattermost.com",
+        "PushNotificationServer": "https://push-test.takwen.co/do",
         "PushNotificationContents": "generic",
         "EnableEmailBatching": false,
         "EmailBatchingBufferSize": 256,

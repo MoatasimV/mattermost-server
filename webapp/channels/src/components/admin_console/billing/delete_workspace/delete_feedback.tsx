@@ -43,7 +43,7 @@ const DeleteFeedbackModal = (props: Props) => {
         }),
         props.intl.formatMessage({
             id: 'feedback.deleteWorkspace.feedbackHosting',
-            defaultMessage: 'Moving to hosting my own Mattermost instance (self-hosted)',
+            defaultMessage: 'Moving to hosting my own TAKWEN DOinstance (self-hosted)',
         }),
     ];
 

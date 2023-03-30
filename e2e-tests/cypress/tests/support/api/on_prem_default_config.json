@@ -196,7 +196,7 @@
         "SMTPServerTimeout": 10,
         "ConnectionSecurity": "",
         "SendPushNotifications": true,
-        "PushNotificationServer": "https://push-test.mattermost.com",
+        "PushNotificationServer": "https://push-test.takwen.co/do",
         "PushNotificationContents": "generic",
         "EnableEmailBatching": false,
         "EmailBatchingBufferSize": 256,
@@ -222,11 +222,11 @@
         "ShowFullName": true
     },
     "SupportSettings": {
-        "TermsOfServiceLink": "https://mattermost.com/terms-of-use/",
-        "PrivacyPolicyLink": "https://mattermost.com/privacy-policy/",
-        "AboutLink": "https://docs.mattermost.com/about/product.html",
-        "HelpLink": "https://mattermost.com/default-help/",
-        "ReportAProblemLink": "https://mattermost.com/default-report-a-problem/",
+        "TermsOfServiceLink": "https://takwen.co/do/terms-of-use/",
+        "PrivacyPolicyLink": "https://takwen.co/do/privacy-policy/",
+        "AboutLink": "https://docs.takwen.co/do/about/product.html",
+        "HelpLink": "https://takwen.co/do/default-help/",
+        "ReportAProblemLink": "https://takwen.co/do/default-report-a-problem/",
         "SupportEmail": "",
         "CustomTermsOfServiceEnabled": false,
         "CustomTermsOfServiceReAcceptancePeriod": 365,
@@ -355,9 +355,9 @@
         "LoginButtonTextColor": "#ffffff"
     },
     "NativeAppSettings": {
-        "AppDownloadLink": "https://mattermost.com/download/#mattermostApps",
-        "AndroidAppDownloadLink": "https://mattermost.com/mattermost-android-app/",
-        "IosAppDownloadLink": "https://mattermost.com/mattermost-ios-app/"
+        "AppDownloadLink": "https://takwen.co/do/download/#mattermostApps",
+        "AndroidAppDownloadLink": "https://takwen.co/do/mattermost-android-app/",
+        "IosAppDownloadLink": "https://takwen.co/do/mattermost-ios-app/"
     },
     "MetricsSettings": {
         "Enable": false,
@@ -448,7 +448,7 @@
         "EnableRemoteMarketplace": true,
         "AutomaticPrepackagedPlugins": true,
         "RequirePluginSignature": false,
-        "MarketplaceURL": "https://api.integrations.mattermost.com",
+        "MarketplaceURL": "https://api.integrations.takwen.co/do",
         "SignaturePublicKeyFiles": []
     },
     "DisplaySettings": {

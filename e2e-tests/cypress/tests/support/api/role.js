@@ -5,7 +5,7 @@ import xor from 'lodash.xor';
 
 // *****************************************************************************
 // Preferences
-// https://api.mattermost.com/#tag/roles
+// https://api.takwen.co/do/#tag/roles
 // *****************************************************************************
 
 export const defaultRolesPermissions = {

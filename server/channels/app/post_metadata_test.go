@@ -564,7 +564,7 @@ func TestPreparePostForClient(t *testing.T) {
 		defer th.TearDown()
 
 		th.App.UpdateConfig(func(cfg *model.Config) {
-			*cfg.ServiceSettings.SiteURL = "http://mymattermost.com"
+			*cfg.ServiceSettings.SiteURL = "http://mytakwen.co/do"
 		})
 
 		th.Context.Session().UserId = th.BasicUser.Id
@@ -597,7 +597,7 @@ func TestPreparePostForClient(t *testing.T) {
 		defer th.TearDown()
 
 		th.App.UpdateConfig(func(cfg *model.Config) {
-			*cfg.ServiceSettings.SiteURL = "http://mymattermost.com"
+			*cfg.ServiceSettings.SiteURL = "http://mytakwen.co/do"
 		})
 
 		th.Context.Session().UserId = th.BasicUser.Id
@@ -660,7 +660,7 @@ func TestPreparePostForClient(t *testing.T) {
 		defer th.TearDown()
 
 		th.App.UpdateConfig(func(cfg *model.Config) {
-			*cfg.ServiceSettings.SiteURL = "http://mymattermost.com"
+			*cfg.ServiceSettings.SiteURL = "http://mytakwen.co/do"
 		})
 
 		th.Context.Session().UserId = th.BasicUser.Id
@@ -697,7 +697,7 @@ func TestPreparePostForClient(t *testing.T) {
 		defer th.TearDown()
 
 		th.App.UpdateConfig(func(cfg *model.Config) {
-			*cfg.ServiceSettings.SiteURL = "http://mymattermost.com"
+			*cfg.ServiceSettings.SiteURL = "http://mytakwen.co/do"
 		})
 
 		th.Context.Session().UserId = th.BasicUser.Id
@@ -744,7 +744,7 @@ func TestPreparePostForClient(t *testing.T) {
 		defer th.TearDown()
 
 		th.App.UpdateConfig(func(cfg *model.Config) {
-			*cfg.ServiceSettings.SiteURL = "http://mymattermost.com"
+			*cfg.ServiceSettings.SiteURL = "http://mytakwen.co/do"
 		})
 
 		th.Context.Session().UserId = th.BasicUser.Id
@@ -793,7 +793,7 @@ func TestPreparePostForClientWithImageProxy(t *testing.T) {
 
 		th.App.UpdateConfig(func(cfg *model.Config) {
 			*cfg.ServiceSettings.EnableLinkPreviews = true
-			*cfg.ServiceSettings.SiteURL = "http://mymattermost.com"
+			*cfg.ServiceSettings.SiteURL = "http://mytakwen.co/do"
 			*cfg.ServiceSettings.AllowedUntrustedInternalConnections = "localhost,127.0.0.1"
 			*cfg.ImageProxySettings.Enable = true
 			*cfg.ImageProxySettings.ImageProxyType = "atmos/camo"
@@ -824,7 +824,7 @@ func TestPreparePostForClientWithImageProxy(t *testing.T) {
 func testProxyLinkedImage(t *testing.T, th *TestHelper, shouldProxy bool) {
 	postTemplate := "![foo](%v)"
 	imageURL := "http://mydomain.com/myimage"
-	proxiedImageURL := "http://mymattermost.com/api/v4/image?url=http%3A%2F%2Fmydomain.com%2Fmyimage"
+	proxiedImageURL := "http://mytakwen.co/do/api/v4/image?url=http%3A%2F%2Fmydomain.com%2Fmyimage"
 
 	post := &model.Post{
 		UserId:    th.BasicUser.Id,
@@ -897,7 +897,7 @@ func testProxyOpenGraphImage(t *testing.T, th *TestHelper, shouldProxy bool) {
 	image := og.Images[0]
 	if shouldProxy {
 		assert.Equal(t, "", image.URL, "image URL should not be set with proxy")
-		assert.Equal(t, "http://mymattermost.com/api/v4/image?url="+url.QueryEscape(server.URL+"/test-image3.png"), image.SecureURL, "secure image URL should be sent through proxy")
+		assert.Equal(t, "http://mytakwen.co/do/api/v4/image?url="+url.QueryEscape(server.URL+"/test-image3.png"), image.SecureURL, "secure image URL should be sent through proxy")
 	} else {
 		assert.Equal(t, server.URL+"/test-image3.png", image.URL, "image URL should be set")
 		assert.Equal(t, "", image.SecureURL, "secure image URL should not be set")
@@ -1316,7 +1316,7 @@ func TestGetImagesForPost(t *testing.T) {
 		assert.Equal(t, images, map[string]*model.PostImage{})
 	})
 
-	t.Run("should not process OpenGraph image that's a Mattermost permalink", func(t *testing.T) {
+	t.Run("should not process OpenGraph image that's a TAKWEN DOpermalink", func(t *testing.T) {
 		th := SetupWithStoreMock(t)
 		defer th.TearDown()
 
@@ -1344,7 +1344,7 @@ func TestGetImagesForPost(t *testing.T) {
 
 		mockPostStore := mocks.PostStore{}
 		mockPostStore.On("GetSingle", "qwertyuiopasdfghjklzxcvbnm", false).RunFn = func(args mock.Arguments) {
-			assert.Fail(t, "should not have tried to process Mattermost permalink in OG image URL")
+			assert.Fail(t, "should not have tried to process TAKWEN DOpermalink in OG image URL")
 		}
 
 		mockLinkMetadataStore := mocks.LinkMetadataStore{}
@@ -2760,7 +2760,7 @@ func TestSanitizePostMetadataForUserAndChannel(t *testing.T) {
 
 	th.App.UpdateConfig(func(cfg *model.Config) {
 		*cfg.ServiceSettings.EnableLinkPreviews = true
-		*cfg.ServiceSettings.SiteURL = "http://mymattermost.com"
+		*cfg.ServiceSettings.SiteURL = "http://mytakwen.co/do"
 	})
 
 	directChannel, err := th.App.createDirectChannel(th.Context, th.BasicUser.Id, th.BasicUser2.Id)

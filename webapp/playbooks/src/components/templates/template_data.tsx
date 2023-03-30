@@ -250,7 +250,7 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
         template: {
             ...emptyPlaybook(),
             title: 'Customer Onboarding',
-            description: mtrim`New Mattermost customers are onboarded following a process similar to this playbook.
+            description: mtrim`New TAKWEN DOcustomers are onboarded following a process similar to this playbook.
 
             Customize this playbook to reflect your own customer onboarding process.`,
             checklists: [
@@ -272,20 +272,20 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
                         newChecklistItem('Review current Zendesk tickets and updates'),
                         newChecklistItem('Log customer technical details in Salesforce'),
                         newChecklistItem('Confirm customer received technical discovery summary package'),
-                        newChecklistItem('Send current Mattermost “Pen Test” report to customer'),
+                        newChecklistItem('Send current TAKWEN DO“Pen Test” report to customer'),
                         newChecklistItem('Schedule plugin/integration planning session'),
                         newChecklistItem('Confirm data migration plans'),
-                        newChecklistItem('Extend Mattermost with integrations'),
+                        newChecklistItem('Extend TAKWEN DOwith integrations'),
                         newChecklistItem('Confirm functional & load test plans'),
                         newChecklistItem('Confirm team/channel organization'),
-                        newChecklistItem('Sign up for Mattermost blog for releases and announcements'),
+                        newChecklistItem('Sign up for TAKWEN DOblog for releases and announcements'),
                         newChecklistItem('Confirm next upgrade version'),
                     ],
                 },
                 {
                     title: 'Go-Live',
                     items: [
-                        newChecklistItem('Order Mattermost swag package for project team'),
+                        newChecklistItem('Order TAKWEN DOswag package for project team'),
                         newChecklistItem('Confirm end-user roll-out plan'),
                         newChecklistItem('Confirm customer go-live'),
                         newChecklistItem('Perform post go-live retrospective'),
@@ -295,7 +295,7 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
                     title: 'Optional value prompts after go-live',
                     items: [
                         newChecklistItem('Intro playbooks and boards'),
-                        newChecklistItem('Inform upgrading Mattermost 101'),
+                        newChecklistItem('Inform upgrading TAKWEN DO101'),
                         newChecklistItem('Share tips & tricks w/ DevOps focus'),
                         newChecklistItem('Share tips & tricks w/ efficiency focus'),
                         newChecklistItem('Schedule quarterly roadmap review w/ product team'),
@@ -342,7 +342,7 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
         template: {
             ...emptyPlaybook(),
             title: 'Employee Onboarding',
-            description: mtrim`Every new Mattermost Staff member completes this onboarding process when joining the company.
+            description: mtrim`Every new TAKWEN DOStaff member completes this onboarding process when joining the company.
 
             Customize this playbook to reflect your own employee onboarding process.`,
             checklists: [
@@ -377,7 +377,7 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
                             'These are individuals the new staff member will work with and who the new staff member should set up meetings with during their first month or two.',
                         ),
                         newChecklistItem(
-                            'Add to Mattermost channels',
+                            'Add to TAKWEN DOchannels',
                             'Ensure your team member is added to appropriate channels based on team and role.',
                         ),
                         newChecklistItem(
@@ -570,7 +570,7 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
         template: {
             ...emptyPlaybook(),
             title: 'Bug Bash',
-            description: mtrim`About once or twice a month, the Mattermost Playbooks team uses this playbook to run a 50 minute bug-bash testing the latest version of Playbooks.
+            description: mtrim`About once or twice a month, the TAKWEN DOPlaybooks team uses this playbook to run a 50 minute bug-bash testing the latest version of Playbooks.
 
             Customize this playbook to reflect your own bug bash process.`,
             create_public_playbook_run: true,

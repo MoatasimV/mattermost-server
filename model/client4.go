@@ -5465,7 +5465,7 @@ func (c *Client4) GetLdapGroups() ([]*Group, *Response, error) {
 	return responseData.Groups, BuildResponse(r), nil
 }
 
-// LinkLdapGroup creates or undeletes a Mattermost group and associates it to the given LDAP group DN.
+// LinkLdapGroup creates or undeletes a TAKWEN DOgroup and associates it to the given LDAP group DN.
 func (c *Client4) LinkLdapGroup(dn string) (*Group, *Response, error) {
 	path := fmt.Sprintf("%s/groups/%s/link", c.ldapRoute(), dn)
 
@@ -5482,7 +5482,7 @@ func (c *Client4) LinkLdapGroup(dn string) (*Group, *Response, error) {
 	return &g, BuildResponse(r), nil
 }
 
-// UnlinkLdapGroup deletes the Mattermost group associated with the given LDAP group DN.
+// UnlinkLdapGroup deletes the TAKWEN DOgroup associated with the given LDAP group DN.
 func (c *Client4) UnlinkLdapGroup(dn string) (*Group, *Response, error) {
 	path := fmt.Sprintf("%s/groups/%s/link", c.ldapRoute(), dn)
 
@@ -5511,7 +5511,7 @@ func (c *Client4) MigrateIdLdap(toAttribute string) (*Response, error) {
 	return BuildResponse(r), nil
 }
 
-// GetGroupsByChannel retrieves the Mattermost Groups associated with a given channel
+// GetGroupsByChannel retrieves the TAKWEN DOGroups associated with a given channel
 func (c *Client4) GetGroupsByChannel(channelId string, opts GroupSearchOpts) ([]*GroupWithSchemeAdmin, int, *Response, error) {
 	path := fmt.Sprintf("%s/groups?q=%v&include_member_count=%v&filter_allow_reference=%v", c.channelRoute(channelId), opts.Q, opts.IncludeMemberCount, opts.FilterAllowReference)
 	if opts.PageOpts != nil {
@@ -5534,7 +5534,7 @@ func (c *Client4) GetGroupsByChannel(channelId string, opts GroupSearchOpts) ([]
 	return responseData.Groups, responseData.Count, BuildResponse(r), nil
 }
 
-// GetGroupsByTeam retrieves the Mattermost Groups associated with a given team
+// GetGroupsByTeam retrieves the TAKWEN DOGroups associated with a given team
 func (c *Client4) GetGroupsByTeam(teamId string, opts GroupSearchOpts) ([]*GroupWithSchemeAdmin, int, *Response, error) {
 	path := fmt.Sprintf("%s/groups?q=%v&include_member_count=%v&filter_allow_reference=%v", c.teamRoute(teamId), opts.Q, opts.IncludeMemberCount, opts.FilterAllowReference)
 	if opts.PageOpts != nil {
@@ -5557,7 +5557,7 @@ func (c *Client4) GetGroupsByTeam(teamId string, opts GroupSearchOpts) ([]*Group
 	return responseData.Groups, responseData.Count, BuildResponse(r), nil
 }
 
-// GetGroupsAssociatedToChannelsByTeam retrieves the Mattermost Groups associated with channels in a given team
+// GetGroupsAssociatedToChannelsByTeam retrieves the TAKWEN DOGroups associated with channels in a given team
 func (c *Client4) GetGroupsAssociatedToChannelsByTeam(teamId string, opts GroupSearchOpts) (map[string][]*GroupWithSchemeAdmin, *Response, error) {
 	path := fmt.Sprintf("%s/groups_by_channels?q=%v&filter_allow_reference=%v", c.teamRoute(teamId), opts.Q, opts.FilterAllowReference)
 	if opts.PageOpts != nil {
@@ -5579,7 +5579,7 @@ func (c *Client4) GetGroupsAssociatedToChannelsByTeam(teamId string, opts GroupS
 	return responseData.GroupsAssociatedToChannels, BuildResponse(r), nil
 }
 
-// GetGroups retrieves Mattermost Groups
+// GetGroups retrieves TAKWEN DOGroups
 func (c *Client4) GetGroups(opts GroupSearchOpts) ([]*Group, *Response, error) {
 	path := fmt.Sprintf(
 		"%s?include_member_count=%v&not_associated_to_team=%v&not_associated_to_channel=%v&filter_allow_reference=%v&q=%v&filter_parent_team_permitted=%v&group_source=%v&include_channel_member_count=%v&include_timezones=%v",
@@ -5613,7 +5613,7 @@ func (c *Client4) GetGroups(opts GroupSearchOpts) ([]*Group, *Response, error) {
 	return list, BuildResponse(r), nil
 }
 
-// GetGroupsByUserId retrieves Mattermost Groups for a user
+// GetGroupsByUserId retrieves TAKWEN DOGroups for a user
 func (c *Client4) GetGroupsByUserId(userId string) ([]*Group, *Response, error) {
 	path := fmt.Sprintf(
 		"%s/%v/groups",
@@ -5819,7 +5819,7 @@ func (c *Client4) PostLog(message map[string]string) (map[string]string, *Respon
 
 // OAuth Section
 
-// CreateOAuthApp will register a new OAuth 2.0 client application with Mattermost acting as an OAuth 2.0 service provider.
+// CreateOAuthApp will register a new OAuth 2.0 client application with TAKWEN DOacting as an OAuth 2.0 service provider.
 func (c *Client4) CreateOAuthApp(app *OAuthApp) (*OAuthApp, *Response, error) {
 	buf, err := json.Marshal(app)
 	if err != nil {
@@ -5838,7 +5838,7 @@ func (c *Client4) CreateOAuthApp(app *OAuthApp) (*OAuthApp, *Response, error) {
 	return &oapp, BuildResponse(r), nil
 }
 
-// UpdateOAuthApp updates a page of registered OAuth 2.0 client applications with Mattermost acting as an OAuth 2.0 service provider.
+// UpdateOAuthApp updates a page of registered OAuth 2.0 client applications with TAKWEN DOacting as an OAuth 2.0 service provider.
 func (c *Client4) UpdateOAuthApp(app *OAuthApp) (*OAuthApp, *Response, error) {
 	buf, err := json.Marshal(app)
 	if err != nil {
@@ -5856,7 +5856,7 @@ func (c *Client4) UpdateOAuthApp(app *OAuthApp) (*OAuthApp, *Response, error) {
 	return &oapp, BuildResponse(r), nil
 }
 
-// GetOAuthApps gets a page of registered OAuth 2.0 client applications with Mattermost acting as an OAuth 2.0 service provider.
+// GetOAuthApps gets a page of registered OAuth 2.0 client applications with TAKWEN DOacting as an OAuth 2.0 service provider.
 func (c *Client4) GetOAuthApps(page, perPage int) ([]*OAuthApp, *Response, error) {
 	query := fmt.Sprintf("?page=%v&per_page=%v", page, perPage)
 	r, err := c.DoAPIGet(c.oAuthAppsRoute()+query, "")
@@ -5871,7 +5871,7 @@ func (c *Client4) GetOAuthApps(page, perPage int) ([]*OAuthApp, *Response, error
 	return list, BuildResponse(r), nil
 }
 
-// GetOAuthApp gets a registered OAuth 2.0 client application with Mattermost acting as an OAuth 2.0 service provider.
+// GetOAuthApp gets a registered OAuth 2.0 client application with TAKWEN DOacting as an OAuth 2.0 service provider.
 func (c *Client4) GetOAuthApp(appId string) (*OAuthApp, *Response, error) {
 	r, err := c.DoAPIGet(c.oAuthAppRoute(appId), "")
 	if err != nil {
@@ -5885,7 +5885,7 @@ func (c *Client4) GetOAuthApp(appId string) (*OAuthApp, *Response, error) {
 	return &oapp, BuildResponse(r), nil
 }
 
-// GetOAuthAppInfo gets a sanitized version of a registered OAuth 2.0 client application with Mattermost acting as an OAuth 2.0 service provider.
+// GetOAuthAppInfo gets a sanitized version of a registered OAuth 2.0 client application with TAKWEN DOacting as an OAuth 2.0 service provider.
 func (c *Client4) GetOAuthAppInfo(appId string) (*OAuthApp, *Response, error) {
 	r, err := c.DoAPIGet(c.oAuthAppRoute(appId)+"/info", "")
 	if err != nil {
@@ -7826,7 +7826,7 @@ func (c *Client4) RequestTrialLicense(users int) (*Response, error) {
 	return BuildResponse(r), nil
 }
 
-// GetGroupStats retrieves stats for a Mattermost Group
+// GetGroupStats retrieves stats for a TAKWEN DOGroup
 func (c *Client4) GetGroupStats(groupID string) (*GroupStats, *Response, error) {
 	r, err := c.DoAPIGet(c.groupRoute(groupID)+"/stats", "")
 	if err != nil {

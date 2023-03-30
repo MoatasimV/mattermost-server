@@ -101,7 +101,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Изтеглете приложението Mattermost или използвайте поддържан браузър за по-добро изживяване."
+    "translation": "Изтеглете приложението TAKWEN DOили използвайте поддържан браузър за по-добро изживяване."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -241,7 +241,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "Общите условия на GitLab са актуализирани. Моля, отидете на gitlab.com, за да ги приемете и след това опитайте да влезете в Mattermost отново."
+    "translation": "Общите условия на GitLab са актуализирани. Моля, отидете на gitlab.com, за да ги приемете и след това опитайте да влезете в TAKWEN DOотново."
   },
   {
     "id": "model.websocket_client.connect_fail.app_error",
@@ -1793,11 +1793,11 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "Превишено е ограничението на размера. Опитайте да проверите Вашия [максимален размер на страницата](https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded )."
+    "translation": "Превишено е ограничението на размера. Опитайте да проверите Вашия [максимален размер на страницата](https://docs.takwen.co/do/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded )."
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Неуспешно търсене на потребители в AD/LDAP. Проверете дали Mattermost сървъра може да се свърже с вашия AD/LDAP сървър и опитайте отново."
+    "translation": "Неуспешно търсене на потребители в AD/LDAP. Проверете дали TAKWEN DOсървъра може да се свърже с вашия AD/LDAP сървър и опитайте отново."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -1837,7 +1837,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Вашият AD/LDAP профил няма разрешение за използване на този Mattermost сървър. Моля, помолете вашия системен администратор да провери AD/LDAP потребителския филтър."
+    "translation": "Вашият AD/LDAP профил няма разрешение за използване на този TAKWEN DOсървър. Моля, помолете вашия системен администратор да провери AD/LDAP потребителския филтър."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -3357,15 +3357,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител TAKWEN DO{{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител TAKWEN DO{{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира разрешенията за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител TAKWEN DO{{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира разрешенията за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
@@ -3373,11 +3373,11 @@
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Надстройката до Mattermost корпоративна версия е вече пусната."
+    "translation": "Надстройката до TAKWEN DOкорпоративна версия е вече пусната."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Не можете да надстроите, защото вече използвате Mattermost корпоративна версия."
+    "translation": "Не можете да надстроите, защото вече използвате TAKWEN DOкорпоративна версия."
   },
   {
     "id": "app.webhooks.get_outgoing.app_error",
@@ -3825,7 +3825,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Вече надградихте до Mattermost корпоративна версия. Моля, рестартирайте сървъра, за да завършите надстройката."
+    "translation": "Вече надградихте до TAKWEN DOкорпоративна версия. Моля, рестартирайте сървъра, за да завършите надстройката."
   },
   {
     "id": "api.templates.welcome_subject",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
-    "translation": "Ако имате някакви допълнителни запитвания, моля, свържете се с support@mattermost.com"
+    "translation": "Ако имате някакви допълнителни запитвания, моля, свържете се с support@takwen.co/do"
   },
   {
     "id": "api.templates.warn_metric_ack.body.site_url_header",
@@ -3945,7 +3945,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Лицензът за Mattermost корпоративна е деактивиран."
+    "translation": "Лицензът за TAKWEN DOкорпоративна е деактивиран."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -3961,11 +3961,11 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.title",
-    "translation": "Вашата Mattermost Cloud фактура е дължима"
+    "translation": "Вашата TAKWEN DOCloud фактура е дължима"
   },
   {
     "id": "api.templates.payment_failed_no_card.subject",
-    "translation": "Плащането се дължи за вашия Mattermost Cloud абонамент"
+    "translation": "Плащането се дължи за вашия TAKWEN DOCloud абонамент"
   },
   {
     "id": "api.templates.payment_failed_no_card.info3",
@@ -3973,7 +3973,7 @@
   },
   {
     "id": "api.templates.payment_failed_no_card.info1",
-    "translation": "Вашата фактура за Mattermost Cloud за последния период на фактуриране е обработена. Ние обаче не разполагаме с вашите данни за плащане."
+    "translation": "Вашата фактура за TAKWEN DOCloud за последния период на фактуриране е обработена. Ние обаче не разполагаме с вашите данни за плащане."
   },
   {
     "id": "api.templates.payment_failed_no_card.button",
@@ -3985,11 +3985,11 @@
   },
   {
     "id": "api.templates.payment_failed.subject",
-    "translation": "Изисква се действие: Неуспешно плащане за Mattermost Cloud"
+    "translation": "Изисква се действие: Неуспешно плащане за TAKWEN DOCloud"
   },
   {
     "id": "api.templates.payment_failed.info3",
-    "translation": "За да осигурите непрекъснат абонамент за Mattermost Cloud, моля, свържете се с вашата финансова институция, за да отстраните проблема или актуализирайте данните си за плащане. След като се актуализира информацията за плащане, Mattermost ще се опита да уреди неплатеното салдо."
+    "translation": "За да осигурите непрекъснат абонамент за TAKWEN DOCloud, моля, свържете се с вашата финансова институция, за да отстраните проблема или актуализирайте данните си за плащане. След като се актуализира информацията за плащане, TAKWEN DOще се опита да уреди неплатеното салдо."
   },
   {
     "id": "api.templates.payment_failed.info2",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "api.templates.payment_failed.info1",
-    "translation": "Вашата финансова институция отказа плащане от вашата {{.CardBrand}} **** {{.LastFour}}, свързана с вашето работно пространство в Mattermost Cloud."
+    "translation": "Вашата финансова институция отказа плащане от вашата {{.CardBrand}} **** {{.LastFour}}, свързана с вашето работно пространство в TAKWEN DOCloud."
   },
   {
     "id": "api.templates.password_change_subject",
@@ -4791,7 +4791,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот профили, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nАко искате бот профили да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот профили, когато собственикът е деактивиран“ в **Системна конзола > Интеграции > Бот профили** на true.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} е деактивиран. Те управляваха следните бот акаунти, които вече са деактивирани.\n\n{{.BotNames}}{{else}}{{.UserName}} е деактивиран. Те управляват {{.NumBots}} бот акаунти, които вече са деактивирани, включително следното:\n\n{{.BotNames}}{{end}}Можете да вземете собственост върху всеки бот, като го активирате на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} са деактивирани. Те управляваха следните бот акаунти, които все още са активирани.\n\n{{.BotNames}}\n{{else}}{{.UserName}} е деактивиран. Те управляваха {{.NumBots}} бот профили, които все още са активирани, включително следното:\n\n{{.BotNames}}{{end}}Силно ви препоръчваме да поемете собственост върху всеки бот, като го активирате отново на **Интеграции> Бот профили** и създадете на нови маркери за бота.\n\nЗа повече информация вижте нашата [документация](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nАко искате бот профили да се деактивират автоматично след деактивиране на собственика, задайте „Деактивиране на бот профили, когато собственикът е деактивиран“ в **Системна конзола > Интеграции > Бот профили** на true.{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -5331,11 +5331,11 @@
   },
   {
     "id": "api.license.request_trial_license.fail_get_user_count.app_error",
-    "translation": "Не можете да получите пробен лиценз, моля, опитайте отново или се свържете със support@mattermost.com. Не може да се получи броят на регистрираните потребители."
+    "translation": "Не можете да получите пробен лиценз, моля, опитайте отново или се свържете със support@takwen.co/do. Не може да се получи броят на регистрираните потребители."
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "Не можете да получите пробен лиценз, моля опитайте отново или се свържете със support@mattermost.com."
+    "translation": "Не можете да получите пробен лиценз, моля опитайте отново или се свържете със support@takwen.co/do."
   },
   {
     "id": "api.license.request_renewal_link.app_error",
@@ -5343,7 +5343,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Трябва да приемете Mattermost споразумение за оценка на софтуера и политиката за поверителност, за да поискате лиценз."
+    "translation": "Трябва да приемете TAKWEN DOспоразумение за оценка на софтуера и политиката за поверителност, за да поискате лиценз."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -5858,7 +5858,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "Не е намерен зададения канал. Моля, използвайте [адреса на канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
+    "translation": "Не е намерен зададения канал. Моля, използвайте [адреса на канала](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
   },
   {
     "id": "api.command_mute.name",
@@ -5870,7 +5870,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [адреса на канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
+    "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [адреса на канала](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
   },
   {
     "id": "api.command_mute.desc",
@@ -6022,7 +6022,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [адреса на канала](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
+    "translation": "Не е намерен канала {{.Channel}}. Моля, използвайте [адреса на канала](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) за да определяте канали."
   },
   {
     "id": "api.command_invite.channel.app_error",
@@ -6625,11 +6625,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack потребител е обединен с Mattermost потребител поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}., но потребителя не може да бъде добавен към екипа.\n"
+    "translation": "Slack потребител е обединен с TAKWEN DOпотребител поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}., но потребителя не може да бъде добавен към екипа.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack потребител е обединен с Mattermost поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}.\n"
+    "translation": "Slack потребител е обединен с TAKWEN DOпоради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -6641,7 +6641,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack канала {{.DisplayName}} вече съществува като активен Mattermost канал. Двата канала са обединени.\n"
+    "translation": "Slack канала {{.DisplayName}} вече съществува като активен TAKWEN DOканал. Двата канала са обединени.\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -6669,7 +6669,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.start_trial.notification_body",
-    "translation": "Вашата система Mattermost вече има няколко екипа. Много отбори имат свой предпочитан начин за координация и сътрудничество, включително как се създават канали, кой може да покани нови съотборници и как се управляват интеграциите. Схемите за отмяна на екипа ви позволяват да персонализирате потребителските разрешения във всеки екип, за да отговорите на техните специфични нужди.\n\n[Научете повече за използването на разширени права](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [политика за поверителност](https://mattermost.com/privacy-policy/), и получаването на ел.поща за продукта."
+    "translation": "Вашата система TAKWEN DOвече има няколко екипа. Много отбори имат свой предпочитан начин за координация и сътрудничество, включително как се създават канали, кой може да покани нови съотборници и как се управляват интеграциите. Схемите за отмяна на екипа ви позволяват да персонализирате потребителските разрешения във всеки екип, за да отговорите на техните специфични нужди.\n\n[Научете повече за използването на разширени права](https://www.takwen.co/do/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [политика за поверителност](https://takwen.co/do/privacy-policy/), и получаването на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_title",
@@ -6677,7 +6677,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.notification_body",
-    "translation": "Вашата система Mattermost вече има няколко екипа. Много отбори имат свой предпочитан начин за координация и сътрудничество, включително как се създават канали, кой може да покани нови съотборници и как се управляват интеграциите. Схемите за отмяна на екипа ви позволяват да персонализирате потребителските разрешения във всеки екип, за да отговорите на техните специфични нужди.\n\n[Научете повече за използването на разширени права](https://www.mattermost.com/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nКато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Вашата система TAKWEN DOвече има няколко екипа. Много отбори имат свой предпочитан начин за координация и сътрудничество, включително как се създават канали, кой може да покани нови съотборници и как се управляват интеграциите. Схемите за отмяна на екипа ви позволяват да персонализирате потребителските разрешения във всеки екип, за да отговорите на техните специфични нужди.\n\n[Научете повече за използването на разширени права](https://www.takwen.co/do/docs-advanced-permissions-team-override/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions-team-override).\n\nКато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_teams_5.contact_us.email_body",
@@ -6689,7 +6689,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.start_trial.notification_body",
-    "translation": "Вашата система Mattermost има голям брой съобщения. Търсенето на база данни по подразбиране на Mattermost започва да показва влошаване на производителността при около 2,5 милиона публикации. При над 5 милиона публикации, Elasticsearch може да помогне да се избегнат значителни проблеми с производителността, като изчаквания при търсене и споменавания. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\n[Научете повече за подобряване на производителността](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [политика за поверителност](https://mattermost.com/privacy-policy/), и получаването на ел.поща за продукта."
+    "translation": "Вашата система TAKWEN DOима голям брой съобщения. Търсенето на база данни по подразбиране на TAKWEN DOзапочва да показва влошаване на производителността при около 2,5 милиона публикации. При над 5 милиона публикации, Elasticsearch може да помогне да се избегнат значителни проблеми с производителността, като изчаквания при търсене и споменавания. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\n[Научете повече за подобряване на производителността](https://www.takwen.co/do/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [политика за поверителност](https://takwen.co/do/privacy-policy/), и получаването на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_title",
@@ -6697,7 +6697,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.notification_body",
-    "translation": "Вашата система Mattermost има голям брой съобщения. Търсенето на база данни по подразбиране на Mattermost започва да показва влошаване на производителността при около 2,5 милиона публикации. При над 5 милиона публикации, Elasticsearch може да помогне да се избегнат значителни проблеми с производителността, като изчаквания при търсене и споменавания. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\n[Научете повече за подобряване на производителността](https://www.mattermost.com/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nКато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Вашата система TAKWEN DOима голям брой съобщения. Търсенето на база данни по подразбиране на TAKWEN DOзапочва да показва влошаване на производителността при около 2,5 милиона публикации. При над 5 милиона публикации, Elasticsearch може да помогне да се избегнат значителни проблеми с производителността, като изчаквания при търсене и споменавания. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\n[Научете повече за подобряване на производителността](https://www.takwen.co/do/docs-elasticsearch/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=elasticsearch)\n\nКато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_posts_2M.contact_us.email_body",
@@ -6709,7 +6709,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.start_trial.notification_body",
-    "translation": "Каналите помагат за подобряване на комуникацията, но тъй като потребителите от Mattermost се присъединяват и създават канали, предизвикателството да поддържате системата организирана се увеличава. Разширените права ви позволяват да зададете кои потребители или роли могат да извършват определени действия, включително управление на настройки на канали и членове, използване на @channel или @here за маркиране на широки групи потребители и създаване на нови webhook.\n\n[Научете повече за използването на разширени права](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [политика за поверителност](https://mattermost.com/privacy-policy/), и получаването на ел.поща за продукта."
+    "translation": "Каналите помагат за подобряване на комуникацията, но тъй като потребителите от TAKWEN DOсе присъединяват и създават канали, предизвикателството да поддържате системата организирана се увеличава. Разширените права ви позволяват да зададете кои потребители или роли могат да извършват определени действия, включително управление на настройки на канали и членове, използване на @channel или @here за маркиране на широки групи потребители и създаване на нови webhook.\n\n[Научете повече за използването на разширени права](https://www.takwen.co/do/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [политика за поверителност](https://takwen.co/do/privacy-policy/), и получаването на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_title",
@@ -6717,7 +6717,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.notification_body",
-    "translation": "Каналите помагат за подобряване на комуникацията, но тъй като потребителите от Mattermost се присъединяват и създават канали, предизвикателството да поддържате системата организирана се увеличава. Разширените права ви позволяват да зададете кои потребители или роли могат да извършват определени действия, включително управление на настройки на канали и членове, използване на @channel или @here за маркиране на широки групи потребители и създаване на нови webhook.\n\n[Научете повече за използването на разширени права](https://www.mattermost.com/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nКато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Каналите помагат за подобряване на комуникацията, но тъй като потребителите от TAKWEN DOсе присъединяват и създават канали, предизвикателството да поддържате системата организирана се увеличава. Разширените права ви позволяват да зададете кои потребители или роли могат да извършват определени действия, включително управление на настройки на канали и членове, използване на @channel или @here за маркиране на широки групи потребители и създаване на нови webhook.\n\n[Научете повече за използването на разширени права](https://www.takwen.co/do/docs-advanced-permissions/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=advanced-permissions)\n\nКато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_channels_50.contact_us.email_body",
@@ -6729,7 +6729,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.start_trial.notification_body",
-    "translation": "Mattermost настоятелно препоръчва инсталациите с над 500 потребители да се възползват от функции като управление на потребители, клъстеризиране на сървъри и мониторинг на производителността. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [политика за поверителност](https://mattermost.com/privacy-policy/), и получаването на ел.поща за продукта."
+    "translation": "Mattermost настоятелно препоръчва инсталациите с над 500 потребители да се възползват от функции като управление на потребители, клъстеризиране на сървъри и мониторинг на производителността. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [политика за поверителност](https://takwen.co/do/privacy-policy/), и получаването на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_title",
@@ -6737,11 +6737,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost настоятелно препоръчва инсталации с над 500 потребители да се възползват от функции като управление на потребители, клъстеризиране на сървъри и мониторинг на производителността. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\nС натискане върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Научете повече](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Mattermost настоятелно препоръчва инсталации с над 500 потребители да се възползват от функции като управление на потребители, клъстеризиране на сървъри и мониторинг на производителността. Свържете се с нас, за да научите повече и да ни уведомите как можем да помогнем.\n\nС натискане върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Научете повече](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Mattermost свържете се с нас заявка. Сега екипът ми има 500 потребители и обмислям Mattermost корпоративна версия.\n"
+    "translation": "Mattermost свържете се с нас заявка. Сега екипът ми има 500 потребители и обмислям TAKWEN DOкорпоративна версия.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_title",
@@ -6753,11 +6753,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.start_trial.notification_body",
-    "translation": "Тъй като толкова много разговори се случват в Mattermost, може да бъде предизвикателство да знаете къде да търсите важна информация. Ако искате да излъчите съобщение до голяма аудитория, можете да настроите канали за съобщения само за четене, където всеки може да се присъедини, но само администраторите на каналите могат да публикуват съобщения.\n\n[Научете повече за създаването на канали за съобщения само за четене](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [политика за поверителност](https://mattermost.com/privacy-policy/), и получаването на ел.поща за продукта."
+    "translation": "Тъй като толкова много разговори се случват в Mattermost, може да бъде предизвикателство да знаете къде да търсите важна информация. Ако искате да излъчите съобщение до голяма аудитория, можете да настроите канали за съобщения само за четене, където всеки може да се присъедини, но само администраторите на каналите могат да публикуват съобщения.\n\n[Научете повече за създаването на канали за съобщения само за четене](https://www.takwen.co/do/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [политика за поверителност](https://takwen.co/do/privacy-policy/), и получаването на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.notification_body",
-    "translation": "Тъй като толкова много разговори се случват в Mattermost, може да бъде предизвикателство да знаете къде да търсите важна информация. Ако искате да излъчите съобщение до голяма аудитория, можете да настроите канали за съобщения само за четене, където всеки може да се присъедини, но само администраторите на каналите могат да публикуват съобщения.\n\n[Научете повече за създаването на канали за съобщения само за четене](https://www.mattermost.com/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nКато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Тъй като толкова много разговори се случват в Mattermost, може да бъде предизвикателство да знаете къде да търсите важна информация. Ако искате да излъчите съобщение до голяма аудитория, можете да настроите канали за съобщения само за четене, където всеки може да се присъедини, но само администраторите на каналите могат да публикуват съобщения.\n\n[Научете повече за създаването на канали за съобщения само за четене](https://www.takwen.co/do/docs-channel-moderation/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=channel-moderation)\n\nКато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_300.contact_us.email_body",
@@ -6769,7 +6769,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.start_trial.notification_body",
-    "translation": "Вашата система Mattermost вече има 200 потребители. Когато свържете Mattermost с доставчика за еднократно удостоверяване на вашата организация, потребителите имат достъп до Mattermost, без да се налага да въвеждат повторно своите идентификационни данни. Препоръчваме ви да интегрирате вашия доставчик на SAML 2.0 с вашия сървър Mattermost.[Научете повече за интегрирането със SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), и получаването на ел.поща за продукта."
+    "translation": "Вашата система TAKWEN DOвече има 200 потребители. Когато свържете TAKWEN DOс доставчика за еднократно удостоверяване на вашата организация, потребителите имат достъп до Mattermost, без да се налага да въвеждат повторно своите идентификационни данни. Препоръчваме ви да интегрирате вашия доставчик на SAML 2.0 с вашия сървър Mattermost.[Научете повече за интегрирането със SAML 2.0](https://www.takwen.co/do/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost Споразумение за оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [Privacy Policy](https://takwen.co/do/privacy-policy/), и получаването на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
@@ -6777,11 +6777,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "Вашата система Mattermost вече има 200 потребители. Когато свържете Mattermost с доставчика за влизане на вашата организация, потребителите могат да получат достъп до Mattermost, без да се налага да въвеждат повторно своите идентификационни данни. Препоръчваме ви да интегрирате вашия доставчик на SAML 2.0 с вашия сървър Mattermost. [Научете повече за интегрирането със SAML 2.0](https://www.mattermost.com/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nС натискане върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Научете повече](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Вашата система TAKWEN DOвече има 200 потребители. Когато свържете TAKWEN DOс доставчика за влизане на вашата организация, потребителите могат да получат достъп до Mattermost, без да се налага да въвеждат повторно своите идентификационни данни. Препоръчваме ви да интегрирате вашия доставчик на SAML 2.0 с вашия сървър Mattermost. [Научете повече за интегрирането със SAML 2.0](https://www.takwen.co/do/docs-saml/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=saml)\n\nС натискане върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Научете повече](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Mattermost Свържете се с нас. Сега екипът ми има 200 потребители и обмислям Mattermost Корпоративна версия.\n"
+    "translation": "Mattermost Свържете се с нас. Сега екипът ми има 200 потребители и обмислям TAKWEN DOКорпоративна версия.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_success.message",
@@ -6789,7 +6789,7 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.start_trial.notification_body",
-    "translation": "Вашата система Mattermost има над 100 потребители. С нарастването на вашата потребителска база предоставянето на нови профили може да отнеме много време. Препоръчваме ви да интегрирате Active Directory / LDAP на вашата организация, което ще позволи на всеки с профил да има достъп до Mattermost.\n\n[Научете повече за интегрирането с AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost споразумение за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [Политика на поверителност](https://mattermost.com/privacy-policy/), и получаването на ел.поща за продукта."
+    "translation": "Вашата система TAKWEN DOима над 100 потребители. С нарастването на вашата потребителска база предоставянето на нови профили може да отнеме много време. Препоръчваме ви да интегрирате Active Directory / LDAP на вашата организация, което ще позволи на всеки с профил да има достъп до Mattermost.\n\n[Научете повече за интегрирането с AD/LDAP](https://www.takwen.co/do/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nС натискането върху Старт пробна версия, аз се съгласявам с [Mattermost споразумение за оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [Политика на поверителност](https://takwen.co/do/privacy-policy/), и получаването на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
@@ -6797,11 +6797,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "Вашата система Mattermost има над 100 потребители. С нарастването на вашата потребителска база предоставянето на нови профили може да отнеме много време. Препоръчваме ви да интегрирате Active Directory / LDAP на вашата организация, което ще позволи на всеки с профил да има достъп до Mattermost.\n\n[Научете повече за интегрирането с AD/LDAP](https://www.mattermost.com/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nКогато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Вашата система TAKWEN DOима над 100 потребители. С нарастването на вашата потребителска база предоставянето на нови профили може да отнеме много време. Препоръчваме ви да интегрирате Active Directory / LDAP на вашата организация, което ще позволи на всеки с профил да има достъп до Mattermost.\n\n[Научете повече за интегрирането с AD/LDAP](https://www.takwen.co/do/docs-adldap/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\nКогато натиснете върху Свържете се с нас, ще споделите информацията си с Mattermost, Inc. [Виж още](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Mattermost Свържете с нас заявка. Сега екипът ми има 100 потребители и обмислям Mattermost корпоративна версия.\n"
+    "translation": "Mattermost Свържете с нас заявка. Сега екипът ми има 100 потребители и обмислям TAKWEN DOкорпоративна версия.\n"
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial_notification_success.message",
@@ -6809,7 +6809,7 @@
   },
   {
     "id": "api.server.warn_metric.mfa.start_trial.notification_body",
-    "translation": "Вашата система Mattermost има активирано многофакторно удостоверяване, което дава на потребителите избор да защитят своите акаунти с допълнителни средства за удостоверяване, освен паролата. За да подобрите сигурността в системата, можете да изискате всички акаунти на Mattermost да използват многофакторно удостоверяване.\n\n[Научете повече за изискване на многофакторно удостоверяване](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nС натискането върху Започни пробен период, се съгласяте с. [Mattermost споразумение за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [Privacy Policy](https://mattermost.com/privacy-policy/), и получаването на ел.поща за продукта."
+    "translation": "Вашата система TAKWEN DOима активирано многофакторно удостоверяване, което дава на потребителите избор да защитят своите акаунти с допълнителни средства за удостоверяване, освен паролата. За да подобрите сигурността в системата, можете да изискате всички акаунти на TAKWEN DOда използват многофакторно удостоверяване.\n\n[Научете повече за изискване на многофакторно удостоверяване](https://www.takwen.co/do/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nС натискането върху Започни пробен период, се съгласяте с. [Mattermost споразумение за оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [Privacy Policy](https://takwen.co/do/privacy-policy/), и получаването на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -6817,11 +6817,11 @@
   },
   {
     "id": "api.server.warn_metric.mfa.notification_body",
-    "translation": "Вашата система Mattermost има активирано многофакторно удостоверяване, което дава на потребителите избор да защитят своите акаунти с допълнителни средства за удостоверяване, освен паролата. За да подобрите сигурността в системата, можете да изискате всички акаунти на Mattermost да използват многофакторно удостоверяване.\n\n[Научете повече за изискване на многофакторно удостоверяване](https://www.mattermost.com/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nС натискането върху Свържете се с нас, ще споделяте информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Вашата система TAKWEN DOима активирано многофакторно удостоверяване, което дава на потребителите избор да защитят своите акаунти с допълнителни средства за удостоверяване, освен паролата. За да подобрите сигурността в системата, можете да изискате всички акаунти на TAKWEN DOда използват многофакторно удостоверяване.\n\n[Научете повече за изискване на многофакторно удостоверяване](https://www.takwen.co/do/docs-multi-factor-authentication/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=multi-factor-authentication). \n\nС натискането върху Свържете се с нас, ще споделяте информацията си с Mattermost, Inc. [Виж още](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.mfa.contact_us.email_body",
-    "translation": "Заявка Mattermost свържете с нас. Интересно ми е да науча повече за използването на многофакторно удостоверяване.\n"
+    "translation": "Заявка TAKWEN DOсвържете с нас. Интересно ми е да науча повече за използването на многофакторно удостоверяване.\n"
   },
   {
     "id": "api.server.warn_metric.email_us",
@@ -6833,7 +6833,7 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.start_trial.notification_body",
-    "translation": "Проектите често включват хора както от организацията, така и извън нея. С профилите за гости можете да привлечете външни партньори във вашата система Mattermost и да посочите с кого да работят и какво могат да виждат.\n\n[Научете повече за разрешаване акаунтите за гости](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nС натискането върху Старт пробна версия, се съгласявам с [споразумение на Mattermost за оценка на софтуера](https://mattermost.com/software-evaluation-agreement/), [политика за поверителност](https://mattermost.com/privacy-policy/), и получаване на ел.поща за продукта."
+    "translation": "Проектите често включват хора както от организацията, така и извън нея. С профилите за гости можете да привлечете външни партньори във вашата система TAKWEN DOи да посочите с кого да работят и какво могат да виждат.\n\n[Научете повече за разрешаване акаунтите за гости](https://www.takwen.co/do/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts)\n\nС натискането върху Старт пробна версия, се съгласявам с [споразумение на TAKWEN DOза оценка на софтуера](https://takwen.co/do/software-evaluation-agreement/), [политика за поверителност](https://takwen.co/do/privacy-policy/), и получаване на ел.поща за продукта."
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_title",
@@ -6841,15 +6841,15 @@
   },
   {
     "id": "api.server.warn_metric.email_domain.notification_body",
-    "translation": "Проектите често включват хора както от организацията, така и извън нея. С профилите за гости можете да привлечете външни партньори във вашата система Mattermost и да посочите с кого да работят и какво могат да виждат.\n\n[Научете повече за разрешаване акаунтите за гости](https://www.mattermost.com/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nС натискането върху Свържете се с нас, ще споделяте информацията си с Mattermost, Inc. [Виж още](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Проектите често включват хора както от организацията, така и извън нея. С профилите за гости можете да привлечете външни партньори във вашата система TAKWEN DOи да посочите с кого да работят и какво могат да виждат.\n\n[Научете повече за разрешаване акаунтите за гости](https://www.takwen.co/do/docs-guest-accounts/?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=guest-accounts).\n\nС натискането върху Свържете се с нас, ще споделяте информацията си с Mattermost, Inc. [Виж още](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.email_domain.contact_us.email_body",
-    "translation": "Заявка Mattermost свържете с нас. Интересно ми е да науча повече за използването на профили за гости.\n"
+    "translation": "Заявка TAKWEN DOсвържете с нас. Интересно ми е да науча повече за използването на профили за гости.\n"
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
-    "translation": "Пробният лиценз не можа да бъде извлечен. Посетете https://mattermost.com/trial/, за да поискате лиценз."
+    "translation": "Пробният лиценз не можа да бъде извлечен. Посетете https://takwen.co/do/trial/, за да поискате лиценз."
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
@@ -6877,7 +6877,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_footer",
-    "translation": "Ако имате някакви допълнителни запитвания, моля, свържете се с support@mattermost.com"
+    "translation": "Ако имате някакви допълнителни запитвания, моля, свържете се с support@takwen.co/do"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_email_header",
@@ -7617,7 +7617,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Моля, добавете ме към екипи и канали, в които искате да взаимодействам. За целта използвайте браузър или Mattermost настолното приложение."
+    "translation": "Моля, добавете ме към екипи и канали, в които искате да взаимодействам. За целта използвайте браузър или TAKWEN DOнастолното приложение."
   },
   {
     "id": "api.bot.create_disabled",
@@ -7661,7 +7661,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Изглежда вашата Mattermost ел.поща е настроена правилно!"
+    "translation": "Изглежда вашата TAKWEN DOел.поща е настроена правилно!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -8341,7 +8341,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Изпратете следната AES 256-битова криптирана покана на външния системен администратор на Mattermost заедно с паролата. Те ще използват командата с наклонена черта `{{.Command}}` , за да приемат поканата.\n\n```\n{{.Invitation}}\n```\n\n**Осигурете достъп на защитената връзка до вашата инстанция на Mattermost чрез** {{.SiteURL}}"
+    "translation": "Изпратете следната AES 256-битова криптирана покана на външния системен администратор на TAKWEN DOзаедно с паролата. Те ще използват командата с наклонена черта `{{.Command}}` , за да приемат поканата.\n\n```\n{{.Invitation}}\n```\n\n**Осигурете достъп на защитената връзка до вашата инстанция на TAKWEN DOчрез** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -8701,7 +8701,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Покани външна инстанция на Mattermost към текущия споделен канал"
+    "translation": "Покани външна инстанция на TAKWEN DOкъм текущия споделен канал"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -8765,7 +8765,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Този лицензен ключ за пробен период на Mattermost Enterprise Edition е изтекъл и вече не е валиден. Ако желаете да удължите пробния си период, моля [свържете се с нашия екип по продажбите](https://mattermost.com/contact-us/)."
+    "translation": "Този лицензен ключ за пробен период на TAKWEN DOEnterprise Edition е изтекъл и вече не е валиден. Ако желаете да удължите пробния си период, моля [свържете се с нашия екип по продажбите](https://takwen.co/do/contact-us/)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8777,7 +8777,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Вашият абонамент за Mattermost подлежи на подновяване"
+    "translation": "Вашият абонамент за TAKWEN DOподлежи на подновяване"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle_two",
@@ -8785,7 +8785,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, абонаментът Ви изтича след {{.Days}} дни. Надяваме се, че ще се насладите на гъвкавото и сигурно екипно сътрудничество, което Mattermost позволява. Подновете абонамента си скоро, за да гарантирате, че екипът Ви ще продължи да се възползва от тези предимства."
+    "translation": "{{.UserName}}, абонаментът Ви изтича след {{.Days}} дни. Надяваме се, че ще се насладите на гъвкавото и сигурно екипно сътрудничество, което TAKWEN DOпозволява. Подновете абонамента си скоро, за да гарантирате, че екипът Ви ще продължи да се възползва от тези предимства."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",

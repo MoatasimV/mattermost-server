@@ -17,7 +17,7 @@ const (
 	ExpiredLicenseError = "api.license.add_license.expired.app_error"
 	InvalidLicenseError = "api.license.add_license.invalid.app_error"
 	LicenseGracePeriod  = DayInMilliseconds * 10 //10 days
-	LicenseRenewalLink  = "https://mattermost.com/renew/"
+	LicenseRenewalLink  = "https://takwen.co/do/renew/"
 
 	LicenseShortSkuE10          = "E10"
 	LicenseShortSkuE20          = "E20"

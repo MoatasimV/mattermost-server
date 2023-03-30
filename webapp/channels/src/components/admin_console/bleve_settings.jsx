@@ -108,7 +108,7 @@ export default class BleveSettings extends AdminSettings {
                             values={{
                                 documentationLink: (
                                     <ExternalLink
-                                        href='https://docs.mattermost.com/deploy/bleve-search.html'
+                                        href='https://docs.takwen.co/do/deploy/bleve-search.html'
                                         location='bleve_settings'
                                     >
                                         <FormattedMessage

@@ -21,7 +21,7 @@ export default class NotLoggedIn extends React.PureComponent<Props> {
         children: PropTypes.object,
 
         /*
-         * Mattermost configuration
+         * TAKWEN DOconfiguration
          */
         config: PropTypes.object,
     };

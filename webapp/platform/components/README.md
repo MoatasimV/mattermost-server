@@ -1,4 +1,4 @@
-# Mattermost Components
+# TAKWEN DOComponents
 
 The goal of this package is to be a place where components common to all products can be shared.
 

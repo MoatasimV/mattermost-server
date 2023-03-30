@@ -163,7 +163,7 @@ func TestCreateUserInputFilter(t *testing.T) {
 		th.App.UpdateConfig(func(cfg *model.Config) {
 			*cfg.TeamSettings.EnableOpenServer = true
 			*cfg.TeamSettings.EnableUserCreation = true
-			*cfg.TeamSettings.RestrictCreationToDomains = "mattermost.com"
+			*cfg.TeamSettings.RestrictCreationToDomains = "takwen.co/do"
 			*cfg.ServiceSettings.EnableAPIUserDeletion = true
 		})
 
@@ -173,7 +173,7 @@ func TestCreateUserInputFilter(t *testing.T) {
 		})
 
 		th.TestForSystemAdminAndLocal(t, func(t *testing.T, client *model.Client4) {
-			user := &model.User{Email: "foobar+testdomainrestriction@mattermost.com", Password: "Password1", Username: GenerateTestUsername()}
+			user := &model.User{Email: "foobar+testdomainrestriction@takwen.co/do", Password: "Password1", Username: GenerateTestUsername()}
 			u, _, err := client.CreateUser(user) // we need the returned created user to use its Id for deletion.
 			require.NoError(t, err)
 			_, err = client.PermanentDeleteUser(u.Id)
@@ -231,7 +231,7 @@ func TestCreateUserInputFilter(t *testing.T) {
 		})
 
 		th.TestForSystemAdminAndLocal(t, func(t *testing.T, client *model.Client4) {
-			emailAddr := "foobar+testinvalidrole@mattermost.com"
+			emailAddr := "foobar+testinvalidrole@takwen.co/do"
 			user := &model.User{Email: emailAddr, Password: "Password1", Username: GenerateTestUsername(), Roles: "system_user system_admin"}
 			_, _, err := client.CreateUser(user)
 			require.NoError(t, err)
@@ -248,7 +248,7 @@ func TestCreateUserInputFilter(t *testing.T) {
 			*cfg.TeamSettings.EnableOpenServer = true
 			*cfg.TeamSettings.EnableUserCreation = true
 		})
-		user := &model.User{Id: "AAAAAAAAAAAAAAAAAAAAAAAAAA", Email: "foobar+testinvalidid@mattermost.com", Password: "Password1", Username: GenerateTestUsername(), Roles: "system_user system_admin"}
+		user := &model.User{Id: "AAAAAAAAAAAAAAAAAAAAAAAAAA", Email: "foobar+testinvalidid@takwen.co/do", Password: "Password1", Username: GenerateTestUsername(), Roles: "system_user system_admin"}
 		_, resp, err := client.CreateUser(user)
 		require.Error(t, err)
 		CheckBadRequestStatus(t, resp)
@@ -3866,7 +3866,7 @@ func TestLoginCookies(t *testing.T) {
 
 	t.Run("should return cookie with MMCLOUDURL for cloud installations", func(t *testing.T) {
 		updateConfig := func(cfg *model.Config) {
-			*cfg.ServiceSettings.SiteURL = "https://testchips.cloud.mattermost.com"
+			*cfg.ServiceSettings.SiteURL = "https://testchips.cloud.takwen.co/do"
 		}
 		th := SetupAndApplyConfigBeforeLogin(t, updateConfig).InitBasic()
 		defer th.TearDown()
@@ -3882,7 +3882,7 @@ func TestLoginCookies(t *testing.T) {
 			if strings.Contains(cookies[i], "MMCLOUDURL") {
 				found = true
 				assert.Contains(t, cookies[i], "MMCLOUDURL=testchips;", "should contain MMCLOUDURL")
-				assert.Contains(t, cookies[i], "Domain=mattermost.com;", "should contain Domain=mattermost.com")
+				assert.Contains(t, cookies[i], "Domain=takwen.co/do;", "should contain Domain=takwen.co/do")
 				break
 			}
 		}
@@ -3894,7 +3894,7 @@ func TestLoginCookies(t *testing.T) {
 		os.Setenv("CWS_CLOUD_TOKEN", token)
 
 		updateConfig := func(cfg *model.Config) {
-			*cfg.ServiceSettings.SiteURL = "https://testchips.cloud.mattermost.com"
+			*cfg.ServiceSettings.SiteURL = "https://testchips.cloud.takwen.co/do"
 		}
 		th := SetupAndApplyConfigBeforeLogin(t, updateConfig).InitBasic()
 		defer th.TearDown()
@@ -3932,7 +3932,7 @@ func TestLoginCookies(t *testing.T) {
 
 	t.Run("should NOT return cookie with MMCLOUDURL for cloud installations without expected format of cloud URL", func(t *testing.T) {
 		updateConfig := func(cfg *model.Config) {
-			*cfg.ServiceSettings.SiteURL = "https://testchips.com" // correct cloud URL would be https://testchips.cloud.mattermost.com
+			*cfg.ServiceSettings.SiteURL = "https://testchips.com" // correct cloud URL would be https://testchips.cloud.takwen.co/do
 		}
 		th := SetupAndApplyConfigBeforeLogin(t, updateConfig).InitBasic()
 		defer th.TearDown()
@@ -7263,7 +7263,7 @@ func TestGetUsersWithInvalidEmails(t *testing.T) {
 	client := th.SystemAdminClient
 
 	user := model.User{
-		Email:    "ben@invalid.mattermost.com",
+		Email:    "ben@invalid.takwen.co/do",
 		Nickname: "Ben Cooke",
 		Password: "hello1",
 		Username: GenerateTestUsername(),
@@ -7293,7 +7293,7 @@ func TestGetUsersWithInvalidEmails(t *testing.T) {
 
 	th.App.UpdateConfig(func(cfg *model.Config) {
 		*cfg.TeamSettings.EnableOpenServer = false
-		*cfg.TeamSettings.RestrictCreationToDomains = "localhost,simulator.amazonses.com,invalid.mattermost.com"
+		*cfg.TeamSettings.RestrictCreationToDomains = "localhost,simulator.amazonses.com,invalid.takwen.co/do"
 	})
 
 	users, _, err = client.GetUsersWithInvalidEmails(0, 50)

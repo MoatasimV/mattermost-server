@@ -942,10 +942,10 @@ func TestMarkdownConversion(t *testing.T) {
 		{
 			name: "markdown: blockquote",
 			args: "Below is blockquote\n" +
-				"> This is Mattermost blockquote\n" +
+				"> This is TAKWEN DOblockquote\n" +
 				"> on multiple lines!",
 			want: "<blockquote>\n" +
-				"<p>This is Mattermost blockquote\n" +
+				"<p>This is TAKWEN DOblockquote\n" +
 				"on multiple lines!</p>\n" +
 				"</blockquote>",
 		},
@@ -956,8 +956,8 @@ func TestMarkdownConversion(t *testing.T) {
 		},
 		{
 			name: "markdown: links",
-			args: "This is [Mattermost](https://mattermost.com)",
-			want: "This is <a href=\"https://mattermost.com\">Mattermost</a>",
+			args: "This is [Mattermost](https://takwen.co/do)",
+			want: "This is <a href=\"https://takwen.co/do\">Mattermost</a>",
 		},
 		{
 			name: "markdown: strikethrough",
@@ -1000,9 +1000,9 @@ func TestMarkdownConversion(t *testing.T) {
 		},
 		{
 			name: "markdown: multiline with header and links",
-			args: "###### H6 header\n[link 1](https://mattermost.com) - [link 2](https://mattermost.com)",
+			args: "###### H6 header\n[link 1](https://takwen.co/do) - [link 2](https://takwen.co/do)",
 			want: "<h6>H6 header</h6>\n" +
-				"<p><a href=\"https://mattermost.com\">link 1</a> - <a href=\"https://mattermost.com\">link 2</a></p>",
+				"<p><a href=\"https://takwen.co/do\">link 1</a> - <a href=\"https://takwen.co/do\">link 2</a></p>",
 		},
 	}
 

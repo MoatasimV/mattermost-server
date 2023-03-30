@@ -158,7 +158,7 @@ const PrivateButton = (props: {public: boolean, publicButtonDisabled: boolean, p
     return (
         <Tooltip
             id={'private-playbooks-upgrade-badge'}
-            content={formatMessage({defaultMessage: 'Private playbooks are only available in Mattermost Enterprise'})}
+            content={formatMessage({defaultMessage: 'Private playbooks are only available in TAKWEN DOEnterprise'})}
         >
             {button}
         </Tooltip>

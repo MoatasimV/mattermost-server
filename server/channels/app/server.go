@@ -325,7 +325,7 @@ func NewServer(options ...Option) (*Server, error) {
 	s.pushNotificationClient = s.httpService.MakeClient(true)
 
 	if err2 := utils.TranslationsPreInit(); err2 != nil {
-		return nil, errors.Wrapf(err2, "unable to load Mattermost translation files")
+		return nil, errors.Wrapf(err2, "unable to load TAKWEN DOtranslation files")
 	}
 	model.AppErrorInit(i18n.T)
 
@@ -343,7 +343,7 @@ func NewServer(options ...Option) (*Server, error) {
 	s.createPushNotificationsHub(request.EmptyContext(s.Log()))
 
 	if err2 := i18n.InitTranslations(*s.platform.Config().LocalizationSettings.DefaultServerLocale, *s.platform.Config().LocalizationSettings.DefaultClientLocale); err2 != nil {
-		return nil, errors.Wrapf(err2, "unable to load Mattermost translation files")
+		return nil, errors.Wrapf(err2, "unable to load TAKWEN DOtranslation files")
 	}
 
 	templatesDir, ok := templates.GetTemplateDirectory()
@@ -401,7 +401,7 @@ func NewServer(options ...Option) (*Server, error) {
 	}
 
 	if _, err = url.ParseRequestURI(*s.platform.Config().ServiceSettings.SiteURL); err != nil {
-		mlog.Error("SiteURL must be set. Some features will operate incorrectly if the SiteURL is not set. See documentation for details: https://docs.mattermost.com/configure/configuration-settings.html#site-url")
+		mlog.Error("SiteURL must be set. Some features will operate incorrectly if the SiteURL is not set. See documentation for details: https://docs.takwen.co/do/configure/configuration-settings.html#site-url")
 	}
 
 	// Start email batching because it's not like the other jobs
@@ -1313,7 +1313,7 @@ func (s *Server) sendLicenseUpForRenewalEmail(users map[string]*model.User, lice
 		if !status.IsRenewable {
 			ctaTitle = ""
 			ctaText = T("api.templates.license_up_for_renewal_contact_sales")
-			ctaLink = "https://mattermost.com/contact-sales/"
+			ctaLink = "https://takwen.co/do/contact-sales/"
 		}
 
 		if err := s.EmailService.SendLicenseUpForRenewalEmail(user.Email, name, user.Locale, *s.platform.Config().ServiceSettings.SiteURL, ctaTitle, ctaLink, ctaText, daysToExpiration); err != nil {
@@ -1405,7 +1405,7 @@ func (s *Server) doLicenseExpirationCheck() {
 		ctaText := T("api.templates.remove_expired_license.body.renew_button")
 		if !status.IsRenewable {
 			ctaText = T("api.templates.license_up_for_renewal_contact_sales")
-			ctaLink = "https://mattermost.com/contact-sales/"
+			ctaLink = "https://takwen.co/do/contact-sales/"
 		}
 
 		mlog.Debug("Sending license expired email.", mlog.String("user_email", user.Email))

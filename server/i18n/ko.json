@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "사용자의 Mattermost 전자우편이 잘 설정되었습니다!"
+    "translation": "사용자의 TAKWEN DO전자우편이 잘 설정되었습니다!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -345,7 +345,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "여러분의 Mattermost 팀에게 전자우편 초대를 보내기"
+    "translation": "여러분의 TAKWEN DO팀에게 전자우편 초대를 보내기"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -631,7 +631,7 @@
   },
   {
     "id": "api.command_invite.channel.error",
-    "translation": "{{.Channel}} 채널을 찾을 수 없습니다. 채널을 식별하려면 [채널 핸들](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) 을 사용하세요."
+    "translation": "{{.Channel}} 채널을 찾을 수 없습니다. 채널을 식별하려면 [채널 핸들](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) 을 사용하세요."
   },
   {
     "id": "api.command_invite.desc",
@@ -667,7 +667,7 @@
   },
   {
     "id": "api.command_invite.private_channel.app_error",
-    "translation": "{{.Channel}} 채널을 찾을 수 없습니다. 채널을 식별하려면 [채널 핸들을](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) 사용하십시오."
+    "translation": "{{.Channel}} 채널을 찾을 수 없습니다. 채널을 식별하려면 [채널 핸들을](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) 사용하십시오."
   },
   {
     "id": "api.command_invite.success",
@@ -775,7 +775,7 @@
   },
   {
     "id": "api.command_mute.error",
-    "translation": "{{.Channel}} 채널을 찾을 수 없습니다. 채널을 식별하려면 [채널 핸들](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel) 을 사용하세요."
+    "translation": "{{.Channel}} 채널을 찾을 수 없습니다. 채널을 식별하려면 [채널 핸들](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel) 을 사용하세요."
   },
   {
     "id": "api.command_mute.hint",
@@ -787,7 +787,7 @@
   },
   {
     "id": "api.command_mute.no_channel.error",
-    "translation": "지정한 채널을 찾을 수 없습니다. 채널을 식별하려면 [채널 핸들](https://docs.mattermost.com/messaging/managing-channels.html#naming-a-channel)을 사용하세요."
+    "translation": "지정한 채널을 찾을 수 없습니다. 채널을 식별하려면 [채널 핸들](https://docs.takwen.co/do/messaging/managing-channels.html#naming-a-channel)을 사용하세요."
   },
   {
     "id": "api.command_mute.not_member.error",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "이 전자우편 주소는 Mattermost 계정을 생성하기 위해 사용되었습니다."
+    "translation": "이 전자우편 주소는 TAKWEN DO계정을 생성하기 위해 사용되었습니다."
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1929,7 +1929,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "이 전자우편 주소는 Mattermost 계정을 생성하는 데 사용되었습니다."
+    "translation": "이 전자우편 주소는 TAKWEN DO계정을 생성하는 데 사용되었습니다."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3197,7 +3197,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "AD/LDAP 계정이 Mattermost 서버를 사용하기 위한 권한이 없습니다. 시스템 관리자에게 AD/LDAP 사용자 필터 확인을 문의해보세요."
+    "translation": "AD/LDAP 계정이 TAKWEN DO서버를 사용하기 위한 권한이 없습니다. 시스템 관리자에게 AD/LDAP 사용자 필터 확인을 문의해보세요."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3217,7 +3217,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Failed to search users in AD/LDAP. Test if the Mattermost server can connect to your AD/LDAP server and try again."
+    "translation": "Failed to search users in AD/LDAP. Test if the TAKWEN DOserver can connect to your AD/LDAP server and try again."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3313,7 +3313,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Username already used by another Mattermost user."
+    "translation": "Username already used by another TAKWEN DOuser."
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -4777,7 +4777,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "더 나은 경험을 위해 Mattermost 앱을 다운로드하거나 지원되는 브라우저를 사용해 주세요."
+    "translation": "더 나은 경험을 위해 TAKWEN DO앱을 다운로드하거나 지원되는 브라우저를 사용해 주세요."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -4965,7 +4965,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure_size_exceeded.app_error",
-    "translation": "크기 제한을 초과했습니다. [최대 페이지 크기]를 확인하십시오 (https://docs.mattermost.com/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)."
+    "translation": "크기 제한을 초과했습니다. [최대 페이지 크기]를 확인하십시오 (https://docs.takwen.co/do/deployment/sso-ldap.html#i-see-the-log-error-ldap-result-code-4-size-limit-exceeded)."
   },
   {
     "id": "ent.ldap.syncronize.delete_group_constained_memberships",
@@ -5449,7 +5449,7 @@
   },
   {
     "id": "app.bot.get_disable_bot_sysadmin_message",
-    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} was deactivated. They managed the following bot accounts which have now been disabled.\n\n{{.BotNames}}{{else}}{{.UserName}} was deactivated. They managed {{.NumBots}} bot accounts which have now been disabled, including the following:\n\n{{.BotNames}}{{end}}You can take ownership of each bot by enabling it at **Integrations > Bot Accounts** and creating new tokens for the bot.\n\nFor more information, see our [documentation](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} was deactivated. They managed the following bot accounts which are still enabled.\n\n{{.BotNames}}\n{{else}}{{.UserName}} was deactivated. They managed {{.NumBots}} bot accounts which are still enabled, including the following:\n\n{{.BotNames}}{{end}}We strongly recommend you to take ownership of each bot by re-enabling it at **Integrations > Bot Accounts** and creating new tokens for the bot.\n\nFor more information, see our [documentation](https://docs.mattermost.com/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nIf you want bot accounts to disable automatically after owner deactivation, set “Disable bot accounts when owner is deactivated” in **System Console > Integrations > Bot Accounts** to true.{{end}}"
+    "translation": "{{if .disableBotsSetting}}{{if .printAllBots}}{{.UserName}} was deactivated. They managed the following bot accounts which have now been disabled.\n\n{{.BotNames}}{{else}}{{.UserName}} was deactivated. They managed {{.NumBots}} bot accounts which have now been disabled, including the following:\n\n{{.BotNames}}{{end}}You can take ownership of each bot by enabling it at **Integrations > Bot Accounts** and creating new tokens for the bot.\n\nFor more information, see our [documentation](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).{{else}}{{if .printAllBots}}{{.UserName}} was deactivated. They managed the following bot accounts which are still enabled.\n\n{{.BotNames}}\n{{else}}{{.UserName}} was deactivated. They managed {{.NumBots}} bot accounts which are still enabled, including the following:\n\n{{.BotNames}}{{end}}We strongly recommend you to take ownership of each bot by re-enabling it at **Integrations > Bot Accounts** and creating new tokens for the bot.\n\nFor more information, see our [documentation](https://docs.takwen.co/do/developer/bot-accounts.html#what-happens-when-a-user-who-owns-bot-accounts-is-disabled).\n\nIf you want bot accounts to disable automatically after owner deactivation, set “Disable bot accounts when owner is deactivated” in **System Console > Integrations > Bot Accounts** to true.{{end}}"
   },
   {
     "id": "app.bot.createbot.internal_error",
@@ -5773,7 +5773,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "나를 대화하기를 원하는 팀과 채널에 추가하여 주십시오. 이렇게 하려면 브라우저 또는 Mattermost 데스크탑 앱을 사용하십시오."
+    "translation": "나를 대화하기를 원하는 팀과 채널에 추가하여 주십시오. 이렇게 하려면 브라우저 또는 TAKWEN DO데스크탑 앱을 사용하십시오."
   },
   {
     "id": "api.bot.create_disabled",
@@ -6197,7 +6197,7 @@
   },
   {
     "id": "api.templates.warn_metric_ack.footer",
-    "translation": "추가 문의 사항이 있으면 support@mattermost.com으로 문의하세요"
+    "translation": "추가 문의 사항이 있으면 support@takwen.co/do으로 문의하세요"
   },
   {
     "id": "api.templates.warn_metric_ack.body.site_url_header",
@@ -6225,11 +6225,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.notification_body",
-    "translation": "Mattermost는 500명 이상의 사용자가 있는 환경에 배포할 때 사용자 관리, 서버 클러스터링 및 성능 모니터링과 같은 기능을 활용할 것을 강력하게 권장합니다. 자세히 알아보려면 저희에게 연락해서 어떻게 도움이 될 수 있을지 알려주세요.\n\n문의하기를 클릭하면 Mattermost, Inc.와 정보를 공유하게 됩니다. [자세히 알아보기](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "Mattermost는 500명 이상의 사용자가 있는 환경에 배포할 때 사용자 관리, 서버 클러스터링 및 성능 모니터링과 같은 기능을 활용할 것을 강력하게 권장합니다. 자세히 알아보려면 저희에게 연락해서 어떻게 도움이 될 수 있을지 알려주세요.\n\n문의하기를 클릭하면 Mattermost, Inc.와 정보를 공유하게 됩니다. [자세히 알아보기](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_body",
-    "translation": "현재 이 Mattermost 시스템에는 200명의 사용자가 있습니다. 사용자층이 증가함에 따라 새로운 계정을 프로비저닝하는 데 시간이 많이 걸릴 수 있습니다. 계정을 가진 모든 사람이 Mattermost에 액세스 할 수 있도록, Mattermost Enterprise E10으로 업그레이드하고 조직의 Active Directory/LDAP를 통합하는 것을 추천합니다. 사용자는 새로운 사용자 이름과 비밀번호를 만들 필요없이 로그인 할 수 있으며 관리자는 계정 프로비저닝 및 관리 시간을 절약 할 수 있습니다.\n\n[AD/LDAP와의 통합에 대해 자세히 알아보기](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)"
+    "translation": "현재 이 TAKWEN DO시스템에는 200명의 사용자가 있습니다. 사용자층이 증가함에 따라 새로운 계정을 프로비저닝하는 데 시간이 많이 걸릴 수 있습니다. 계정을 가진 모든 사람이 Mattermost에 액세스 할 수 있도록, TAKWEN DOEnterprise E10으로 업그레이드하고 조직의 Active Directory/LDAP를 통합하는 것을 추천합니다. 사용자는 새로운 사용자 이름과 비밀번호를 만들 필요없이 로그인 할 수 있으며 관리자는 계정 프로비저닝 및 관리 시간을 절약 할 수 있습니다.\n\n[AD/LDAP와의 통합에 대해 자세히 알아보기](https://docs.takwen.co/do/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)"
   },
   {
     "id": "api.server.warn_metric.bot_response.notification_success.message",
@@ -6253,7 +6253,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_footer",
-    "translation": "추가 문의 사항이 있으면 support@mattermost.com으로 문의하세요"
+    "translation": "추가 문의 사항이 있으면 support@takwen.co/do으로 문의하세요"
   },
   {
     "id": "api.server.warn_metric.bot_response.mailto_email_header",
@@ -6285,11 +6285,11 @@
   },
   {
     "id": "api.license.request_trial_license.app_error",
-    "translation": "평가판 라이선스를 얻을 수 없는 경우 다시 시도하거나 support@mattermost.com에 문의해주세요."
+    "translation": "평가판 라이선스를 얻을 수 없는 경우 다시 시도하거나 support@takwen.co/do에 문의해주세요."
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "라이선스를 요청하려면 Mattermost 소프트웨어 평가 계약 및 개인 정보 보호 정책에 동의해야 합니다."
+    "translation": "라이선스를 요청하려면 TAKWEN DO소프트웨어 평가 계약 및 개인 정보 보호 정책에 동의해야 합니다."
   },
   {
     "id": "api.job.unable_to_download_job",
@@ -6833,11 +6833,11 @@
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "이미 Mattermost 엔터프라이즈 에디션이기 때문에 업그레이드를 할 수 없습니다."
+    "translation": "이미 TAKWEN DO엔터프라이즈 에디션이기 때문에 업그레이드를 할 수 없습니다."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "이미 Mattermost 엔터프라이즈 에디션으로 업그레이드 되었습니다. 업그레이드를 완료하기 위해서 서버를 재시작해주세요."
+    "translation": "이미 TAKWEN DO엔터프라이즈 에디션으로 업그레이드 되었습니다. 업그레이드를 완료하기 위해서 서버를 재시작해주세요."
   },
   {
     "id": "ent.elasticsearch.index_channels_batch.error",
@@ -6897,11 +6897,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_500.contact_us.email_body",
-    "translation": "Mattermost 문의 요청. 현재 팀에 {{.Limit}}명의 사용자가 있으며 Mattermost 엔터프라이즈 에디션을 고려하고 있습니다.\n"
+    "translation": "Mattermost 문의 요청. 현재 팀에 {{.Limit}}명의 사용자가 있으며 TAKWEN DO엔터프라이즈 에디션을 고려하고 있습니다.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.contact_us.email_body",
-    "translation": "Mattermost 문의 요청. 현재 팀에 {{.Limit}}명의 사용자가 있으며 Mattermost 엔터프라이즈 에디션을 고려하고 있습니다.\n"
+    "translation": "Mattermost 문의 요청. 현재 팀에 {{.Limit}}명의 사용자가 있으며 TAKWEN DO엔터프라이즈 에디션을 고려하고 있습니다.\n"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_title",
@@ -6909,11 +6909,11 @@
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.notification_body",
-    "translation": "현재 당신의 Mattermost 시스템에는 100명이 넘는 사용자가 있습니다. 사용자층이 증가함에 따라 새로운 계정의 프로비저닝 시간이 많이 걸릴 수 있습니다. 계정을 가진 모든 사람이 Mattermost에 액세스 할 수 있도록, 조직 내의 Active Directory/LDAP과 통합하는 것을 권장합니다.\n\n[AD/LDAP과의 통합에 대해 자세히 알아보기](https://docs.mattermost.com/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\n문의 요청을 통해 Mattermost와 정보를 공유하게 됩니다. [자세히 알아보기](https://mattermost.com/pl/default-admin-advisory)"
+    "translation": "현재 당신의 TAKWEN DO시스템에는 100명이 넘는 사용자가 있습니다. 사용자층이 증가함에 따라 새로운 계정의 프로비저닝 시간이 많이 걸릴 수 있습니다. 계정을 가진 모든 사람이 Mattermost에 액세스 할 수 있도록, 조직 내의 Active Directory/LDAP과 통합하는 것을 권장합니다.\n\n[AD/LDAP과의 통합에 대해 자세히 알아보기](https://docs.takwen.co/do/deployment/sso-ldap.html?utm_medium=product&utm_source=mattermost-advisor-bot&utm_content=adldap)\n\n문의 요청을 통해 Mattermost와 정보를 공유하게 됩니다. [자세히 알아보기](https://takwen.co/do/pl/default-admin-advisory)"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_100.contact_us.email_body",
-    "translation": "Mattermost 문의 요청. 현재 팀에 {{.Limit}}명의 사용자가 있으며 Mattermost 엔터프라이즈 에디션을 고려하고 있습니다.\n"
+    "translation": "Mattermost 문의 요청. 현재 팀에 {{.Limit}}명의 사용자가 있으며 TAKWEN DO엔터프라이즈 에디션을 고려하고 있습니다.\n"
   },
   {
     "id": "api.server.warn_metric.mfa.notification_title",
@@ -6997,15 +6997,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost를 엔터프라이즈 에디션으로 업그레이드 할 수 없습니다. Mattermost 시스템 사용자인 {{.MattermostUsername}}가 필수 바이너리 파일에 대한 쓰기 권한이 없습니다. 시스템 관리자가 Mattermost가 설치된 서버에서 이하의 명령을 실행하여 파일 권한을 조정할 수 있습니다.\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n파일 권한이 변경된 후, Mattermost의 업그레이드를 다시 시도하십시오. 업그레이드 완료 후 재시작되면 원래의 권한으로 복구하십시오.\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Mattermost를 엔터프라이즈 에디션으로 업그레이드 할 수 없습니다. TAKWEN DO시스템 사용자인 {{.MattermostUsername}}가 필수 바이너리 파일에 대한 쓰기 권한이 없습니다. 시스템 관리자가 Mattermost가 설치된 서버에서 이하의 명령을 실행하여 파일 권한을 조정할 수 있습니다.\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n파일 권한이 변경된 후, Mattermost의 업그레이드를 다시 시도하십시오. 업그레이드 완료 후 재시작되면 원래의 권한으로 복구하십시오.\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost를 엔터프라이즈 에디션으로 업그레이드 할 수 없습니다. Mattermost 시스템 사용자인 {{.MattermostUsername}}가 필수 바이너리 파일에 대한 쓰기 권한이 없습니다. 시스템 관리자가 Mattermost가 설치된 서버에서 이하의 명령을 실행하여 파일 권한을 조정할 수 있습니다.\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n파일 권한이 변경된 후, Mattermost의 업그레이드를 다시 시도하십시오. 업그레이드 완료 후 재시작되면 원래의 권한으로 복구하십시오.\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost를 엔터프라이즈 에디션으로 업그레이드 할 수 없습니다. TAKWEN DO시스템 사용자인 {{.MattermostUsername}}가 필수 바이너리 파일에 대한 쓰기 권한이 없습니다. 시스템 관리자가 Mattermost가 설치된 서버에서 이하의 명령을 실행하여 파일 권한을 조정할 수 있습니다.\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n파일 권한이 변경된 후, Mattermost의 업그레이드를 다시 시도하십시오. 업그레이드 완료 후 재시작되면 원래의 권한으로 복구하십시오.\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost를 엔터프라이즈 에디션으로 업그레이드 할 수 없습니다. Mattermost 시스템 사용자인 {{.MattermostUsername}}가 필수 바이너리 파일에 대한 쓰기 권한이 없습니다. 시스템 관리자가 Mattermost가 설치된 서버에서 이하의 명령을 실행하여 파일 권한을 조정할 수 있습니다.\n\n```\nchmod +w \"{{.Path}}\"\n```\n\n파일 권한이 변경된 후, Mattermost의 업그레이드를 다시 시도하십시오. 업그레이드 완료 후 재시작되면 원래의 권한으로 복구하십시오.\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost를 엔터프라이즈 에디션으로 업그레이드 할 수 없습니다. TAKWEN DO시스템 사용자인 {{.MattermostUsername}}가 필수 바이너리 파일에 대한 쓰기 권한이 없습니다. 시스템 관리자가 Mattermost가 설치된 서버에서 이하의 명령을 실행하여 파일 권한을 조정할 수 있습니다.\n\n```\nchmod +w \"{{.Path}}\"\n```\n\n파일 권한이 변경된 후, Mattermost의 업그레이드를 다시 시도하십시오. 업그레이드 완료 후 재시작되면 원래의 권한으로 복구하십시오.\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.server.warn_metric.number_of_active_users_200.notification_title",
@@ -7197,7 +7197,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "외부 Mattermost 인스턴스의 초대 수락"
+    "translation": "외부 TAKWEN DO인스턴스의 초대 수락"
   },
   {
     "id": "api.command_channel_purpose.update_channel.max_length",
@@ -7345,7 +7345,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "현재 채널을 외부 Mattermost 인스턴스와 공유합니다."
+    "translation": "현재 채널을 외부 TAKWEN DO인스턴스와 공유합니다."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -7789,7 +7789,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "새로운 체험판 라이선스를 적용하는데 실패하였습니다. 이 Mattermost 인스턴스에는 이전에 적용된 체험판 라이센스를 유지합니다. 체험 기간을 연장하시려면 [저희 영업 팀에 연락해주세요](https://mattermost.com/contact-us/)."
+    "translation": "새로운 체험판 라이선스를 적용하는데 실패하였습니다. 이 TAKWEN DO인스턴스에는 이전에 적용된 체험판 라이센스를 유지합니다. 체험 기간을 연장하시려면 [저희 영업 팀에 연락해주세요](https://takwen.co/do/contact-us/)."
   },
   {
     "id": "api.file.test_connection_s3_bucket_does_not_exist.app_error",
@@ -7937,7 +7937,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "AES-256으로 암호화된 초대를 비밀번호와 함께 외부 Mattermost 시스템 관리자에게 보냅니다. 초대를 받기 위해 `{{.Command}}` 슬래시 명령어를 사용합니다.\n\n```\n{{.Invitation}}\n```\n\n**보안 연결이 다음을 통해 Mattermost에 액세스할 수 있는지 확인하십시오** {{.SiteURL}}"
+    "translation": "AES-256으로 암호화된 초대를 비밀번호와 함께 외부 TAKWEN DO시스템 관리자에게 보냅니다. 초대를 받기 위해 `{{.Command}}` 슬래시 명령어를 사용합니다.\n\n```\n{{.Invitation}}\n```\n\n**보안 연결이 다음을 통해 Mattermost에 액세스할 수 있는지 확인하십시오** {{.SiteURL}}"
   },
   {
     "id": "api.command_marketplace.unsupported.app_error",
@@ -8053,7 +8053,7 @@
   },
   {
     "id": "api.server.warn_metric.bot_response.start_trial_failure.message",
-    "translation": "체험판 라이선스를 얻어오지 못했습니다. 라이선스를 요청하려면 https://mattermost.com/trial/ 를 방문해주세요."
+    "translation": "체험판 라이선스를 얻어오지 못했습니다. 라이선스를 요청하려면 https://takwen.co/do/trial/ 를 방문해주세요."
   },
   {
     "id": "api.server.cws.health_check.app_error",
@@ -8093,7 +8093,7 @@
   },
   {
     "id": "api.file.cloud_upload.app_error",
-    "translation": "mmctl를 통한 클라우드 인스턴스 업로딩은 지원되지 않습니다. [이곳](https://docs.mattermost.com/manage/cloud-data-export.html)을 확인해주시기 바랍니다."
+    "translation": "mmctl를 통한 클라우드 인스턴스 업로딩은 지원되지 않습니다. [이곳](https://docs.takwen.co/do/manage/cloud-data-export.html)을 확인해주시기 바랍니다."
   },
   {
     "id": "api.drafts.disabled.app_error",

@@ -15,8 +15,8 @@
 // To run this locally, the necessary test setup is:
 // * Ensure on latest mattermost-webapp, mattermost-server, enterprise
 // * Ensure MM_SERVICESETTINGS_ENABLEDEVELOPER=false in server shell
-// * Ensure CloudSettings.CWSURL is set to https://portal.test.cloud.mattermost.com
-// * Ensure CloudSettings.CWSAPIURL is set to https://portal.internal.test.cloud.mattermost.com
+// * Ensure CloudSettings.CWSURL is set to https://portal.test.cloud.takwen.co/do
+// * Ensure CloudSettings.CWSAPIURL is set to https://portal.internal.test.cloud.takwen.co/do
 // * Change mattermost-server utils/license.go to test public key
 //     * e.g. see (https://github.com/mattermost/mattermost-server/pull/16778/files)
 

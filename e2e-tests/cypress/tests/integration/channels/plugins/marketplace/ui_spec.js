@@ -32,7 +32,7 @@ describe('Plugin Marketplace', () => {
                 Enable: true,
                 EnableMarketplace: true,
                 EnableRemoteMarketplace: true,
-                MarketplaceURL: 'https://api.integrations.mattermost.com',
+                MarketplaceURL: 'https://api.integrations.takwen.co/do',
                 PluginStates: {
                     github: {
                         Enable: false,

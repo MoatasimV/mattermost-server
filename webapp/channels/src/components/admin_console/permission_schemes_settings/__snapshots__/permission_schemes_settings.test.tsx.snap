@@ -266,7 +266,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
               values={
                 Object {
                   "documentationLink": <ExternalLink
-                    href="https://docs.mattermost.com/administration/config-settings.html#jobs"
+                    href="https://docs.takwen.co/do/administration/config-settings.html#jobs"
                     location="permission_scheme_settings"
                   >
                     <Memo(MemoizedFormattedMessage)
@@ -395,7 +395,7 @@ exports[`components/admin_console/permission_schemes_settings/permission_schemes
               values={
                 Object {
                   "documentationLink": <ExternalLink
-                    href="https://docs.mattermost.com/administration/config-settings.html#jobs"
+                    href="https://docs.takwen.co/do/administration/config-settings.html#jobs"
                     location="permission_scheme_settings"
                   >
                     <Memo(MemoizedFormattedMessage)

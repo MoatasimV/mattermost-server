@@ -121,7 +121,7 @@ func Setup(t *testing.T) *TestEnvironment {
 	config.TeamSettings.MaxUsersPerTeam = model.NewInt(10000)
 	config.LocalizationSettings.SetDefaults()
 	config.SqlSettings = *sqlSettings
-	config.ServiceSettings.SiteURL = model.NewString("http://testsiteurlplaybooks.mattermost.com/")
+	config.ServiceSettings.SiteURL = model.NewString("http://testsiteurlplaybooks.takwen.co/do/")
 	config.LogSettings.EnableConsole = model.NewBool(true)
 	config.LogSettings.EnableFile = model.NewBool(false)
 	config.LogSettings.ConsoleLevel = model.NewString("INFO")

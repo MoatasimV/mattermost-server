@@ -17,8 +17,8 @@ describe('Card URL Property', () => {
         cy.clearLocalStorage();
     });
 
-    const url = 'https://mattermost.com';
-    const changedURL = 'https://mattermost.com/blog';
+    const url = 'https://takwen.co/do';
+    const changedURL = 'https://takwen.co/do/blog';
 
     it('MM-T5396 Allows to create and edit URL property', () => {
         cy.visit('/boards');

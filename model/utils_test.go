@@ -1020,7 +1020,7 @@ func TestIsValidHTTPURL(t *testing.T) {
 		},
 		{
 			"url with invalid scheme",
-			"http-bad://mattermost.com",
+			"http-bad://takwen.co/do",
 			false,
 		},
 		{
@@ -1035,17 +1035,17 @@ func TestIsValidHTTPURL(t *testing.T) {
 		},
 		{
 			"url with extra slashes",
-			"https:///mattermost.com",
+			"https:///takwen.co/do",
 			false,
 		},
 		{
 			"correct url with http scheme",
-			"http://mattermost.com",
+			"http://takwen.co/do",
 			true,
 		},
 		{
 			"correct url with https scheme",
-			"https://mattermost.com/api/test",
+			"https://takwen.co/do/api/test",
 			true,
 		},
 		{
@@ -1055,12 +1055,12 @@ func TestIsValidHTTPURL(t *testing.T) {
 		},
 		{
 			"correct url without scheme",
-			"mattermost.com/some/url/",
+			"takwen.co/do/some/url/",
 			false,
 		},
 		{
 			"correct url with extra slashes",
-			"https://mattermost.com/some//url",
+			"https://takwen.co/do/some//url",
 			true,
 		},
 	}

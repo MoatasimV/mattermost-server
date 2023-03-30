@@ -10,7 +10,7 @@ import {buildQueryString} from './helpers';
 
 // *****************************************************************************
 // Users
-// https://api.mattermost.com/#tag/users
+// https://api.takwen.co/do/#tag/users
 // *****************************************************************************
 
 Cypress.Commands.add('apiLogin', (user, requestOptions = {}) => {
@@ -198,7 +198,7 @@ Cypress.Commands.add('apiCreateAdmin', () => {
         password,
         first_name: 'Kenneth',
         last_name: 'Moreno',
-        email: 'sysadmin@sample.mattermost.com',
+        email: 'sysadmin@sample.takwen.co/do',
     };
 
     const options = {
@@ -220,7 +220,7 @@ function generateRandomUser(prefix = 'user') {
     const randomId = getRandomId();
 
     return {
-        email: `${prefix}${randomId}@sample.mattermost.com`,
+        email: `${prefix}${randomId}@sample.takwen.co/do`,
         username: `${prefix}${randomId}`,
         password: 'passwd',
         first_name: `First${randomId}`,

@@ -26,5 +26,5 @@ export interface PluginRegistry {
 
     registerActionAfterChannelCreation(component: ReactResolvable): any
 
-    // Add more if needed from https://developers.mattermost.com/extend/plugins/webapp/reference
+    // Add more if needed from https://developers.takwen.co/do/extend/plugins/webapp/reference
 }

@@ -42,7 +42,7 @@ describe('Invite Members', () => {
 
         it('does not close modal if user has inputs', () => {
             // # Enter input into field
-            cy.get('.users-emails-input__control input').typeWithForce('some.user@mattermost.com');
+            cy.get('.users-emails-input__control input').typeWithForce('some.user@takwen.co/do');
 
             // * Verify modal was not closed, and users work is preserved
             testBackdropClickCloses(false);

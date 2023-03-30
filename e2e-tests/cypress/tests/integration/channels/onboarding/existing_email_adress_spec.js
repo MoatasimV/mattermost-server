@@ -23,7 +23,7 @@ function signupWithEmail(name, pw) {
     cy.findByText('Don\'t have an account?', {timeout: TIMEOUTS.HALF_MIN}).should('be.visible').click();
 
     // # Type email address (by adding the uniqueUserId in the email address)
-    cy.get('#input_email').type('unique.' + uniqueUserId + '@sample.mattermost.com');
+    cy.get('#input_email').type('unique.' + uniqueUserId + '@sample.takwen.co/do');
 
     // # Type 'unique-1' for username
     cy.get('#input_name').type(name);

@@ -76,7 +76,7 @@ describe('Actions.Files', () => {
             get(`/files/${fileId}/link`).
             query(true).
             reply(200, {
-                link: 'https://mattermost.com/files/ndans23ry2rtjd1z73g6i5f3fc/public?h=rE1-b2N1VVVMsAQssjwlfNawbVOwUy1TRDuTeGC_tys',
+                link: 'https://takwen.co/do/files/ndans23ry2rtjd1z73g6i5f3fc/public?h=rE1-b2N1VVVMsAQssjwlfNawbVOwUy1TRDuTeGC_tys',
             });
 
         await Actions.getFilePublicLink(fileId)(store.dispatch, store.getState);
@@ -84,7 +84,7 @@ describe('Actions.Files', () => {
         const state = store.getState();
 
         const filePublicLink = state.entities.files.filePublicLink.link;
-        expect('https://mattermost.com/files/ndans23ry2rtjd1z73g6i5f3fc/public?h=rE1-b2N1VVVMsAQssjwlfNawbVOwUy1TRDuTeGC_tys').toEqual(filePublicLink);
+        expect('https://takwen.co/do/files/ndans23ry2rtjd1z73g6i5f3fc/public?h=rE1-b2N1VVVMsAQssjwlfNawbVOwUy1TRDuTeGC_tys').toEqual(filePublicLink);
         expect(filePublicLink).toBeTruthy();
         expect(filePublicLink.length > 0).toBeTruthy();
     });

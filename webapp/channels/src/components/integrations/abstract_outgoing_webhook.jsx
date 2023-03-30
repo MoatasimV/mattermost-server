@@ -477,7 +477,7 @@ export default class AbstractOutgoingWebhook extends React.PureComponent {
                                         values={{
                                             link: (
                                                 <ExternalLink
-                                                    href='https://docs.mattermost.com/configure/configuration-settings.html#session-lengths'
+                                                    href='https://docs.takwen.co/do/configure/configuration-settings.html#session-lengths'
                                                     location='abstract_outgoing_webhook'
                                                 >
                                                     <FormattedMessage

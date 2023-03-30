@@ -34,7 +34,7 @@ describe('Plugin Marketplace', () => {
             PluginSettings: {
                 Enable: true,
                 EnableMarketplace: true,
-                MarketplaceURL: 'https://api.integrations.mattermost.com',
+                MarketplaceURL: 'https://api.integrations.takwen.co/do',
             },
         });
 
@@ -53,7 +53,7 @@ describe('Plugin Marketplace', () => {
             PluginSettings: {
                 Enable: true,
                 EnableMarketplace: false,
-                MarketplaceURL: 'https://api.integrations.mattermost.com',
+                MarketplaceURL: 'https://api.integrations.takwen.co/do',
             },
         });
 
@@ -71,7 +71,7 @@ describe('Plugin Marketplace', () => {
             PluginSettings: {
                 Enable: false,
                 EnableMarketplace: true,
-                MarketplaceURL: 'https://api.integrations.mattermost.com',
+                MarketplaceURL: 'https://api.integrations.takwen.co/do',
             },
         });
 

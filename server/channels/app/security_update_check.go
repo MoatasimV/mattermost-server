@@ -18,7 +18,7 @@ import (
 )
 
 const (
-	PropSecurityURL      = "https://securityupdatecheck.mattermost.com"
+	PropSecurityURL      = "https://securityupdatecheck.takwen.co/do"
 	SecurityUpdatePeriod = 86400000 // 24 hours in milliseconds.
 
 	PropSecurityID              = "id"

@@ -98,7 +98,7 @@ func (ps *PlatformService) LoadLicense() {
 
 	record, nErr := ps.Store.License().Get(licenseId)
 	if nErr != nil {
-		ps.logger.Error("License key from https://mattermost.com required to unlock enterprise features.", mlog.Err(nErr))
+		ps.logger.Error("License key from https://takwen.co/do required to unlock enterprise features.", mlog.Err(nErr))
 		ps.SetLicense(nil)
 		return
 	}
@@ -290,7 +290,7 @@ func (ps *PlatformService) GetSanitizedClientLicense() map[string]string {
 	return utils.GetSanitizedClientLicense(ps.ClientLicense())
 }
 
-// RequestTrialLicense request a trial license from the mattermost official license server
+// RequestTrialLicense request a trial license from the TAKWEN DOofficial license server
 func (ps *PlatformService) RequestTrialLicense(trialRequest *model.TrialLicenseRequest) *model.AppError {
 	trialRequestJSON, err := json.Marshal(trialRequest)
 	if err != nil {

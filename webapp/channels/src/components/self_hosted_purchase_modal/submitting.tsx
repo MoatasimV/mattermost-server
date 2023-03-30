@@ -34,7 +34,7 @@ function useConvertProgressToWaitingExplanation(progress: ValueOf<typeof SelfHos
     case SelfHostedSignupProgress.CREATED_LICENSE:
         return intl.formatMessage({
             id: 'self_hosted_signup.progress_step.applying_license',
-            defaultMessage: 'Applying your {planName} license to your Mattermost instance',
+            defaultMessage: 'Applying your {planName} license to your TAKWEN DOinstance',
         }, {planName});
     default:
         return intl.formatMessage({

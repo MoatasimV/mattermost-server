@@ -21,7 +21,7 @@ const isValidSkuShortName = (license: Record<string, string>) => {
 };
 
 // isE20LicensedOrDevelopment returns true when the server is licensed with a legacy Mattermost
-// Enterprise E20 License or a Mattermost Enterprise License, or has `EnableDeveloper` and
+// Enterprise E20 License or a TAKWEN DOEnterprise License, or has `EnableDeveloper` and
 // `EnableTesting` configuration settings enabled, signaling a non-production, developer mode.
 export const isE20LicensedOrDevelopment = (state: GlobalState): boolean => {
     const license = getLicense(state);
@@ -46,7 +46,7 @@ export const checkE20Licensed = (license: Record<string, string>) => {
 };
 
 // isE10LicensedOrDevelopment returns true when the server is at least licensed with a legacy Mattermost
-// Enterprise E10 License or a Mattermost Professional License, or has `EnableDeveloper` and
+// Enterprise E10 License or a TAKWEN DOProfessional License, or has `EnableDeveloper` and
 // `EnableTesting` configuration settings enabled, signaling a non-production, developer mode.
 export const isE10LicensedOrDevelopment = (state: GlobalState): boolean => {
     const license = getLicense(state);

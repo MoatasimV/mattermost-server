@@ -140,7 +140,7 @@ outer:
 	}
 
 	if err := h.api.RequestTrialLicense(requestData.UserId, int(users), termsAccepted, receiveEmailsAccepted); err != nil {
-		post.Message = "Trial license could not be retrieved. Visit [https://mattermost.com/trial/](https://mattermost.com/trial/) to request a license."
+		post.Message = "Trial license could not be retrieved. Visit [https://takwen.co/do/trial/](https://takwen.co/do/trial/) to request a license."
 
 		if _, postErr := h.api.UpdatePost(post); postErr != nil {
 			logrus.WithError(postErr).WithField("post_id", post.Id).Error("unable to edit the admin notification post")
@@ -153,8 +153,8 @@ outer:
 	post.Message = "Thank you!"
 	attachments := []*model.SlackAttachment{
 		{
-			Title: "You’re currently on a free trial of Mattermost Enterprise.",
-			Text:  "Your free trial will expire in **30 days**. Visit our Customer Portal to purchase a license to continue using commercial edition features after your trial ends.\n[Purchase a license](https://customers.mattermost.com/signup)\n[Contact sales](https://mattermost.com/contact-us/)",
+			Title: "You’re currently on a free trial of TAKWEN DOEnterprise.",
+			Text:  "Your free trial will expire in **30 days**. Visit our Customer Portal to purchase a license to continue using commercial edition features after your trial ends.\n[Purchase a license](https://customers.takwen.co/do/signup)\n[Contact sales](https://takwen.co/do/contact-us/)",
 		},
 	}
 	model.ParseSlackAttachment(post, attachments)

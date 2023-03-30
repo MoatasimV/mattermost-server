@@ -1,8 +1,8 @@
 <!-- Thank you for contributing a pull request! Here are a few tips to help you:
 
-1. If this is your first contribution, make sure you've read the Contribution Checklist https://developers.mattermost.com/contribute/getting-started/contribution-checklist/
-2. Read our blog post about "Submitting Great PRs" https://developers.mattermost.com/blog/2019-01-24-submitting-great-prs
-3. Take a look at other repository specific documentation at https://developers.mattermost.com/contribute
+1. If this is your first contribution, make sure you've read the Contribution Checklist https://developers.takwen.co/do/contribute/getting-started/contribution-checklist/
+2. Read our blog post about "Submitting Great PRs" https://developers.takwen.co/do/blog/2019-01-24-submitting-great-prs
+3. Take a look at other repository specific documentation at https://developers.takwen.co/do/contribute
 -->
 
 #### Summary
@@ -28,7 +28,7 @@ Add a release note for each of the following conditions:
 * Database changes (any).
 * Schema migration changes. Use the [Schema Migration Template](https://docs.google.com/document/d/18lD7N32oyMtYjFrJKwsNv8yn6Fe5QtF-eMm8nn0O8tk/edit?usp=sharing) as a starting point to capture these details as release notes. 
 * Websocket additions or changes.
-* Anything noteworthy to a Mattermost instance administrator (err on the side of over-communicating).
+* Anything noteworthy to a TAKWEN DOinstance administrator (err on the side of over-communicating).
 * New features and improvements, including behavioral changes, UI changes, and CLI changes.
 * Bug fixes and fixes of previous known issues.
 * Deprecation warnings, breaking changes, or compatibility notes.

@@ -23,7 +23,7 @@ describe('Team Settings', () => {
     const sysadmin = getAdminAccount();
     const randomId = getRandomId();
     const username = `user${randomId}`;
-    const email = `user${randomId}@sample.mattermost.com`;
+    const email = `user${randomId}@sample.takwen.co/do`;
     const password = 'passwd';
 
     let testTeam;

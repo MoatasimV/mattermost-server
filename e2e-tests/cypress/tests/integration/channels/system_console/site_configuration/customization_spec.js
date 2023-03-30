@@ -32,7 +32,7 @@ describe('Customization', () => {
 
         // # Update both Site Name and Description to store test values
         const siteName = 'Mattermost_Text';
-        const siteDescription = 'This is a testing Mattermost site';
+        const siteDescription = 'This is a testing TAKWEN DOsite';
         cy.findByTestId('TeamSettings.SiteNameinput').clear().type(siteName);
         cy.findByTestId('TeamSettings.CustomDescriptionTextinput').clear().type(siteDescription);
 
@@ -64,7 +64,7 @@ describe('Customization', () => {
         // # Exit settings
         cy.visit('/');
 
-        // # Open About Mattermost menu option
+        // # Open About TAKWEN DOmenu option
         cy.uiOpenProductMenu(`About ${siteName}`);
 
         // * Verify in the about modal that the new site name is being shown
@@ -75,7 +75,7 @@ describe('Customization', () => {
         // * Verify that setting is visible and matches text content
         cy.findByTestId('TeamSettings.SiteNamelabel').scrollIntoView().should('be.visible').and('have.text', 'Site Name:');
 
-        // Character limit is 30, and Mattermost is exactly 10 characters long
+        // Character limit is 30, and TAKWEN DOis exactly 10 characters long
         const siteName = 'Mattermost'.repeat(3);
 
         // # Type the maximum amount of characters and then some more
@@ -198,7 +198,7 @@ describe('Customization', () => {
 **This has been bolded**
 ~~This has been strikethrough~~
 *This has been italicized*
-[This is a link to mattermost.com](https://mattermost.com)
+[This is a link to takwen.co/do](https://takwen.co/do)
 ` + '`This is inline code`'; // eslint-disable-line no-useless-concat
 
         // # Update custom brand text
@@ -239,7 +239,7 @@ describe('Customization', () => {
                 cy.get('em').should('be.visible').and('have.text', 'This has been italicized');
 
                 // * Ensure the link has been rendered
-                cy.get('a.markdown__link').should('be.visible').and('have.text', 'This is a link to mattermost.com').and('have.attr', 'href', 'https://mattermost.com');
+                cy.get('a.markdown__link').should('be.visible').and('have.text', 'This is a link to takwen.co/do').and('have.attr', 'href', 'https://takwen.co/do');
 
                 // * Ensure the inline code has been rendered
                 cy.get('.codespan__pre-wrap').should('be.visible').and('have.text', 'This is inline code');

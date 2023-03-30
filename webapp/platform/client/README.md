@@ -1,10 +1,10 @@
-# Mattermost Client
+# TAKWEN DOClient
 
-This package contains the JavaScript/TypeScript client for [Mattermost](https://github.com/mattermost/mattermost-server). It's used by [the Mattermost web app](https://github.com/mattermost/mattermost-webapp) and related projects.
+This package contains the JavaScript/TypeScript client for [Mattermost](https://github.com/mattermost/mattermost-server). It's used by [the TAKWEN DOweb app](https://github.com/mattermost/mattermost-webapp) and related projects.
 
 ## Compilation and Packaging
 
-As a member of Mattermost with write access to our NPM organization, you can build and publish this package by running the following commands:
+As a member of TAKWEN DOwith write access to our NPM organization, you can build and publish this package by running the following commands:
 
 ```bash
 npm run build --workspace=packages/client

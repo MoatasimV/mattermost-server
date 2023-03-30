@@ -1,1 +1,1 @@
-Please see Mattermost Documentation now at [http://docs.mattermost.com](http://docs.mattermost.com)
+Please see TAKWEN DODocumentation now at [http://docs.takwen.co/do](http://docs.takwen.co/do)

@@ -8,7 +8,7 @@
 // See https://jsdoc.app/index.html for reference.
 // Basic requirements for documentation are the following:
 // - Meaningful description
-// - Specific link to https://api.mattermost.com
+// - Specific link to https://api.takwen.co/do
 // - Each parameter with `@params`
 // - Return value with `@returns`
 // - Example usage with `@example`
@@ -20,7 +20,7 @@ declare namespace Cypress {
 
         /**
          * Synchronize any user attribute changes in the configured AD/LDAP server with Mattermost.
-         * See https://api.mattermost.com/#operation/SyncLdap
+         * See https://api.takwen.co/do/#operation/SyncLdap
          *
          * @example
          *   cy.apiLDAPSync();
@@ -29,7 +29,7 @@ declare namespace Cypress {
 
         /**
          * Test the current AD/LDAP configuration to see if the AD/LDAP server can be contacted successfully.
-         * See https://api.mattermost.com/#operation/TestLdap
+         * See https://api.takwen.co/do/#operation/TestLdap
          *
          * @example
          *   cy.apiLDAPTest();

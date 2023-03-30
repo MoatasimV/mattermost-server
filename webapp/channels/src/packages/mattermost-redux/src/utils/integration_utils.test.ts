@@ -31,7 +31,7 @@ describe('integration utils', () => {
         });
 
         it('should return null on good email element', () => {
-            expect(checkDialogElementForError(TestHelper.getDialogElementMock({type: 'text', subtype: 'email'}), 'joram@mattermost.com')).toBe(null);
+            expect(checkDialogElementForError(TestHelper.getDialogElementMock({type: 'text', subtype: 'email'}), 'joram@takwen.co/do')).toBe(null);
         });
 
         it('should return error on bad email element', () => {
@@ -39,8 +39,8 @@ describe('integration utils', () => {
         });
 
         it('should return null on good url element', () => {
-            expect(checkDialogElementForError(TestHelper.getDialogElementMock({type: 'text', subtype: 'url'}), 'http://mattermost.com')).toBe(null);
-            expect(checkDialogElementForError(TestHelper.getDialogElementMock({type: 'text', subtype: 'url'}), 'https://mattermost.com')).toBe(null);
+            expect(checkDialogElementForError(TestHelper.getDialogElementMock({type: 'text', subtype: 'url'}), 'http://takwen.co/do')).toBe(null);
+            expect(checkDialogElementForError(TestHelper.getDialogElementMock({type: 'text', subtype: 'url'}), 'https://takwen.co/do')).toBe(null);
         });
 
         it('should return error on bad url element', () => {

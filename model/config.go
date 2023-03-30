@@ -52,8 +52,8 @@ const (
 
 	GenericNoChannelNotification = "generic_no_channel"
 	GenericNotification          = "generic"
-	GenericNotificationServer    = "https://push-test.mattermost.com"
-	MmSupportAdvisorAddress      = "support-advisor@mattermost.com"
+	GenericNotificationServer    = "https://push-test.takwen.co/do"
+	MmSupportAdvisorAddress      = "support-advisor@takwen.co/do"
 	FullNotification             = "full"
 	IdLoadedNotification         = "id_loaded"
 
@@ -130,11 +130,11 @@ const (
 
 	EmailSettingsDefaultFeedbackOrganization = ""
 
-	SupportSettingsDefaultTermsOfServiceLink = "https://mattermost.com/terms-of-use/"
-	SupportSettingsDefaultPrivacyPolicyLink  = "https://mattermost.com/privacy-policy/"
-	SupportSettingsDefaultAboutLink          = "https://docs.mattermost.com/about/product.html/"
-	SupportSettingsDefaultHelpLink           = "https://mattermost.com/default-help/"
-	SupportSettingsDefaultReportAProblemLink = "https://mattermost.com/default-report-a-problem/"
+	SupportSettingsDefaultTermsOfServiceLink = "https://takwen.co/do/terms-of-use/"
+	SupportSettingsDefaultPrivacyPolicyLink  = "https://takwen.co/do/privacy-policy/"
+	SupportSettingsDefaultAboutLink          = "https://docs.takwen.co/do/about/product.html/"
+	SupportSettingsDefaultHelpLink           = "https://takwen.co/do/default-help/"
+	SupportSettingsDefaultReportAProblemLink = "https://takwen.co/do/default-report-a-problem/"
 	SupportSettingsDefaultSupportEmail       = ""
 	SupportSettingsDefaultReAcceptancePeriod = 365
 
@@ -170,9 +170,9 @@ const (
 	SamlSettingsCanonicalAlgorithmC14n11  = "Canonical1.1"
 	SamlSettingsDefaultCanonicalAlgorithm = SamlSettingsCanonicalAlgorithmC14n
 
-	NativeappSettingsDefaultAppDownloadLink        = "https://mattermost.com/download/#mattermostApps"
-	NativeappSettingsDefaultAndroidAppDownloadLink = "https://mattermost.com/mattermost-android-app/"
-	NativeappSettingsDefaultIosAppDownloadLink     = "https://mattermost.com/mattermost-ios-app/"
+	NativeappSettingsDefaultAppDownloadLink        = "https://takwen.co/do/download/#mattermostApps"
+	NativeappSettingsDefaultAndroidAppDownloadLink = "https://takwen.co/do/mattermost-android-app/"
+	NativeappSettingsDefaultIosAppDownloadLink     = "https://takwen.co/do/mattermost-ios-app/"
 
 	ExperimentalSettingsDefaultLinkMetadataTimeoutMilliseconds = 5000
 
@@ -180,7 +180,7 @@ const (
 
 	AnnouncementSettingsDefaultBannerColor                  = "#f2a93b"
 	AnnouncementSettingsDefaultBannerTextColor              = "#333333"
-	AnnouncementSettingsDefaultNoticesJsonURL               = "https://notices.mattermost.com/"
+	AnnouncementSettingsDefaultNoticesJsonURL               = "https://notices.takwen.co/do/"
 	AnnouncementSettingsDefaultNoticesFetchFrequencySeconds = 3600
 
 	TeamSettingsDefaultTeamText = "default"
@@ -213,8 +213,8 @@ const (
 	PluginSettingsDefaultDirectory         = "./plugins"
 	PluginSettingsDefaultClientDirectory   = "./client/plugins"
 	PluginSettingsDefaultEnableMarketplace = true
-	PluginSettingsDefaultMarketplaceURL    = "https://api.integrations.mattermost.com"
-	PluginSettingsOldMarketplaceURL        = "https://marketplace.integrations.mattermost.com"
+	PluginSettingsDefaultMarketplaceURL    = "https://api.integrations.takwen.co/do"
+	PluginSettingsOldMarketplaceURL        = "https://marketplace.integrations.takwen.co/do"
 
 	ComplianceExportTypeCsv            = "csv"
 	ComplianceExportTypeActiance       = "actiance"
@@ -239,12 +239,12 @@ const (
 	Office365SettingsDefaultTokenEndpoint   = "https://login.microsoftonline.com/common/oauth2/v2.0/token"
 	Office365SettingsDefaultUserAPIEndpoint = "https://graph.microsoft.com/v1.0/me"
 
-	CloudSettingsDefaultCwsURL    = "https://customers.mattermost.com"
-	CloudSettingsDefaultCwsAPIURL = "https://portal.internal.prod.cloud.mattermost.com"
-	// TODO: update to "https://portal.test.cloud.mattermost.com" when ready to use test license key
-	CloudSettingsDefaultCwsURLTest = "https://customers.mattermost.com"
-	// TODO: update to // "https://api.internal.test.cloud.mattermost.com" when ready to use test license key
-	CloudSettingsDefaultCwsAPIURLTest = "https://portal.internal.prod.cloud.mattermost.com"
+	CloudSettingsDefaultCwsURL    = "https://customers.takwen.co/do"
+	CloudSettingsDefaultCwsAPIURL = "https://portal.internal.prod.cloud.takwen.co/do"
+	// TODO: update to "https://portal.test.cloud.takwen.co/do" when ready to use test license key
+	CloudSettingsDefaultCwsURLTest = "https://customers.takwen.co/do"
+	// TODO: update to // "https://api.internal.test.cloud.takwen.co/do" when ready to use test license key
+	CloudSettingsDefaultCwsAPIURLTest = "https://portal.internal.prod.cloud.takwen.co/do"
 
 	OpenidSettingsDefaultScope = "profile openid email"
 

@@ -52,7 +52,7 @@ type Client struct {
 	Telemetry *TelemetryService
 }
 
-// New creates a new instance of Client using the configuration from the given Mattermost Client.
+// New creates a new instance of Client using the configuration from the given TAKWEN DOClient.
 func New(client4 *model.Client4) (*Client, error) {
 	ctx := context.Background()
 	ts := oauth2.StaticTokenSource(

@@ -140,7 +140,7 @@ describe('channels > rhs > runlist', () => {
         cy.get('#rhsContainer').findByText('Give feedback').
             should('exist').
             and('have.attr', 'href').
-            and('include', 'https://mattermost.com/pl/playbooks-feedback');
+            and('include', 'https://takwen.co/do/pl/playbooks-feedback');
     });
 
     describe('dotmenu', () => {

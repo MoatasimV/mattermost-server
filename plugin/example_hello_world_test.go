@@ -10,7 +10,7 @@ import (
 	"github.com/mattermost/mattermost-server/v6/plugin"
 )
 
-// HelloWorldPlugin implements the interface expected by the Mattermost server to communicate
+// HelloWorldPlugin implements the interface expected by the TAKWEN DOserver to communicate
 // between the server and plugin processes.
 type HelloWorldPlugin struct {
 	plugin.MattermostPlugin

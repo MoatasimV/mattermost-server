@@ -129,7 +129,7 @@ export default class PushSettings extends AdminSettings {
                     values={{
                         link: (msg) => (
                             <ExternalLink
-                                href='https://docs.mattermost.com/deploy/mobile-hpns.html'
+                                href='https://docs.takwen.co/do/deploy/mobile-hpns.html'
                                 location='push_settings'
                             >
                                 {msg}
@@ -146,7 +146,7 @@ export default class PushSettings extends AdminSettings {
                     values={{
                         linkIOS: (msg) => (
                             <ExternalLink
-                                href='https://mattermost.com/mattermost-ios-app/'
+                                href='https://takwen.co/do/mattermost-ios-app/'
                                 location='push_settings'
                             >
                                 {msg}
@@ -154,7 +154,7 @@ export default class PushSettings extends AdminSettings {
                         ),
                         linkAndroid: (msg) => (
                             <ExternalLink
-                                href='https://mattermost.com/mattermost-android-app/'
+                                href='https://takwen.co/do/mattermost-android-app/'
                                 location='push_settings'
                             >
                                 {msg}
@@ -162,7 +162,7 @@ export default class PushSettings extends AdminSettings {
                         ),
                         linkHPNS: (msg) => (
                             <ExternalLink
-                                href='https://docs.mattermost.com/deploy/mobile-hpns.html'
+                                href='https://docs.takwen.co/do/deploy/mobile-hpns.html'
                                 location='push_settings'
                             >
                                 {msg}
@@ -179,7 +179,7 @@ export default class PushSettings extends AdminSettings {
                     values={{
                         linkIOS: (msg) => (
                             <ExternalLink
-                                href='https://mattermost.com/mattermost-ios-app/'
+                                href='https://takwen.co/do/mattermost-ios-app/'
                                 location='push_settings'
                             >
                                 {msg}
@@ -187,7 +187,7 @@ export default class PushSettings extends AdminSettings {
                         ),
                         linkAndroid: (msg) => (
                             <ExternalLink
-                                href='https://mattermost.com/mattermost-android-app/'
+                                href='https://takwen.co/do/mattermost-android-app/'
                                 location='push_settings'
                             >
                                 {msg}
@@ -195,7 +195,7 @@ export default class PushSettings extends AdminSettings {
                         ),
                         linkHPNS: (msg) => (
                             <ExternalLink
-                                href='https://docs.mattermost.com/deploy/mobile-hpns.html'
+                                href='https://docs.takwen.co/do/deploy/mobile-hpns.html'
                                 location='push_settings'
                             >
                                 {msg}
@@ -212,7 +212,7 @@ export default class PushSettings extends AdminSettings {
                     values={{
                         link: (msg) => (
                             <ExternalLink
-                                href='https://docs.mattermost.com/'
+                                href='https://docs.takwen.co/do/'
                                 location='push_settings'
                             >
                                 {msg}
@@ -237,11 +237,11 @@ export default class PushSettings extends AdminSettings {
                         />
                         <FormattedMessage
                             id='admin.email.agreeHPNS'
-                            defaultMessage=' I understand and accept the Mattermost Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>.'
+                            defaultMessage=' I understand and accept the TAKWEN DOHosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>.'
                             values={{
                                 linkTerms: (msg) => (
                                     <ExternalLink
-                                        href='https://mattermost.com/hpns-terms/'
+                                        href='https://takwen.co/do/hpns-terms/'
                                         location='push_settings'
                                     >
                                         {msg}
@@ -249,7 +249,7 @@ export default class PushSettings extends AdminSettings {
                                 ),
                                 linkPricacy: (msg) => (
                                     <ExternalLink
-                                        href='https://mattermost.com/data-processing-addendum/'
+                                        href='https://takwen.co/do/data-processing-addendum/'
                                         location='push_settings'
                                     >
                                         {msg}
@@ -288,7 +288,7 @@ export default class PushSettings extends AdminSettings {
                             defaultMessage='Push Notification Server:'
                         />
                     }
-                    placeholder={Utils.localizeMessage('admin.email.pushServerEx', 'E.g.: "https://push-test.mattermost.com"')}
+                    placeholder={Utils.localizeMessage('admin.email.pushServerEx', 'E.g.: "https://push-test.takwen.co/do"')}
                     helpText={pushServerHelpText}
                     value={this.state.pushNotificationServer}
                     onChange={this.handleChange}

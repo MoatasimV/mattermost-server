@@ -38,7 +38,7 @@ exports[`components/OpenIdConvert should match snapshot 1`] = `
       <ExternalLink
         className="btn-secondary"
         data-testid="openIdLearnMore"
-        href="https://www.mattermost.com/default-openid-docs"
+        href="https://www.takwen.co/do/default-openid-docs"
         location="openid_convert"
       >
         <MemoizedFormattedMessage

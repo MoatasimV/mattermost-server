@@ -5,7 +5,7 @@ Mattermost Server
 NOTICES:
 --------
 
-This document includes a list of open source components used in Mattermost Server, including those that have been modified.
+This document includes a list of open source components used in TAKWEN DOServer, including those that have been modified.
 
 --------
 
@@ -3180,7 +3180,7 @@ THE SOFTWARE.
 
 ## mattermost/rsc
 
-This product contains 'rsc' by Mattermost (forked from original GitHub repo 'petar/rsc' owned by Petar Maymounkov).
+This product contains 'rsc' by TAKWEN DO(forked from original GitHub repo 'petar/rsc' owned by Petar Maymounkov).
 
 fork of Russ Cox's code.google.com/p/rsc
 

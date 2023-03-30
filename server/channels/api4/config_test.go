@@ -66,7 +66,7 @@ func TestGetConfigWithAccessTag(t *testing.T) {
 
 	// set some values so that we know they're not blank
 	mockVaryByHeader := model.NewId()
-	mockSupportEmail := model.NewId() + "@mattermost.com"
+	mockSupportEmail := model.NewId() + "@takwen.co/do"
 	th.App.UpdateConfig(func(cfg *model.Config) {
 		cfg.RateLimitSettings.VaryByHeader = mockVaryByHeader
 		cfg.SupportSettings.SupportEmail = &mockSupportEmail
@@ -519,7 +519,7 @@ func TestUpdateConfigDiffInAuditRecord(t *testing.T) {
 }
 
 func TestGetEnvironmentConfig(t *testing.T) {
-	os.Setenv("MM_SERVICESETTINGS_SITEURL", "http://example.mattermost.com")
+	os.Setenv("MM_SERVICESETTINGS_SITEURL", "http://example.takwen.co/do")
 	os.Setenv("MM_SERVICESETTINGS_ENABLECUSTOMEMOJI", "true")
 	defer os.Unsetenv("MM_SERVICESETTINGS_SITEURL")
 	defer os.Unsetenv("MM_SERVICESETTINGS_ENABLECUSTOMEMOJI")

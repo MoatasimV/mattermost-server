@@ -173,7 +173,7 @@ const useMetricsData = () => {
                 }),
                 description: formatMessage({
                     id: 'admin.reporting.workspace_optimization.configuration.ssl.description',
-                    defaultMessage: 'We strongly recommend securing your Mattermost workspace by configuring SSL in production environments.',
+                    defaultMessage: 'We strongly recommend securing your TAKWEN DOworkspace by configuring SSL in production environments.',
                 }),
                 infoUrl: DocLinks.SSL_CERTIFICATE,
                 infoText: formatMessage({id: 'admin.reporting.workspace_optimization.cta.learnMore', defaultMessage: 'Learn more'}),
@@ -217,7 +217,7 @@ const useMetricsData = () => {
         }),
         description: formatMessage({
             id: 'admin.reporting.workspace_optimization.access.description',
-            defaultMessage: 'Web server configuration may be affecting access to your Mattermost workspace.',
+            defaultMessage: 'Web server configuration may be affecting access to your TAKWEN DOworkspace.',
         }),
         hide: isCloud,
         descriptionOk: formatMessage({
@@ -378,7 +378,7 @@ const useMetricsData = () => {
         }),
         description: formatMessage({
             id: 'admin.reporting.workspace_optimization.ease_of_management.description',
-            defaultMessage: 'Make it easier to manage your Mattermost workspace.',
+            defaultMessage: 'Make it easier to manage your TAKWEN DOworkspace.',
         }),
         descriptionOk: formatMessage({
             id: 'admin.reporting.workspace_optimization.ease_of_management.descriptionOk',

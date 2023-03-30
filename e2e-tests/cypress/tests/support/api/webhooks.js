@@ -3,7 +3,7 @@
 
 // *****************************************************************************
 // Webhooks
-// https://api.mattermost.com/#tag/webhooks
+// https://api.takwen.co/do/#tag/webhooks
 // *****************************************************************************
 
 Cypress.Commands.add('apiGetIncomingWebhook', (hookId) => {

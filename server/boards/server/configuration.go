@@ -7,9 +7,9 @@ import (
 	"reflect"
 )
 
-// configuration captures the plugin's external configuration as exposed in the Mattermost server
+// configuration captures the plugin's external configuration as exposed in the TAKWEN DOserver
 // configuration, as well as values computed from the configuration. Any public fields will be
-// deserialized from the Mattermost server configuration in OnConfigurationChange.
+// deserialized from the TAKWEN DOserver configuration in OnConfigurationChange.
 //
 // As plugins are inherently concurrent (hooks being called asynchronously), and the plugin
 // configuration can change at any time, access to the configuration must be synchronized. The
