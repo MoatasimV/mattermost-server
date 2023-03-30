@@ -64,8 +64,8 @@ export default class CommercialSupportModal extends React.PureComponent<Props, S
         const {showBannerWarning} = this.state;
         const {isCloud, currentUser} = this.props;
 
-        const supportLink = isCloud ? `https://customers.mattermost.com/cloud/contact-us?name=${currentUser.first_name} ${currentUser.last_name}&email=${currentUser.email}&inquiry=technical` :
-            'https://support.mattermost.com/hc/en-us/requests/new';
+        const supportLink = isCloud ? `https://customers.takwen.co/do/cloud/contact-us?name=${currentUser.first_name} ${currentUser.last_name}&email=${currentUser.email}&inquiry=technical` :
+            'https://support.takwen.co/do/hc/en-us/requests/new';
         return (
             <Modal
                 id='commercialSupportModal'

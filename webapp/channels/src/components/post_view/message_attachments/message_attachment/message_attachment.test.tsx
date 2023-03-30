@@ -189,7 +189,7 @@ describe('components/post_view/MessageAttachment', () => {
         const props = {
             ...baseProps,
             attachment: {
-                title: 'Do you like https://mattermost.com?',
+                title: 'Do you like https://takwen.co/do?',
             } as MessageAttachmentType,
         };
 

@@ -1055,50 +1055,50 @@ export const DraggingStateTypes = {
 };
 
 export const AboutLinks = {
-    TERMS_OF_SERVICE: 'https://mattermost.com/terms-of-use/',
-    PRIVACY_POLICY: 'https://mattermost.com/privacy-policy/',
+    TERMS_OF_SERVICE: 'https://takwen.co/do/terms-of-use/',
+    PRIVACY_POLICY: 'https://takwen.co/do/privacy-policy/',
 };
 
 export const CloudLinks = {
-    BILLING_DOCS: 'https://docs.mattermost.com/cloud/cloud-billing/cloud-billing.html',
-    PRICING: 'https://mattermost.com/pricing/',
-    PRORATED_PAYMENT: 'https://mattermost.com/pl/mattermost-cloud-prorate-documentation',
-    DEPLOYMENT_OPTIONS: 'https://mattermost.com/deploy/',
-    DOWNLOAD_UPDATE: 'https://mattermost.com/deploy/',
-    CLOUD_SIGNUP_PAGE: 'https://mattermost.com/sign-up/',
-    SELF_HOSTED_SIGNUP: 'https://customers.mattermost.com/signup',
-    DELINQUENCY_DOCS: 'https://docs.mattermost.com/about/cloud-subscriptions.html#failed-or-late-payments',
-    SELF_HOSTED_PRICING: 'https://mattermost.com/pricing/#self-hosted',
+    BILLING_DOCS: 'https://docs.takwen.co/do/cloud/cloud-billing/cloud-billing.html',
+    PRICING: 'https://takwen.co/do/pricing/',
+    PRORATED_PAYMENT: 'https://takwen.co/do/pl/mattermost-cloud-prorate-documentation',
+    DEPLOYMENT_OPTIONS: 'https://takwen.co/do/deploy/',
+    DOWNLOAD_UPDATE: 'https://takwen.co/do/deploy/',
+    CLOUD_SIGNUP_PAGE: 'https://takwen.co/do/sign-up/',
+    SELF_HOSTED_SIGNUP: 'https://customers.takwen.co/do/signup',
+    DELINQUENCY_DOCS: 'https://docs.takwen.co/do/about/cloud-subscriptions.html#failed-or-late-payments',
+    SELF_HOSTED_PRICING: 'https://takwen.co/do/pricing/#self-hosted',
 };
 
 export const HostedCustomerLinks = {
-    BILLING_DOCS: 'https://mattermost.com/pl/how-self-hosted-billing-works',
-    TERMS_AND_CONDITIONS: 'https://mattermost.com/enterprise-edition-terms/',
+    BILLING_DOCS: 'https://takwen.co/do/pl/how-self-hosted-billing-works',
+    TERMS_AND_CONDITIONS: 'https://takwen.co/do/enterprise-edition-terms/',
 };
 
 export const DocLinks = {
-    AD_LDAP: 'https://docs.mattermost.com/configure/configuration-settings.html#ad-ldap',
-    DATA_RETENTION_POLICY: 'https://docs.mattermost.com/comply/data-retention-policy.html',
-    ELASTICSEARCH: 'https://docs.mattermost.com/scale/elasticsearch.html',
-    GUEST_ACCOUNTS: 'https://docs.mattermost.com/onboard/guest-accounts.html',
-    SESSION_LENGTHS: 'https://docs.mattermost.com/configure/configuration-settings.html#session-lengths',
-    SITE_URL: 'https://docs.mattermost.com/configure/configuration-settings.html#site-url',
-    SSL_CERTIFICATE: 'https://docs.mattermost.com/onboard/ssl-client-certificate.html',
-    UPGRADE_SERVER: 'https://docs.mattermost.com/upgrade/upgrading-mattermost-server.html',
-    ONBOARD_LDAP: 'https://docs.mattermost.com/onboard/ad-ldap.html',
-    ONBOARD_SSO: 'https://docs.mattermost.com/onboard/sso-saml.html',
-    TRUE_UP_REVIEW: 'https://mattermost.com/pl/true-up-documentation',
+    AD_LDAP: 'https://docs.takwen.co/do/configure/configuration-settings.html#ad-ldap',
+    DATA_RETENTION_POLICY: 'https://docs.takwen.co/do/comply/data-retention-policy.html',
+    ELASTICSEARCH: 'https://docs.takwen.co/do/scale/elasticsearch.html',
+    GUEST_ACCOUNTS: 'https://docs.takwen.co/do/onboard/guest-accounts.html',
+    SESSION_LENGTHS: 'https://docs.takwen.co/do/configure/configuration-settings.html#session-lengths',
+    SITE_URL: 'https://docs.takwen.co/do/configure/configuration-settings.html#site-url',
+    SSL_CERTIFICATE: 'https://docs.takwen.co/do/onboard/ssl-client-certificate.html',
+    UPGRADE_SERVER: 'https://docs.takwen.co/do/upgrade/upgrading-mattermost-server.html',
+    ONBOARD_LDAP: 'https://docs.takwen.co/do/onboard/ad-ldap.html',
+    ONBOARD_SSO: 'https://docs.takwen.co/do/onboard/sso-saml.html',
+    TRUE_UP_REVIEW: 'https://takwen.co/do/pl/true-up-documentation',
 };
 
 export const LicenseLinks = {
-    CONTACT_SALES: 'https://mattermost.com/contact-sales/',
-    TRIAL_INFO_LINK: 'https://mattermost.com/trial',
-    EMBARGOED_COUNTRIES: 'https://mattermost.com/pl/limitations-for-embargoed-countries',
-    SOFTWARE_SERVICES_LICENSE_AGREEMENT: 'https://mattermost.com/pl/software-and-services-license-agreement',
+    CONTACT_SALES: 'https://takwen.co/do/contact-sales/',
+    TRIAL_INFO_LINK: 'https://takwen.co/do/trial',
+    EMBARGOED_COUNTRIES: 'https://takwen.co/do/pl/limitations-for-embargoed-countries',
+    SOFTWARE_SERVICES_LICENSE_AGREEMENT: 'https://takwen.co/do/pl/software-and-services-license-agreement',
     SOFTWARE_SERVICES_LICENSE_AGREEMENT_TEXT: 'Software Services and License Agreement',
 };
 
-export const MattermostLink = 'https://mattermost.com/';
+export const MattermostLink = 'https://takwen.co/do/';
 
 export const BillingSchemes = {
     FLAT_FEE: 'flat_fee',
@@ -1915,8 +1915,8 @@ export const Constants = {
     EMOJI_PATH: '/static/emoji',
     RECENT_EMOJI_KEY: 'recentEmojis',
     DEFAULT_WEBHOOK_LOGO: logoWebhook,
-    MHPNS: 'https://push.mattermost.com',
-    MTPNS: 'https://push-test.mattermost.com',
+    MHPNS: 'https://push.takwen.co/do',
+    MTPNS: 'https://push-test.takwen.co/do',
     MAX_PREV_MSGS: 100,
     POST_COLLAPSE_TIMEOUT: 1000 * 60 * 5, // five minutes
     SAVE_DRAFT_TIMEOUT: 500,

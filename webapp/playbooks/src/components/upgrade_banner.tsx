@@ -258,7 +258,7 @@ const Button = (props: ButtonProps) => {
         if (props.isCurrentUserAdmin) {
             return (
                 <ButtonSC
-                    onClick={() => window.open('https://mattermost.com/support/')}
+                    onClick={() => window.open('https://takwen.co/do/support/')}
                 >
                     <FormattedMessage defaultMessage='Contact support'/>
                 </ButtonSC>

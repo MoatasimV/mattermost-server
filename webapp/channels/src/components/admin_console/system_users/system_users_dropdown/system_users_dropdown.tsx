@@ -228,7 +228,7 @@ export default class SystemUsersDropdown extends React.PureComponent<Props, Stat
                                             ),
                                             linkDocumentation: (msg: React.ReactNode) => (
                                                 <ExternalLink
-                                                    href='https://mattermost.com/pl/default-bot-accounts'
+                                                    href='https://takwen.co/do/pl/default-bot-accounts'
                                                     location='system_users_dropdown'
                                                 >
                                                     {msg}

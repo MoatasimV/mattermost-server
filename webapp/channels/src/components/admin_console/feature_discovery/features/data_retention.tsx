@@ -19,7 +19,7 @@ const DataRetentionFeatureDiscovery: React.FC = () => {
             titleDefault='Create data retention schedules with Mattermost Enterprise'
             copyID='admin.data_retention_feature_discovery.copy'
             copyDefault={'Hold on to your data only as long as you need to. Create data retention jobs for select channels and teams to automatically delete disposable data.'}
-            learnMoreURL='https://docs.mattermost.com/administration/data-retention.html'
+            learnMoreURL='https://docs.takwen.co/do/administration/data-retention.html'
             featureDiscoveryImage={<DataRetentionSVG/>}
         />
     );

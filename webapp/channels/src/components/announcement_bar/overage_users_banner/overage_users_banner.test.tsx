@@ -42,7 +42,7 @@ jest.mock('actions/telemetry_actions', () => ({
 }));
 
 const seatsPurchased = 40;
-const email = 'test@mattermost.com';
+const email = 'test@takwen.co/do';
 
 const seatsMinimumFor5PercentageState = (Math.ceil(seatsPurchased * OverActiveUserLimits.MIN)) + seatsPurchased;
 
@@ -94,7 +94,7 @@ describe('components/overage_users_banner', () => {
                     Name: 'LicenseName',
                     Company: 'Mattermost Inc.',
                     Users: String(seatsPurchased),
-                    Email: 'test@mattermost.com',
+                    Email: 'test@takwen.co/do',
                     Id: licenseId,
                 },
             },
@@ -251,7 +251,7 @@ describe('components/overage_users_banner', () => {
         expect(windowSpy).toBeCalledTimes(1);
 
         // only the email is encoded and other params are empty. See logic for useOpenSalesLink hook
-        const salesLinkWithEncodedParams = 'https://mattermost.com/contact-sales/?qk=&qp=&qw=&qx=dGVzdEBtYXR0ZXJtb3N0LmNvbQ==&utm_source=mattermost&utm_medium=in-product';
+        const salesLinkWithEncodedParams = 'https://takwen.co/do/contact-sales/?qk=&qp=&qw=&qx=dGVzdEBtYXR0ZXJtb3N0LmNvbQ==&utm_source=mattermost&utm_medium=in-product';
         expect(windowSpy).toBeCalledWith(salesLinkWithEncodedParams, '_blank');
         expect(trackEvent).toBeCalledTimes(1);
         expect(trackEvent).toBeCalledWith('insights', 'click_true_up_warning', {
@@ -373,7 +373,7 @@ describe('components/overage_users_banner', () => {
         expect(windowSpy).toBeCalledTimes(1);
 
         // only the email is encoded and other params are empty. See logic for useOpenSalesLink hook
-        const salesLinkWithEncodedParams = 'https://mattermost.com/contact-sales/?qk=&qp=&qw=&qx=dGVzdEBtYXR0ZXJtb3N0LmNvbQ==&utm_source=mattermost&utm_medium=in-product';
+        const salesLinkWithEncodedParams = 'https://takwen.co/do/contact-sales/?qk=&qp=&qw=&qx=dGVzdEBtYXR0ZXJtb3N0LmNvbQ==&utm_source=mattermost&utm_medium=in-product';
         expect(windowSpy).toBeCalledWith(salesLinkWithEncodedParams, '_blank');
         expect(trackEvent).toBeCalledTimes(1);
         expect(trackEvent).toBeCalledWith('insights', 'click_true_up_error', {

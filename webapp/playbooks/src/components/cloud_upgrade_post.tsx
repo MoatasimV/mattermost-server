@@ -62,7 +62,7 @@ export const CloudUpgradePost = (props: Props) => {
                             <FormattedMessage defaultMessage='Upgrade now'/>
                         </PrimaryButton>
                         <StyledTertiaryButton
-                            onClick={() => window.open('https://mattermost.com/pricing-cloud')}
+                            onClick={() => window.open('https://takwen.co/do/pricing-cloud')}
                         >
                             <FormattedMessage defaultMessage='Learn more'/>
                         </StyledTertiaryButton>

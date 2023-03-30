@@ -23,7 +23,7 @@ import CompassIcon from 'src/widgets/icons/compassIcon'
 import TelemetryClient, {TelemetryCategory, TelemetryActions} from 'src/telemetry/telemetryClient'
 
 import './versionMessage.scss'
-const helpURL = 'https://mattermost.com/pl/whats-new-boards/'
+const helpURL = 'https://takwen.co/do/pl/whats-new-boards/'
 
 const VersionMessage = () => {
     const intl = useIntl()

@@ -88,7 +88,7 @@ export const getUpgradeModalButtons = (isAdmin: boolean, isServerTeamEdition: bo
                 confirmButtonText: <FormattedMessage defaultMessage='Contact support'/>,
                 cancelButtonText: '',
                 handleConfirm: () => {
-                    window.open('https://mattermost.com/support/');
+                    window.open('https://takwen.co/do/support/');
                 },
                 // eslint-disable-next-line no-undefined
                 handleCancel: undefined,
@@ -107,7 +107,7 @@ export const getUpgradeModalButtons = (isAdmin: boolean, isServerTeamEdition: bo
 
 const PortalLink = styled.a.attrs(() => {
     return {
-        href: 'https://customers.mattermost.com/signup',
+        href: 'https://customers.takwen.co/do/signup',
         target: '_blank',
         rel: 'noreferrer',
     };

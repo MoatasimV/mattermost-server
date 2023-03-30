@@ -19,7 +19,7 @@ const OpenIDCustomFeatureDiscovery: React.FC = () => {
             titleDefault='Integrate OpenID Connect with Mattermost Professional'
             copyID='admin.openid_custom_feature_discovery.copy'
             copyDefault={'Use OpenID Connect for authentication and single sign-on (SSO) with any service that supports the OIDC specification such as Apple, Okta, OneLogin, and more.'}
-            learnMoreURL='https://docs.mattermost.com/cloud/cloud-administration/sso-openid-connect.html'
+            learnMoreURL='https://docs.takwen.co/do/cloud/cloud-administration/sso-openid-connect.html'
             featureDiscoveryImage={<SamlSVG/>}
         />
     );

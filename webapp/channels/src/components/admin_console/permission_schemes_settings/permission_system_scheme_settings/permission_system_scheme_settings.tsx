@@ -375,7 +375,7 @@ export default class PermissionSystemSchemeSettings extends React.PureComponent<
                                         values={{
                                             link: (msg: React.ReactNode) => (
                                                 <ExternalLink
-                                                    href='https://docs.mattermost.com/onboard/advanced-permissions.html'
+                                                    href='https://docs.takwen.co/do/onboard/advanced-permissions.html'
                                                     location='permission_system_scheme_settings'
                                                 >
                                                     {msg}

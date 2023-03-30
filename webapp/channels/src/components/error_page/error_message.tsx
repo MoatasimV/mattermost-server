@@ -115,7 +115,7 @@ const ErrorMessage: React.FC<Props> = ({type, message, service, isGuest}: Props)
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.mattermost.com/deployment/sso-google.html'}
+                                        url={'https://docs.takwen.co/do/deployment/sso-google.html'}
                                         messageId={t('error.oauth_missing_code.google.link')}
                                         defaultMessage={'Google Apps'}
                                     />
@@ -130,7 +130,7 @@ const ErrorMessage: React.FC<Props> = ({type, message, service, isGuest}: Props)
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.mattermost.com/deployment/sso-office.html'}
+                                        url={'https://docs.takwen.co/do/deployment/sso-office.html'}
                                         messageId={t('error.oauth_missing_code.office365.link')}
                                         defaultMessage={'Office 365'}
                                     />
@@ -145,7 +145,7 @@ const ErrorMessage: React.FC<Props> = ({type, message, service, isGuest}: Props)
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://docs.mattermost.com/deployment/sso-gitlab.html'}
+                                        url={'https://docs.takwen.co/do/deployment/sso-gitlab.html'}
                                         messageId={t('error.oauth_missing_code.gitlab.link')}
                                         defaultMessage={'GitLab'}
                                     />
@@ -160,7 +160,7 @@ const ErrorMessage: React.FC<Props> = ({type, message, service, isGuest}: Props)
                             values={{
                                 link: (
                                     <ErrorLink
-                                        url={'https://forum.mattermost.com/c/trouble-shoot'}
+                                        url={'https://forum.takwen.co/do/c/trouble-shoot'}
                                         messageId={t('error.oauth_missing_code.forum.link')}
                                         defaultMessage={'Troubleshooting forum'}
                                     />

@@ -18,7 +18,7 @@ import KeyboardShortcutsModal from 'components/keyboard_shortcuts/keyboard_short
 
 import type {PropsFromRedux} from './index';
 
-const askTheCommunityUrl = 'https://mattermost.com/pl/default-ask-mattermost-community/';
+const askTheCommunityUrl = 'https://takwen.co/do/pl/default-ask-mattermost-community/';
 
 type Props = PropsFromRedux & WrappedComponentProps
 

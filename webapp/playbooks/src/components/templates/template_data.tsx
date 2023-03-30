@@ -349,13 +349,13 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
                 {
                     title: 'Pre-day one',
                     items: [
-                        newChecklistItem('Complete the [Onboarding Systems Form in the IT HelpDesk](https://helpdesk.mattermost.com/support/home)'),
+                        newChecklistItem('Complete the [Onboarding Systems Form in the IT HelpDesk](https://helpdesk.takwen.co/do/support/home)'),
                         newChecklistItem(
                             'Complete the onboarding template prior to your new staff member\'s start date',
                             mtrim`Managers play a large role in setting their new direct report up for success and making them feel welcome by setting clear expectations and preparing the team and internal stakeholders for how they can help new colleagues integrate and connect organizationally and culturally.
                                 * **Onboarding Objectives:** Clarify the areas and projects your new team member should focus on in their first 90 days. Use the _Overview of the Role_ that you completed when you opened the role.
-                                * **AOR clarity:** Identify AORs that are relevant for your new hire, and indicate any AORs that your new hire will [DRI](https://handbook.mattermost.com/company/about-mattermost/list-of-terms#dri) or act as backup DRI. As needed, clarify AOR transitions with internal stakeholders ahead of your new hire's start date. See [AOR page](https://handbook.mattermost.com/operations/operations/areas-of-responsibility) Include the interview panel and their respective focus areas.
-                                * **Assign an Onboarding Peer:** The Onboarding Peer or peers should be an individual or group of people that can help answer questions about the team, department and Mattermost. In many ways, an Onboarding Peer may be an [end-boss](https://handbook.mattermost.com/company/about-mattermost/mindsets#mini-boss-end-boss) for specific AORs. Managers should ask permission of a potential Onboarding Peer prior to assignment.`,
+                                * **AOR clarity:** Identify AORs that are relevant for your new hire, and indicate any AORs that your new hire will [DRI](https://handbook.takwen.co/do/company/about-mattermost/list-of-terms#dri) or act as backup DRI. As needed, clarify AOR transitions with internal stakeholders ahead of your new hire's start date. See [AOR page](https://handbook.takwen.co/do/operations/operations/areas-of-responsibility) Include the interview panel and their respective focus areas.
+                                * **Assign an Onboarding Peer:** The Onboarding Peer or peers should be an individual or group of people that can help answer questions about the team, department and Mattermost. In many ways, an Onboarding Peer may be an [end-boss](https://handbook.takwen.co/do/company/about-mattermost/mindsets#mini-boss-end-boss) for specific AORs. Managers should ask permission of a potential Onboarding Peer prior to assignment.`,
                         ),
                     ],
                 },
@@ -363,13 +363,13 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
                     title: 'Week one',
                     items: [
                         newChecklistItem(
-                            'Introduce our new staff member in the [Welcome Channel](https://community.mattermost.com/private-core/channels/welcome)',
+                            'Introduce our new staff member in the [Welcome Channel](https://community.takwen.co/do/private-core/channels/welcome)',
                             mtrim`All new hires are asked to complete a short bio and share with their Managers. Managers should include this bio in the welcome message.
 
                                 Be sure to include the hashtag \#newcolleague when posting your message.`,
                         ),
                         newChecklistItem(
-                            'Review Team [AORs](https://handbook.mattermost.com/operations/operations/areas-of-responsibility)',
+                            'Review Team [AORs](https://handbook.takwen.co/do/operations/operations/areas-of-responsibility)',
                             'This is also a good time to review the new hire\'s AOR and onboarding expectations.'
                         ),
                         newChecklistItem(
@@ -389,14 +389,14 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
                 {
                     title: 'Month one',
                     items: [
-                        newChecklistItem('Review Company and Team [V2MOMs](https://handbook.mattermost.com/company/how-to-guides-for-staff/how-to-v2mom)'),
+                        newChecklistItem('Review Company and Team [V2MOMs](https://handbook.takwen.co/do/company/how-to-guides-for-staff/how-to-v2mom)'),
                         newChecklistItem('Align on role responsibilities and expectations'),
                         newChecklistItem(
                             'COM Introduction',
-                            'New team members are invited to introduce themselves at [COM](https://handbook.mattermost.com/operations/operations/company-cadence#customer-obsession-meeting-aka-com) during their second week. If they\'re not comfortable doing their own introduction, Managers will do so on their behalf.',
+                            'New team members are invited to introduce themselves at [COM](https://handbook.takwen.co/do/operations/operations/company-cadence#customer-obsession-meeting-aka-com) during their second week. If they\'re not comfortable doing their own introduction, Managers will do so on their behalf.',
                         ),
                         newChecklistItem(
-                            '[Shoulder Check](https://handbook.mattermost.com/company/about-mattermost/mindsets#shoulder-check)',
+                            '[Shoulder Check](https://handbook.takwen.co/do/company/about-mattermost/mindsets#shoulder-check)',
                             'Assess potential blindspots and ask for feedback.',
                         ),
                     ],
@@ -406,7 +406,7 @@ export const PresetTemplates: PresetTemplate[] = preprocessTemplates([
                     items: [
                         newChecklistItem(
                             '90-day New Colleague Feedback',
-                            'Managers are notified to kick off the [New Colleague Review Process](https://handbook.mattermost.com/contributors/onboarding#new-colleague-90-day-feedback-process) on their new staff member\'s 65th day. The feedback will include a summary of the new staff member\'s responsibilities during the first 90 days. Managers should communicate these responsibilities to the new staff member during their first week.',
+                            'Managers are notified to kick off the [New Colleague Review Process](https://handbook.takwen.co/do/contributors/onboarding#new-colleague-90-day-feedback-process) on their new staff member\'s 65th day. The feedback will include a summary of the new staff member\'s responsibilities during the first 90 days. Managers should communicate these responsibilities to the new staff member during their first week.',
                         ),
                     ],
                 },

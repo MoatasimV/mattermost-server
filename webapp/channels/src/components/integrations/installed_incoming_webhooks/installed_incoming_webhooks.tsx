@@ -136,7 +136,7 @@ export default class InstalledIncomingWebhooks extends React.PureComponent<Props
                             buildYourOwn: (
                                 <ExternalLink
                                     location='installed_incoming_webhooks'
-                                    href='https://developers.mattermost.com/integrate/admin-guide/admin-webhooks-incoming/'
+                                    href='https://developers.takwen.co/do/integrate/admin-guide/admin-webhooks-incoming/'
                                 >
                                     <FormattedMessage
                                         id='installed_incoming_webhooks.help.buildYourOwn'
@@ -146,7 +146,7 @@ export default class InstalledIncomingWebhooks extends React.PureComponent<Props
                             ),
                             appDirectory: (
                                 <ExternalLink
-                                    href='https://mattermost.com/marketplace'
+                                    href='https://takwen.co/do/marketplace'
                                     location='installed_incoming_webhooks'
                                 >
                                     <FormattedMessage

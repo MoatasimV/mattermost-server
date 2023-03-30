@@ -159,7 +159,7 @@ export default class ManageTokensModal extends React.PureComponent<Props, State>
                         values={{
                             linkAuthentication: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://api.mattermost.com/#tag/authentication'
+                                    href='https://api.takwen.co/do/#tag/authentication'
                                     location='manage_tokens_modal'
                                 >
                                     {msg}
@@ -167,7 +167,7 @@ export default class ManageTokensModal extends React.PureComponent<Props, State>
                             ),
                             linkPersonalAccessTokens: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://developers.mattermost.com/integrate/admin-guide/admin-personal-access-token/'
+                                    href='https://developers.takwen.co/do/integrate/admin-guide/admin-personal-access-token/'
                                     location='manage_tokens_modal'
                                 >
                                     {msg}

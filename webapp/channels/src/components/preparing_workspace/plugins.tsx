@@ -144,7 +144,7 @@ const Plugins = (props: Props) => {
                                     a: (chunks: React.ReactNode | React.ReactNodeArray) => (
                                         <strong>
                                             <ExternalLink
-                                                href='https://mattermost.com/marketplace/'
+                                                href='https://takwen.co/do/marketplace/'
                                                 location='preparing_workspace_plugins'
                                             >
                                                 {chunks}

@@ -37,7 +37,7 @@ describe('components/external_link', () => {
         const wrapper = mount(
             <Provider store={store}>
                 <ExternalLink
-                    href='https://mattermost.com'
+                    href='https://takwen.co/do'
 
                 >{'Click Me'}</ExternalLink>
             </Provider>,
@@ -61,7 +61,7 @@ describe('components/external_link', () => {
         };
         const store: GlobalState = JSON.parse(JSON.stringify(state));
         renderWithIntlAndStore(
-            <ExternalLink href='https://mattermost.com'>
+            <ExternalLink href='https://takwen.co/do'>
                 {'Click Me'}
             </ExternalLink>,
             store,
@@ -88,7 +88,7 @@ describe('components/external_link', () => {
         };
         const store: GlobalState = JSON.parse(JSON.stringify(state));
         renderWithIntlAndStore(
-            <ExternalLink href='https://mattermost.com?test=true'>
+            <ExternalLink href='https://takwen.co/do?test=true'>
                 {'Click Me'}
             </ExternalLink>,
             store,
@@ -96,11 +96,11 @@ describe('components/external_link', () => {
 
         expect(screen.queryByText('Click Me')).toHaveAttribute(
             'href',
-            'https://mattermost.com?utm_source=mattermost&utm_medium=in-product-cloud&utm_content=&uid=currentUserId&sid=&test=true',
+            'https://takwen.co/do?utm_source=mattermost&utm_medium=in-product-cloud&utm_content=&uid=currentUserId&sid=&test=true',
         );
     });
 
-    it("should not attach parameters if href isn't *.mattermost.com enabled", () => {
+    it("should not attach parameters if href isn't *.takwen.co/do enabled", () => {
         const state = {
             ...initialState,
             entities: {

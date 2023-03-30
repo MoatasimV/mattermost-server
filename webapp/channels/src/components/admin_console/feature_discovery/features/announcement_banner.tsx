@@ -19,7 +19,7 @@ const AnnouncementBannerFeatureDiscovery: React.FC = () => {
             titleDefault='Create custom announcement banners with Mattermost Professional'
             copyID='admin.announcement_banner_feature_discovery.copy'
             copyDefault={'Create announcement banners to notify all members of important information.'}
-            learnMoreURL='https://docs.mattermost.com/administration/announcement-banner.html'
+            learnMoreURL='https://docs.takwen.co/do/administration/announcement-banner.html'
             featureDiscoveryImage={<AnnouncementBannerSVG/>}
         />
     );

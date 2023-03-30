@@ -133,7 +133,7 @@ export default class TeamUrl extends React.PureComponent<Props, State> {
                             values={{
                                 link: (msg: React.ReactNode) => (
                                     <ExternalLink
-                                        href='https://docs.mattermost.com/help/getting-started/creating-teams.html#team-url'
+                                        href='https://docs.takwen.co/do/help/getting-started/creating-teams.html#team-url'
                                         location='team_url'
                                     >
                                         {msg}

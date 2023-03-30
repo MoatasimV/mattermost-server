@@ -10,7 +10,7 @@ describe('components/apps_form/AppsFormHeader', () => {
     test('should render message with supported values', () => {
         const props = {
             id: 'testsupported',
-            value: '**bold** *italic* [link](https://mattermost.com/) <br/> [link target blank](!https://mattermost.com/)',
+            value: '**bold** *italic* [link](https://takwen.co/do/) <br/> [link target blank](!https://takwen.co/do/)',
         };
         const wrapper = shallow(<AppsFormHeader {...props}/>);
         expect(wrapper).toMatchSnapshot();

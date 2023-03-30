@@ -19,7 +19,7 @@ const SystemRolesFeatureDiscovery: React.FC = () => {
             titleDefault='Provide controlled access to the System Console with Mattermost Enterprise'
             copyID='admin.system_roles_feature_discovery.copy'
             copyDefault={'Use System Roles to give designated users read and/or write access to select sections of System Console.'}
-            learnMoreURL='https://docs.mattermost.com/deployment/admin-roles.html'
+            learnMoreURL='https://docs.takwen.co/do/deployment/admin-roles.html'
             featureDiscoveryImage={<SystemRolesSVG/>}
         />
     );

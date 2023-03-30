@@ -26,7 +26,7 @@ const GiveFeedbackButton = ({className, tooltipPlacement}: Props) => {
         </Tooltip>
     );
 
-    const giveFeedbackURL = new URL('https://mattermost.com/pl/playbooks-feedback');
+    const giveFeedbackURL = new URL('https://takwen.co/do/pl/playbooks-feedback');
     const searchParams = giveFeedbackURL.searchParams;
 
     // Set the 'Server Version' field on the linked Google Form. (If we move to a different

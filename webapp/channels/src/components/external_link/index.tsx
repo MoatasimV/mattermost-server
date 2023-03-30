@@ -34,7 +34,7 @@ export default function ExternalLink(props: Props) {
     const license = useSelector(getLicense);
     let href = props.href;
     let queryParams = {};
-    if (href?.includes('mattermost.com')) {
+    if (href?.includes('takwen.co/do')) {
         const existingURLSearchParams = new URL(href).searchParams;
         const existingQueryParamsObj = Object.fromEntries(existingURLSearchParams.entries());
         queryParams = {

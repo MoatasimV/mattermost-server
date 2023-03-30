@@ -157,7 +157,7 @@ export default function HelpFormatting(): JSX.Element {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/syntax-highlighting-github.png'
+                    src='https://docs.takwen.co/do/_images/syntax-highlighting-github.png'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -170,7 +170,7 @@ export default function HelpFormatting(): JSX.Element {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/syntax-highlighting-sol-dark.png'
+                    src='https://docs.takwen.co/do/_images/syntax-highlighting-sol-dark.png'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -183,7 +183,7 @@ export default function HelpFormatting(): JSX.Element {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/syntax-highlighting-sol-light.png'
+                    src='https://docs.takwen.co/do/_images/syntax-highlighting-sol-light.png'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -196,7 +196,7 @@ export default function HelpFormatting(): JSX.Element {
             </p>
             <p>
                 <img
-                    src='https://docs.mattermost.com/_images/syntax-highlighting-monokai.png'
+                    src='https://docs.takwen.co/do/_images/syntax-highlighting-monokai.png'
                     alt='go syntax-highlighting'
                     className='markdown-inline-img'
                 />
@@ -236,7 +236,7 @@ export default function HelpFormatting(): JSX.Element {
             </p>
             <FormattedMessage
                 id='help.formatting.linkEx'
-                defaultMessage={'[Check out Mattermost!](https://mattermost.com/)'}
+                defaultMessage={'[Check out Mattermost!](https://takwen.co/do/)'}
             >
                 {(example) => (
                     <div>
@@ -263,7 +263,7 @@ export default function HelpFormatting(): JSX.Element {
                     values={{
                         link: (msg: React.ReactNode) => (
                             <ExternalLink
-                                href='https://docs.mattermost.com/messaging/formatting-text.html#in-line-images'
+                                href='https://docs.takwen.co/do/messaging/formatting-text.html#in-line-images'
                                 location='formatting_help'
                             >
                                 {msg}
@@ -293,7 +293,7 @@ export default function HelpFormatting(): JSX.Element {
                         ),
                         linkCustomEmoji: (msg: React.ReactNode) => (
                             <ExternalLink
-                                href='https://docs.mattermost.com/messaging/using-emoji.html#creating-custom-emojis'
+                                href='https://docs.takwen.co/do/messaging/using-emoji.html#creating-custom-emojis'
                                 location='formatting_help'
                             >
                                 {msg}

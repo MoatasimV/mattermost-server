@@ -81,7 +81,7 @@ describe('properties/link', () => {
             ),
         )
 
-        const url = 'https://mattermost.com'
+        const url = 'https://takwen.co/do'
         const input = screen.getByRole('textbox')
         userEvent.type(input, `${url}{enter}`)
 
@@ -93,7 +93,7 @@ describe('properties/link', () => {
             wrapIntl(
                 <Url
                     {...baseData}
-                    propertyValue='https://mattermost.com'
+                    propertyValue='https://takwen.co/do'
                 />,
             ),
         )
@@ -107,7 +107,7 @@ describe('properties/link', () => {
     })
 
     it('should allow to copy url', () => {
-        const url = 'https://mattermost.com'
+        const url = 'https://takwen.co/do'
         render(
             wrapIntl(
                 <Url

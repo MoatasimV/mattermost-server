@@ -13,7 +13,7 @@ describe('components/FormattedMarkdownMessage', () => {
     test('should render message', () => {
         const props = {
             id: 'test.foo',
-            defaultMessage: '**bold** *italic* [link](https://mattermost.com/) <br/> [link target blank](!https://mattermost.com/)',
+            defaultMessage: '**bold** *italic* [link](https://takwen.co/do/) <br/> [link target blank](!https://takwen.co/do/)',
         };
         const wrapper = mount(wrapProvider(<FormattedMarkdownMessage {...props}/>));
         expect(wrapper).toMatchSnapshot();
@@ -58,7 +58,7 @@ describe('components/FormattedMarkdownMessage', () => {
             id: 'test.vals',
             defaultMessage: '*Hi* {petName}!',
             values: {
-                petName: 'http://www.mattermost.com',
+                petName: 'http://www.takwen.co/do',
             },
             disableLinks: true,
         };
@@ -69,7 +69,7 @@ describe('components/FormattedMarkdownMessage', () => {
 
 export function wrapProvider(el: JSX.Element) {
     const enTranslationData = {
-        'test.foo': '**bold** *italic* [link](https://mattermost.com/) <br/> [link target blank](!https://mattermost.com/)',
+        'test.foo': '**bold** *italic* [link](https://takwen.co/do/) <br/> [link target blank](!https://takwen.co/do/)',
         'test.bar': '<b>hello</b> <script>var malicious = true;</script> world!',
         'test.vals': '*Hi* {petName}!',
     };

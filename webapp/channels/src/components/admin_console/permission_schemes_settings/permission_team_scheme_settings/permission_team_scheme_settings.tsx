@@ -615,7 +615,7 @@ export default class PermissionTeamSchemeSettings extends React.PureComponent<Pr
                                         values={{
                                             linkTeamOverride: (msg: React.ReactNode) => (
                                                 <ExternalLink
-                                                    href='https://docs.mattermost.com/onboard/advanced-permissions.html'
+                                                    href='https://docs.takwen.co/do/onboard/advanced-permissions.html'
                                                     location='permission_team_scheme_settings'
                                                 >
                                                     {msg}
@@ -623,7 +623,7 @@ export default class PermissionTeamSchemeSettings extends React.PureComponent<Pr
                                             ),
                                             linkSystemScheme: (msg: React.ReactNode) => (
                                                 <ExternalLink
-                                                    href='https://mattermost.com/pl/advanced-permissions/'
+                                                    href='https://takwen.co/do/pl/advanced-permissions/'
                                                     location='permission_team_scheme_settings'
                                                 >
                                                     {msg}

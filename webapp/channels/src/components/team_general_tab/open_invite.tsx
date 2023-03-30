@@ -85,7 +85,7 @@ const OpenInvite = (props: Props) => {
                         values={{
                             link: (msg: React.ReactNode) => (
                                 <ExternalLink
-                                    href='https://mattermost.com/pl/default-ldap-group-constrained-team-channel.html'
+                                    href='https://takwen.co/do/pl/default-ldap-group-constrained-team-channel.html'
                                     location='open_invite'
                                 >
                                     {msg}

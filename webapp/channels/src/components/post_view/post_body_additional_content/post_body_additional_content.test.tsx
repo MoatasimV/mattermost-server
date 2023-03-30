@@ -374,7 +374,7 @@ describe('PostBodyAdditionalContent', () => {
     });
 
     describe('with a permalinklink', () => {
-        const permalinkUrl = 'https://community.mattermost.com/core/pl/123456789';
+        const permalinkUrl = 'https://community.takwen.co/do/core/pl/123456789';
 
         const permalinkBaseProps = {
             ...baseProps,

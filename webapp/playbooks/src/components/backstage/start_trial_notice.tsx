@@ -6,12 +6,12 @@ const EXT = {target: '_blank', rel: 'noreferrer'};
 
 const AgreementLink = styled.a.attrs(() => ({
     ...EXT,
-    href: 'https://mattermost.com/software-evaluation-agreement/',
+    href: 'https://takwen.co/do/software-evaluation-agreement/',
 }))``;
 
 const PrivacyLink = styled.a.attrs(() => ({
     ...EXT,
-    href: 'https://mattermost.com/privacy-policy/',
+    href: 'https://takwen.co/do/privacy-policy/',
 }))``;
 
 const StartTrialNotice = () => {
