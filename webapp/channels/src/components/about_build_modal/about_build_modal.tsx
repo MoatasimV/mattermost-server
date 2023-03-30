@@ -241,7 +241,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                         {'\u00a0' + mmversion}
                                     </span>
                                 </div>
-                                {/* <div>
+                                <div>
                                     <FormattedMessage
                                         id='about.dbversion'
                                         defaultMessage='Database Schema Version:'
@@ -249,20 +249,20 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                     <span id='dbversionString'>
                                         {'\u00a0' + config.SchemaVersion}
                                     </span>
-                                </div> */}
+                                </div>
                                 {buildnumber}
-                                {/* <div>
+                                <div>
                                     <FormattedMessage
                                         id='about.database'
                                         defaultMessage='Database:'
                                     />
                                     {'\u00a0' + config.SQLDriverName}
-                                </div> */}
+                                </div>
                             </div>
-                            {/* {licensee} */}
+                            {licensee}
                         </div>
                     </div>
-                    {/* <div className='about-modal__footer'>
+                    <div className='about-modal__footer'>
                         {learnMore}
                         <div className='form-group'>
                             <div className='about-modal__copyright'>
@@ -314,7 +314,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
                                 }}
                             />
                         </p>
-                    </div> */}
+                    </div>
                     <div className='about-modal__hash'>
                         <p>
                             <FormattedMessage
